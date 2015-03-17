@@ -11878,3 +11878,99 @@
 [0316/181131:INFO:CONSOLE(6)] "The key "target-densitydpi" is not supported.", source: http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/index.html?mode=preview&symbol=ventana_1 (6)
 [0316/181134:INFO:CONSOLE(6)] "The key "target-densitydpi" is not supported.", source: http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/index.html?mode=preview&symbol=ventana (6)
 [0316/181134:INFO:CONSOLE(138)] "Uncaught TypeError: Cannot read property 'content' of undefined", source: http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/edge.5.0.1.min.js (138)
+[0317/155350:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0317/155350:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0317/155351:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0317/155351:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[0317/155351:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[0317/155353:INFO:CONSOLE(6)] "The key "target-densitydpi" is not supported.", source: http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/index.html?mode=internal (6)
+[0317/155353:INFO:CONSOLE(0)] "event.returnValue is deprecated. Please use the standard event.preventDefault() instead.", source:  (0)
+[0317/155400:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[0317/155400:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[0317/155724:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[0317/155724:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[0317/160005:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[0317/160005:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[0317/160543:INFO:CONSOLE(42)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js:38:53)
+    at Object.d.seekInTool (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/edge.authoring.5.0.1.min.js:74:344)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:23)
+    at <anonymous>:0:63", source: http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js (42)
+[0317/160543:INFO:CONSOLE(42)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js:38:53)
+    at Object.d.seekInTool (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/edge.authoring.5.0.1.min.js:74:344)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:23)
+    at <anonymous>:0:63", source: http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js (42)
+[0317/160605:INFO:CONSOLE(42)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js:38:53)
+    at Object.d.seekInTool (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/edge.authoring.5.0.1.min.js:74:344)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:23)
+    at <anonymous>:0:63", source: http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js (42)
+[0317/160605:INFO:CONSOLE(42)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js:38:53)
+    at Object.d.seekInTool (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/edge.authoring.5.0.1.min.js:74:344)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:23)
+    at <anonymous>:0:63", source: http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js (42)
+[0317/160735:INFO:CONSOLE(42)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js:38:53)
+    at Object.d.seekInTool (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/edge.authoring.5.0.1.min.js:74:344)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:23)
+    at <anonymous>:0:63", source: http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js (42)
+[0317/160735:INFO:CONSOLE(42)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js:38:53)
+    at Object.d.seekInTool (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/edge.authoring.5.0.1.min.js:74:344)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:23)
+    at <anonymous>:0:63", source: http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js (42)
+[0317/170504:INFO:CONSOLE(42)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js:38:53)
+    at Object.d.seekInTool (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/edge.authoring.5.0.1.min.js:74:344)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:23)
+    at <anonymous>:0:63", source: http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js (42)
+[0317/170504:INFO:CONSOLE(42)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js:38:53)
+    at Object.d.seekInTool (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/edge.authoring.5.0.1.min.js:74:344)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:23)
+    at <anonymous>:0:63", source: http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js (42)
+[0317/173711:INFO:CONSOLE(42)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js:38:53)
+    at Object.d.seekInTool (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/edge.authoring.5.0.1.min.js:74:344)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:23)
+    at <anonymous>:0:65", source: http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js (42)
+[0317/173711:INFO:CONSOLE(42)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js:38:53)
+    at Object.d.seekInTool (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/edge.authoring.5.0.1.min.js:74:344)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:23)
+    at <anonymous>:0:65", source: http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js (42)
+[0317/173731:INFO:CONSOLE(42)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js:38:53)
+    at Object.d.seekInTool (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/edge.authoring.5.0.1.min.js:74:344)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:23)
+    at <anonymous>:0:65", source: http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js (42)
+[0317/173731:INFO:CONSOLE(42)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js:38:53)
+    at Object.d.seekInTool (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/edge.authoring.5.0.1.min.js:74:344)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:23)
+    at <anonymous>:0:65", source: http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js (42)
+[0317/173846:INFO:CONSOLE(42)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js:38:53)
+    at Object.d.seekInTool (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/edge.authoring.5.0.1.min.js:74:344)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:23)
+    at <anonymous>:0:65", source: http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js (42)
+[0317/173846:INFO:CONSOLE(42)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js:38:53)
+    at Object.d.seekInTool (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/edge.authoring.5.0.1.min.js:74:344)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:23)
+    at <anonymous>:0:65", source: http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js (42)
+[0317/173917:INFO:CONSOLE(42)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js:38:53)
+    at Object.d.seekInTool (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/edge.authoring.5.0.1.min.js:74:344)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:23)
+    at <anonymous>:0:65", source: http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js (42)
+[0317/173917:INFO:CONSOLE(42)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js:38:53)
+    at Object.d.seekInTool (http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/edge.authoring.5.0.1.min.js:74:344)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:23)
+    at <anonymous>:0:65", source: http://127.0.0.1:54321/_DRIVE_D_EVIRD_/Jorge/ElectricBoogaloo%20App/edge_includes/an.canvas.overlay.min.js (42)
+[0317/173926:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:47), <anonymous>:1:7)
+    at about:blank:0:47", source:  (1)

@@ -631,6 +631,23 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
+      Symbol.bindElementAction(compId, symbolName, "${Rectangle}", "click", function(sym, e) {
+         sym.getSymbolElement().hide();
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${crewditos2}", "click", function(sym, e) {
+         // introducir aquí código para clic de ratón
+         // Ir a una nueva dirección URL en la ventana actual
+         // (sustituya "_self" por el atributo de destino correspondiente)
+         window.open("http://www.jenofonte.co", "_top");
+         
+
+      });
+      //Edge binding end
+
    })("ventana_1");
    //Edge symbol end:'ventana_1'
 
