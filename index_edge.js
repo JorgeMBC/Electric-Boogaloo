@@ -1,166 +1,6534 @@
+/*jslint */
+/*global AdobeEdge: false, window: false, document: false, console:false, alert: false */
+(function (compId) {
 
-(function(compId){var _=null,y=true,n=false,x84='RoundRectCopy23',x486='ELECTRIC_BOOGALOO_No1_COMIXOLOGY2',e545='${RectangleCopy13}',x237='Text2Copy5',x28='75px',e403='${RoundRect2}',e337='${RoundRect2Copy24}',x98='RoundRect2Copy17',x538='RectangleCopy9',x432='738px',x436='138px',x44='238px',x293='Text2Copy25',x106='814px',x141='641px',x97='1097px',e402='${p15}',x483='ELECTRIC_BOOGALOO_No1_COMIXOLOGY3',e303='${p16}',x205='1048px',x474='147px',e543='${RectangleCopy14}',x533='112px',x88='228px',x504='500px',x71='428px',x522='-912px',x464='200px',x191='624px',x465='300px',x144='616px',x162='229px',x59='429px',e330='${p21}',x63='222px',e342='${RoundRectCopy21}',x13='-7992px',x443='522px',x188='822px',x19='0',x429='958px',x426='315px',x437='240px',x22='-5374px',x285='Text2Copy28',x4='5.0.1.386',x156='pointer',x247='Text2Copy8',x18='fondomenu',e550='${RectangleCopy11}',x431='721px',x193='427px',e401='${RoundRectCopy19}',e420='${fondomenu}',x187='820px',x96='RoundRectCopy16',x123='420px',e343='${Text2Copy6}',x525='650px',e386='${p0}',x208='cerrar2',x434='475px',x275='Text2Copy22',x146='209px',x430='636px',e383='${p12}',x457='99px',x130='RoundRectCopy6',b='block',x147='RoundRectCopy3',x500='content',x185='784px',e356='${RoundRectCopy6}',x86='1353px',e304='${Text2Copy20}',lf='left',x524='2320px',x206='-26px',e359='${Text2Copy11}',x224='701px',x478='207px',x447='593px',x139='RoundRectCopy4',x253='Text2Copy6',x77='893px',x80='RoundRectCopy22',e377='${Text2Copy21}',x503='rgba(255,255,255,0.00)',e382='${p7}',e365='${RoundRectCopy26}',x119='618px',e329='${p1}',x='text',x234='Text2Copy4',x95='RoundRect2Copy16',m='rect',x108='210px',x425='218px',x132='RoundRect2Copy5',x52='RoundRectCopy27',e338='${RoundRectCopy12}',x168='p22',e405='${p24}',x218='Text',x184='1058px',x509='174px',x128='RoundRectCopy7',e379='${RoundRect2Copy7}',x215='break-word',x157='435px',x480='ELECTRIC_BOOGALOO_No1_COMIXOLOGY4',x47='894px',x56='RoundRectCopy26',x502='1925px',x236='935px',e310='${RoundRectCopy2}',x240='Text2Copy11',e327='${RoundRect2Copy17}',e542='${menufondoCopy}',x449='345px',x109='166px',x67='RoundRect2Copy19',x467='ELECTRIC_BOOGALOO_No1_COMIXOLOGY8',e362='${p2}',x9='rgba(255,255,255,1)',e378='${Text2Copy3}',x112='1007px',xc='rgba(0,0,0,1)',x14='12370px',x291='Text2Copy26',x262='295px',x216='nowrap',x3='5.0.0',x280='496px',x290='291px',x64='RoundRectCopy24',e347='${Text2Copy17}',x462='895px',x278='Text2Copy21',x43='163px',e333='${RoundRect2Copy3}',x101='RoundRect2Copy12',x66='RoundRectCopy18',x57='486px',x461='ELECTRIC_BOOGALOO_No1_COMIXOLOGY9',e339='${Text2Copy4}',e409='${RoundRect2Copy8}',x26='textoinstrucciones',x531='499px',x55='633px',x523='433px',x181='233px',x245='Text2Copy9',x225='Text2Copy',x423='887px',e372='${RoundRectCopy25}',x256='Text2Copy17',x73='689px',x428='989px',x149='478px',x115='778px',x448='260px',x471='397px',x227='297px',x452='-5372px',x265='497px',x169='843px',x197='460px',e374='${RoundRect2Copy14}',x61='279px',x513='neonmenu_04Copy',e413='${Text2Copy9}',e418='${RoundRect2Copy9}',x508='254px',x268='Text2Copy13',x143='RoundRect2Copy3',x134='455px',x518='551px',x281='Text2Copy20',po='center',e547='${socialbtnCopy}',e388='${Text2Copy10}',x201='498px',x45='RoundRectCopy28',e410='${RoundRect2Copy13}',x131='680px',e397='${RoundRectCopy13}',e384='${RoundRectCopy15}',x125='280px',x121='477px',x135='RoundRectCopy5',e369='${Text2Copy26}',x138='861px',e363='${RoundRect2Copy18}',x212='Arial, Helvetica, sans-serif',x476='ELECTRIC_BOOGALOO_No1_COMIXOLOGY5',x153='RoundRect2',e315='${RoundRect2Copy10}',e394='${Text2Copy22}',x145='490px',x53='690px',e411='${RoundRect2Copy5}',e341='${RoundRect2Copy21}',x277='290px',e344='${RoundRectCopy4}',e393='${RoundRectCopy3}',x2='5.0.1',x274='1716px',e322='${RoundRectCopy}',x167='1477px',e345='${p27}',e549='${neonmenu_04Copy}',x228='Text2Copy2',x124='RoundRectCopy8',e350='${p14}',e351='${p11}',x32='crewditos2',e421='${RoundRectCopy23}',x49='RoundRect2Copy27',e370='${p13}',e407='${RoundRect}',x506='menufondoCopy',e398='${Text2Copy24}',e360='${Text2Copy16}',e311='${Text2Copy25}',e317='${RoundRectCopy10}',x40='RoundRect2Copy28',e357='${RoundRect2Copy19}',x540='RectangleCopy8',x272='Text2Copy23',x72='RoundRectCopy20',e319='${p6}',o='opacity',x46='rgba(0,0,0,1.00)',x263='Text2Copy15',x473='ELECTRIC_BOOGALOO_No1_COMIXOLOGY6',x532='RectangleCopy11',x102='RoundRectCopy12',x126='RoundRect2Copy7',e320='${p17}',x489='ELECTRIC_BOOGALOO_No1_COMIXOLOGY',x152='RoundRect2Copy',x154='RoundRect',e366='${RoundRect2Copy15}',x463='642px',x438='1004px',x299='1250px',e361='${RoundRectCopy28}',x222='Text2',x527='RectangleCopy14',x12='-5566px',e385='${p26}',x470='ELECTRIC_BOOGALOO_No1_COMIXOLOGY7',x91='RoundRect2Copy14',x203='p1',x70='RoundRect2Copy20',x515='452px',x51='1832px',x94='RoundRectCopy15',x17='0.1',x16='auto',x160='225',tp='top',x204='p0',x54='RoundRect2Copy26',x7='rgba(0,0,0,0)',x283='Text2Copy19',e387='${Text2Copy19}',x29='462px',x529='rgba(192,192,192,0.00)',e404='${RoundRectCopy20}',x122='RoundRect2Copy8',x178='p15',x92='RoundRectCopy14',x536='RectangleCopy10',x68='RoundRectCopy19',x179='p14',x158='1838px',x137='RoundRect2Copy4',e352='${RoundRect2Copy6}',l='normal',x161='p25',e312='${p20}',e364='${RoundRectCopy16}',e325='${p25}',x163='p24',x25='7840px',x87='RoundRect2Copy13',x175='p17',x166='1047px',e406='${RoundRect2Copy25}',e552='${neonmenu_02Copy}',e551='${RectangleCopy8}',e548='${RectangleCopy9}',e546='${RectangleCopy10}',x177='p16',e544='${neonmenu_08Copy}',x242='1026px',x541='603px',x539='305px',x537='215px',e328='${RoundRect2Copy2}',x535='70px',x243='Text2Copy10',x534='718px',x530='RectangleCopy13',x111='1109px',x528='396px',e301='${Text2Copy13}',x196='p5',x78='RoundRect2Copy22',x5='horizontal',x521='socialbtnCopy',x519='neonmenu_08Copy',x6='rgba(192,192,192,1)',e414='${p10}',x116='RoundRectCopy10',x210='p27',x484='517px',x512='353px',x105='RoundRect2Copy11',e321='${RoundRectCopy22}',x510='neonmenu_02Copy',x155='p26',e331='${Text2Copy}',x74='RoundRect2Copy21',x140='697px',x249='692px',e499='${ELECTRIC_BOOGALOO_No1_COMIXOLOGY8}',x477='1013px',e498='${ELECTRIC_BOOGALOO_No1_COMIXOLOGY7}',x239='1126px',e335='${p19}',e497='${ELECTRIC_BOOGALOO_No1_COMIXOLOGY}',e496='${ELECTRIC_BOOGALOO_No1_COMIXOLOGY5}',x39='rgb(0, 0, 0)',e367='${Text2Copy28}',e495='${ELECTRIC_BOOGALOO_No1_COMIXOLOGY6}',e494='${ELECTRIC_BOOGALOO_No1_COMIXOLOGY3}',x231='Text2Copy3',e493='${ELECTRIC_BOOGALOO_No1_COMIXOLOGY2}',x42='1471px',e492='${ELECTRIC_BOOGALOO_No1_COMIXOLOGY4}',x270='Text2Copy12',x82='RoundRect2Copy23',x24='11983px',x151='RoundRectCopy',e326='${p28}',x487='269px',d='display',x516='neonmenu_06Copy',x219='1116px',i='none',x182='p12',x481='767px',e419='${p8}',e318='${Text2Copy2}',e332='${Text}',x62='RoundRect2Copy24',e353='${RoundRect2Copy23}',x50='837px',e316='${RoundRectCopy18}',e375='${RoundRectCopy7}',x450='362px',x171='639px',x150='RoundRect2Copy2',x60='RoundRectCopy25',e314='${RoundRectCopy8}',x468='645px',x114='1052px',x170='p21',e11='${ladoder}',p='px',x99='1040px',x107='815px',x220='411px',x233='715px',x15='17960px',e308='${Text2}',x460='116px',e336='${p18}',x41='23px',x75='632px',e307='${p9}',e390='${RoundRectCopy24}',x255='1120px',x454='66px',x148='RoundRectCopy2',e412='${Text2Copy27}',x451='610px',x136='919px',x23='-3179px',x207='320px',x446='508px',e416='${RoundRectCopy14}',x445='844px',x164='29px',x117='675px',x129='RoundRect2Copy6',x214='700',e391='${RoundRect2Copy12}',x442='1106px',x441='501px',x258='91px',x440='1089px',x439='199px',e491='${ELECTRIC_BOOGALOO_No1_COMIXOLOGY9}',x37='51px',x435='492px',x433='390px',x176='1132px',e389='${Text2Copy14}',x65='RoundRect2Copy18',x190='p9',e305='${Text2Copy8}',x85='285px',e324='${Text2Copy12}',x69='485px',x213='rgba(255,255,255,1.00)',x424='635px',x90='RoundRectCopy13',x30='1100px',x186='p10',x165='p23',x211='p28',e417='${p4}',x300='1886px',x287='2082px',e340='${RoundRectCopy5}',e415='${p5}',x250='Text2Copy7',x36='47px',e396='${RoundRect2Copy28}',x142='90px',x427='937px',x104='86px',x34='80px',e408='${RoundRect2Copy22}',e395='${RoundRectCopy11}',x100='RoundRectCopy17',e553='${neonmenu_06Copy}',x288='Text2Copy27',x35='1700px',x192='p8',e400='${crewditos2}',x252='905px',e399='${Text2Copy23}',e323='${RoundRect2Copy4}',x89='1124px',x202='p2',x172='p20',e368='${p23}',e10='${ladoizq}',e392='${RoundRect2Copy20}',x113='RoundRect2Copy10',x127='223px',x79='836px',x58='RoundRect2Copy25',x38='10px',e306='${p3}',x200='p3',x110='RoundRectCopy11',x103='972px',g='image',e381='${textoinstrucciones}',e380='${RoundRect2Copy27}',x223='97px',x93='RoundRect2Copy15',x48='2061px',x180='p13',e376='${cerrar2}',x159='150',x76='RoundRectCopy21',e373='${RoundRect2Copy}',e371='${RoundRectCopy9}',x183='p11',x173='p19',x83='1041px',x21='0px',e358='${RoundRect2Copy26}',e309='${Text2Copy7}',e355='${Text2Copy15}',e354='${RoundRect2Copy16}',x174='p18',e349='${RoundRectCopy27}',x81='1099px',x120='RoundRectCopy9',x230='495px',e348='${Text2Copy18}',x118='RoundRect2Copy9',x456='14px',x198='p4',x133='1051px',x259='1369px',e334='${p22}',x266='Text2Copy14',e346='${Text2Copy5}',x505='1920px',x260='Text2Copy16',x194='p7',e313='${RoundRectCopy17}',x199='867px',x221='none solid rgb(255, 255, 255)',e302='${RoundRect2Copy11}',w='width',x297='Text2Copy18',x31='304px',x195='p6',x295='Text2Copy24',x444='759px',x189='195',x501='1280px';var g33='crewditos.png',g466='ELECTRIC_BOOGALOO_No1_COMIXOLOGY9.jpg',g514='neonmenu_04.png',g520='neonmenu_08.png',g20='fondomenu.svg',g482='ELECTRIC_BOOGALOO_No1_COMIXOLOGY4.jpg',g458='cerrar22.svg',g517='neonmenu_06.png',g469='ELECTRIC_BOOGALOO_No1_COMIXOLOGY8.jpg',g8='menuint.svg',g526='socialbtn.svg',g209='cerrar2.svg',g507='menufondo.jpg',g490='ELECTRIC_BOOGALOO_No1_COMIXOLOGY.jpg',g485='ELECTRIC_BOOGALOO_No1_COMIXOLOGY3.jpg',g475='ELECTRIC_BOOGALOO_No1_COMIXOLOGY6.jpg',g479='ELECTRIC_BOOGALOO_No1_COMIXOLOGY5.jpg',g472='ELECTRIC_BOOGALOO_No1_COMIXOLOGY7.jpg',g455='crewditos2.png',g453='textoinstrucciones2.svg',g27='textoinstrucciones.svg',g511='neonmenu_02.png',g488='ELECTRIC_BOOGALOO_No1_COMIXOLOGY2.jpg',g1='jquery-2.0.3.min.js',g422='fondomenu2.svg';var s226="1",s238="5",s235="4",s244="7",s241="6",s248="9",s246="8",s217="cerrar",s261="13",s298="23",s284="22",s294="27",s271="17",s269="16",s292="26",s254="11",s279="20",s251="10",s289="25",s267="15",s257="12",s232="3",s229="2",s459="close",s264="14",s286="24",s276="19",s296="28",s273="18",s282="21";var im='images/',aud='media/',vid='media/',js='js/',fonts={},opts={'gAudioPreloadPreference':'auto','gVideoPreloadPreference':'auto'},resources=[],scripts=[js+g1,"librerias/EdgeCommons.js"],symbols={"stage":{v:x2,mv:x3,b:x4,stf:w,cg:x5,rI:n,cn:{dom:[{id:'contenido',symbolName:'contenido',t:m,r:['0','-5','1280','1925','auto','auto']},{id:'ladoizq',v:i,t:m,r:['0px','-5px','141px','1925px','auto','auto'],cu:'pointer',o:'0',f:[x6],s:[0,xc,i]},{id:'ladoder',v:b,t:m,r:['1181px','115px','99px','1805px','auto','auto'],cu:'pointer',o:'0',f:[x6],s:[0,xc,i]},{id:'ventana3',symbolName:'ventana_1',t:m,r:['20px','7','1250','1886','auto','auto']},{id:'menuelectric',symbolName:'menuelectric',t:m,r:['1280px','0px','500','1920','auto','auto']},{id:'menuint',t:g,r:['821px','-333px','800px','800px','auto','auto'],cu:'pointer',f:[x7,im+g8,'0px','0px'],tf:[[],[],[],['0.1','0.1']]}],style:{'${Stage}':{isStage:true,r:['null','null','1280px','1920px','auto','auto'],zr:['0px','','',''],overflow:'hidden',f:[x9]}}},tt:{d:4000,a:y,l:{"p1":0,"p2":500,"p3":1000,"p4":1500,"p5":2000,"p6":2500,"p7":3000,"p8":3500,"p9":4000},data:[["eid10",d,500,0,"linear",e10,i,b],["eid11",d,3500,0,"linear",e11,b,i]]}},"ventana":{v:x2,mv:x3,b:x4,stf:i,cg:i,rI:n,cn:{dom:[{r:[x12,x13,x14,x15,x16,x16],tf:[[],[],[],[x17,x17]],id:x18,o:x19,t:g,f:[x7,im+g20,x21,x21]},{r:[x22,x23,x24,x25,x16,x16],tf:[[],[],[],[x17,x17]],id:x26,o:x19,t:g,f:[x7,im+g27,x21,x21]},{r:[x28,x29,x30,x31,x16,x16],id:x32,o:x19,t:g,f:[x7,im+g33,x21,x21]},{r:[x34,x35,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x40,o:x19,t:m,f:[xc]},{r:[x41,x42,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x45,o:x19,t:m,f:[x46]},{r:[x47,x48,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x49,o:x19,t:m,f:[xc]},{r:[x50,x51,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x52,o:x19,t:m,f:[x46]},{r:[x53,x48,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x54,o:x19,t:m,f:[xc]},{r:[x55,x51,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x56,o:x19,t:m,f:[x46]},{r:[x57,x48,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x58,o:x19,t:m,f:[xc]},{r:[x59,x51,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x60,o:x19,t:m,f:[x46]},{r:[x61,x48,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x62,o:x19,t:m,f:[xc]},{r:[x63,x51,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x64,o:x19,t:m,f:[x46]},{r:[x34,x48,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x65,o:x19,t:m,f:[xc]},{r:[x41,x51,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x66,o:x19,t:m,f:[x46]},{r:[x61,x35,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x67,o:x19,t:m,f:[xc]},{r:[x63,x42,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x68,o:x19,t:m,f:[x46]},{r:[x69,x35,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x70,o:x19,t:m,f:[xc]},{r:[x71,x42,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x72,o:x19,t:m,f:[x46]},{r:[x73,x35,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x74,o:x19,t:m,f:[xc]},{r:[x75,x42,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x76,o:x19,t:m,f:[x46]},{r:[x77,x35,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x78,o:x19,t:m,f:[xc]},{r:[x79,x42,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x80,o:x19,t:m,f:[x46]},{r:[x81,x35,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x82,o:x19,t:m,f:[xc]},{r:[x83,x42,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x84,o:x19,t:m,f:[x46]},{r:[x85,x86,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x87,o:x19,t:m,f:[xc]},{r:[x88,x89,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x90,o:x19,t:m,f:[x46]},{r:[x69,x86,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x91,o:x19,t:m,f:[xc]},{r:[x71,x89,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x92,o:x19,t:m,f:[x46]},{r:[x53,x86,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x93,o:x19,t:m,f:[xc]},{r:[x55,x89,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x94,o:x19,t:m,f:[x46]},{r:[x47,x86,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x95,o:x19,t:m,f:[xc]},{r:[x50,x89,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x96,o:x19,t:m,f:[x46]},{r:[x97,x86,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x98,o:x19,t:m,f:[xc]},{r:[x99,x89,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x100,o:x19,t:m,f:[x46]},{r:[x34,x86,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x101,o:x19,t:m,f:[xc]},{r:[x41,x89,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x102,o:x19,t:m,f:[x46]},{r:[x47,x103,x36,x104,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x105,o:x19,t:m,f:[xc]},{r:[x106,x107,x108,x109,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x110,o:x19,t:m,f:[x46]},{r:[x111,x112,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x113,o:x19,t:m,f:[xc]},{r:[x114,x115,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x116,o:x19,t:m,f:[x46]},{r:[x117,x112,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x118,o:x19,t:m,f:[xc]},{r:[x119,x115,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x120,o:x19,t:m,f:[x46]},{r:[x121,x112,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x122,o:x19,t:m,f:[xc]},{r:[x123,x115,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x124,o:x19,t:m,f:[x46]},{r:[x125,x112,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x126,o:x19,t:m,f:[xc]},{r:[x127,x115,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x128,o:x19,t:m,f:[x46]},{r:[x34,x112,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x129,o:x19,t:m,f:[xc]},{r:[x41,x115,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x130,o:x19,t:m,f:[x46]},{r:[x111,x131,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x132,o:x19,t:m,f:[xc]},{r:[x133,x134,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x135,o:x19,t:m,f:[x46]},{r:[x136,x131,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x137,o:x19,t:m,f:[xc]},{r:[x138,x134,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x139,o:x19,t:m,f:[x46]},{r:[x140,x141,x36,x142,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x143,o:x19,t:m,f:[xc]},{r:[x144,x145,x146,x109,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x147,o:x19,t:m,f:[x46]},{r:[x123,x134,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x148,o:x19,t:m,f:[x46]},{r:[x149,x131,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x150,o:x19,t:m,f:[xc]},{r:[x63,x134,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x151,o:x19,t:m,f:[x46]},{r:[x125,x131,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x152,o:x19,t:m,f:[xc]},{r:[x34,x131,x36,x37,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x153,o:x19,t:m,f:[xc]},{r:[x41,x134,x43,x44,x16,x16],br:[x38,x38,x38,x38],s:[0,x39,i],id:x154,o:x19,t:m,f:[x46]},{t:m,o:x19,id:x155,sN:x155,cu:x156,r:[x157,x158,x159,x160,x16,x16]},{t:m,o:x19,id:x161,sN:x161,cu:x156,r:[x162,x158,x159,x160,x16,x16]},{t:m,o:x19,id:x163,sN:x163,cu:x156,r:[x164,x158,x159,x160,x16,x16]},{t:m,o:x19,id:x165,sN:x165,cu:x156,r:[x166,x167,x159,x160,x16,x16]},{t:m,o:x19,id:x168,sN:x168,cu:x156,r:[x169,x167,x159,x160,x16,x16]},{t:m,o:x19,id:x170,sN:x170,cu:x156,r:[x171,x167,x159,x160,x16,x16]},{t:m,o:x19,id:x172,sN:x172,cu:x156,r:[x157,x167,x159,x160,x16,x16]},{t:m,o:x19,id:x173,sN:x173,cu:x156,r:[x162,x167,x159,x160,x16,x16]},{t:m,o:x19,id:x174,sN:x174,cu:x156,r:[x164,x167,x159,x160,x16,x16]},{t:m,o:x19,id:x175,sN:x175,cu:x156,r:[x166,x176,x159,x160,x16,x16]},{t:m,o:x19,id:x177,sN:x177,cu:x156,r:[x169,x176,x159,x160,x16,x16]},{t:m,o:x19,id:x178,sN:x178,cu:x156,r:[x171,x176,x159,x160,x16,x16]},{t:m,o:x19,id:x179,sN:x179,cu:x156,r:[x157,x176,x159,x160,x16,x16]},{t:m,o:x19,id:x180,sN:x180,cu:x156,r:[x181,x176,x159,x160,x16,x16]},{t:m,o:x19,id:x182,sN:x182,cu:x156,r:[x164,x176,x159,x160,x16,x16]},{t:m,o:x19,id:x183,sN:x183,cu:x156,r:[x184,x185,x159,x160,x16,x16]},{t:m,o:x19,id:x186,sN:x186,cu:x156,r:[x187,x188,x189,x159,x16,x16]},{t:m,o:x19,id:x190,sN:x190,cu:x156,r:[x191,x185,x159,x160,x16,x16]},{t:m,o:x19,id:x192,sN:x192,cu:x156,r:[x193,x185,x159,x160,x16,x16]},{t:m,o:x19,id:x194,sN:x194,cu:x156,r:[x162,x185,x159,x160,x16,x16]},{t:m,o:x19,id:x195,sN:x195,cu:x156,r:[x164,x185,x159,x160,x16,x16]},{t:m,o:x19,id:x196,sN:x196,cu:x156,r:[x184,x197,x159,x160,x16,x16]},{t:m,o:x19,id:x198,sN:x198,cu:x156,r:[x199,x197,x159,x160,x16,x16]},{t:m,o:x19,id:x200,sN:x200,cu:x156,r:[x191,x201,x189,x159,x16,x16]},{t:m,o:x19,id:x202,sN:x202,cu:x156,r:[x193,x197,x159,x160,x16,x16]},{t:m,o:x19,id:x203,sN:x203,cu:x156,r:[x162,x197,x159,x160,x16,x16]},{t:m,o:x19,id:x204,sN:x204,cu:x156,r:[x164,x197,x159,x160,x16,x16]},{tf:[[],[],[],[x17,x17]],t:g,r:[x205,x206,x207,x207,x16,x16],id:x208,o:x19,cu:x156,f:[x7,im+g209,x21,x21]},{t:m,o:x19,id:x210,sN:x210,cu:x156,r:[x171,x158,x159,x160,x16,x16]},{t:m,o:x19,id:x211,sN:x211,cu:x156,r:[x169,x158,x159,x160,x16,x16]},{n:[x212,[24,''],x213,x214,i,'',x215,x216],t:x,text:s217,id:x218,o:x19,cu:x156,r:[x219,x220,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x222,o:x19,text:x19,r:[x223,x224,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x225,o:x19,text:s226,r:[x227,x224,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x228,o:x19,text:s229,r:[x230,x224,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x231,o:x19,text:s232,r:[x233,x224,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x234,o:x19,text:s235,r:[x236,x224,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x237,o:x19,text:s238,r:[x239,x224,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x240,o:x19,text:s241,r:[x223,x242,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x243,o:x19,text:s244,r:[x227,x242,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x245,o:x19,text:s246,r:[x230,x242,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x247,o:x19,text:s248,r:[x249,x242,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x250,o:x19,text:s251,r:[x252,x242,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x253,o:x19,text:s254,r:[x255,x242,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x256,o:x19,text:s257,r:[x258,x259,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x260,o:x19,text:s261,r:[x262,x259,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x263,o:x19,text:s264,r:[x265,x259,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x266,o:x19,text:s267,r:[x224,x259,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x268,o:x19,text:s269,r:[x252,x259,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x270,o:x19,text:s271,r:[x111,x259,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x272,o:x19,text:s273,r:[x258,x274,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x275,o:x19,text:s276,r:[x277,x274,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x278,o:x19,text:s279,r:[x280,x274,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x281,o:x19,text:s282,r:[x224,x274,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x283,o:x19,text:s284,r:[x252,x274,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x285,o:x19,text:s286,r:[x142,x287,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x288,o:x19,text:s289,r:[x290,x287,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x291,o:x19,text:s292,r:[x230,x287,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x293,o:x19,text:s294,r:[x224,x287,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x295,o:x19,text:s296,r:[x252,x287,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,align:po,id:x297,o:x19,text:s298,r:[x111,x274,x16,x16,x16,x16]}],style:{'${symbolSelector}':{r:[_,_,x299,x300]}}},tt:{d:2250,a:n,l:{"paginas":0,"instrucciones":750,"creditos":1500},data:[["eid591",tp,0,500,"easeOutElastic",e301,'1369px','1077px'],["eid264",o,0,500,"easeOutElastic",e302,'0','1'],["eid557",o,500,250,"easeOutElastic",e302,'1','0'],["eid121",o,0,500,"easeOutElastic",e303,'0','1'],["eid541",o,500,250,"easeOutElastic",e303,'1','0'],["eid322",o,0,500,"easeOutElastic",e304,'0','1'],["eid463",o,500,250,"easeOutElastic",e304,'1','0'],["eid757",tp,0,500,"easeOutElastic",e305,'1026px','734px'],["eid789",tp,0,500,"easeOutElastic",e306,'498px','206px'],["eid661",tp,0,500,"easeOutElastic",e307,'784px','492px'],["eid344",o,0,500,"easeOutElastic",e308,'0','1'],["eid530",o,500,250,"easeOutElastic",e308,'1','0'],["eid595",tp,0,500,"easeOutElastic",e309,'1026px','734px'],["eid310",o,0,500,"easeOutElastic",e310,'0','1'],["eid476",o,500,250,"easeOutElastic",e310,'1','0'],["eid709",tp,0,500,"easeOutElastic",e311,'2082px','1790px'],["eid689",tp,0,500,"easeOutElastic",e310,'455px','163px'],["eid153",o,0,500,"easeOutElastic",e312,'0','1'],["eid486",o,500,250,"easeOutElastic",e312,'1','0'],["eid204",o,0,500,"easeOutElastic",e313,'0','1'],["eid518",o,500,250,"easeOutElastic",e313,'1','0'],["eid216",o,0,500,"easeOutElastic",e314,'0','1'],["eid562",o,500,250,"easeOutElastic",e314,'1','0'],["eid234",o,0,500,"easeOutElastic",e315,'0','1'],["eid472",o,500,250,"easeOutElastic",e315,'1','0'],["eid677",tp,0,500,"easeOutElastic",e316,'1832px','1540px'],["eid735",tp,0,500,"easeOutElastic",e317,'778px','486px'],["eid673",tp,0,500,"easeOutElastic",e318,'701px','409px'],["eid167",o,0,500,"easeOutElastic",e319,'0','1'],["eid509",o,500,250,"easeOutElastic",e319,'1','0'],["eid779",tp,0,500,"easeOutElastic",e320,'1132px','840px'],["eid605",tp,0,500,"easeOutElastic",e321,'1471px','1179px'],["eid302",o,0,500,"easeOutElastic",e322,'0','1'],["eid543",o,500,250,"easeOutElastic",e322,'1','0'],["eid316",o,0,500,"easeOutElastic",e323,'0','1'],["eid532",o,500,250,"easeOutElastic",e323,'1','0'],["eid809",tp,0,500,"easeOutElastic",e324,'1369px','1077px'],["eid609",tp,0,500,"easeOutElastic",e325,'1838px','1546px'],["eid129",o,0,500,"easeOutElastic",e326,'0','1'],["eid500",o,500,250,"easeOutElastic",e326,'1','0'],["eid244",o,0,500,"easeOutElastic",e327,'0','1'],["eid467",o,500,250,"easeOutElastic",e327,'1','0'],["eid619",tp,0,500,"easeOutElastic",e328,'680px','388px'],["eid597",tp,0,500,"easeOutElastic",e329,'460px','168px'],["eid729",tp,0,500,"easeOutElastic",e330,'1477px','1185px'],["eid326",o,0,500,"easeOutElastic",e331,'0','1'],["eid505",o,500,250,"easeOutElastic",e331,'1','0'],["eid348",o,0,500,"easeOutElastic",e332,'0','1'],["eid773",tp,0,500,"easeOutElastic",e333,'641px','349px'],["eid141",o,0,500,"easeOutElastic",e334,'0','1'],["eid471",o,500,250,"easeOutElastic",e334,'1','0'],["eid127",o,0,500,"easeOutElastic",e335,'0','1'],["eid546",o,500,250,"easeOutElastic",e335,'1','0'],["eid691",tp,0,500,"easeOutElastic",e336,'1477px','1185px'],["eid659",tp,0,500,"easeOutElastic",e337,'2061px','1769px'],["eid266",o,0,500,"easeOutElastic",e338,'0','1'],["eid560",o,500,250,"easeOutElastic",e338,'1','0'],["eid621",tp,0,500,"easeOutElastic",e304,'1716px','1424px'],["eid332",o,0,500,"easeOutElastic",e339,'0','1'],["eid551",o,500,250,"easeOutElastic",e339,'1','0'],["eid222",o,0,500,"easeOutElastic",e340,'0','1'],["eid474",o,500,250,"easeOutElastic",e340,'1','0'],["eid208",o,0,500,"easeOutElastic",e341,'0','1'],["eid482",o,500,250,"easeOutElastic",e341,'1','0'],["eid286",o,0,500,"easeOutElastic",e342,'0','1'],["eid556",o,500,250,"easeOutElastic",e342,'1','0'],["eid787",tp,0,500,"easeOutElastic",e343,'1026px','734px'],["eid593",tp,0,500,"easeOutElastic",e344,'455px','163px'],["eid637",tp,0,500,"easeOutElastic",e345,'1838px','1546px'],["eid797",tp,0,500,"easeOutElastic",e346,'701px','409px'],["eid358",o,0,500,"easeOutElastic",e347,'0','1'],["eid507",o,500,250,"easeOutElastic",e347,'1','0'],["eid719",tp,0,500,"easeOutElastic",e331,'701px','409px'],["eid360",o,0,500,"easeOutElastic",e348,'0','1'],["eid453",o,500,250,"easeOutElastic",e348,'1','0'],["eid147",o,0,500,"easeOutElastic",e329,'0','1'],["eid501",o,500,250,"easeOutElastic",e329,'1','0'],["eid232",o,0,500,"easeOutElastic",e349,'0','1'],["eid470",o,500,250,"easeOutElastic",e349,'1','0'],["eid603",tp,0,500,"easeOutElastic",e350,'1132px','840px'],["eid113",o,0,500,"easeOutElastic",e351,'0','1'],["eid459",o,500,250,"easeOutElastic",e351,'1','0'],["eid645",tp,0,500,"easeOutElastic",e352,'1007px','715px'],["eid631",tp,0,500,"easeOutElastic",e322,'455px','163px'],["eid805",tp,0,500,"easeOutElastic",e353,'1700px','1408px'],["eid224",o,0,500,"easeOutElastic",e354,'0','1'],["eid527",o,500,250,"easeOutElastic",e354,'1','0'],["eid713",tp,0,500,"easeOutElastic",e355,'1369px','1077px'],["eid643",tp,0,500,"easeOutElastic",e356,'778px','486px'],["eid284",o,0,500,"easeOutElastic",e328,'0','1'],["eid478",o,500,250,"easeOutElastic",e328,'1','0'],["eid803",tp,0,500,"easeOutElastic",e327,'1353px','1061px'],["eid697",tp,0,500,"easeOutElastic",e314,'778px','486px'],["eid250",o,0,500,"easeOutElastic",e357,'0','1'],["eid506",o,500,250,"easeOutElastic",e357,'1','0'],["eid763",tp,0,500,"easeOutElastic",e358,'2061px','1769px'],["eid368",o,0,500,"easeOutElastic",e355,'0','1'],["eid537",o,500,250,"easeOutElastic",e355,'1','0'],["eid346",o,0,500,"easeOutElastic",e301,'0','1'],["eid525",o,500,250,"easeOutElastic",e301,'1','0'],["eid372",o,0,500,"easeOutElastic",e359,'0','1'],["eid491",o,500,250,"easeOutElastic",e359,'1','0'],["eid362",o,0,500,"easeOutElastic",e360,'0','1'],["eid458",o,500,250,"easeOutElastic",e360,'1','0'],["eid226",o,0,500,"easeOutElastic",e361,'0','1'],["eid483",o,500,250,"easeOutElastic",e361,'1','0'],["eid771",tp,0,500,"easeOutElastic",e362,'460px','168px'],["eid671",tp,0,500,"easeOutElastic",e363,'2061px','1769px'],["eid296",o,0,500,"easeOutElastic",e364,'0','1'],["eid511",o,500,250,"easeOutElastic",e364,'1','0'],["eid240",o,0,500,"easeOutElastic",e365,'0','1'],["eid542",o,500,250,"easeOutElastic",e365,'1','0'],["eid290",o,0,500,"easeOutElastic",e317,'0','1'],["eid528",o,500,250,"easeOutElastic",e317,'1','0'],["eid705",tp,0,500,"easeOutElastic",e302,'972px','680px'],["eid276",o,0,500,"easeOutElastic",e363,'0','1'],["eid462",o,500,250,"easeOutElastic",e363,'1','0'],["eid288",o,0,500,"easeOutElastic",e366,'0','1'],["eid455",o,500,250,"easeOutElastic",e366,'1','0'],["eid370",o,0,500,"easeOutElastic",e367,'0','1'],["eid553",o,500,250,"easeOutElastic",e367,'1','0'],["eid653",tp,0,500,"easeOutElastic",e368,'1477px','1185px'],["eid727",tp,0,500,"easeOutElastic",e364,'1124px','832px'],["eid366",o,0,500,"easeOutElastic",e369,'0','1'],["eid555",o,500,250,"easeOutElastic",e369,'1','0'],["eid741",tp,0,500,"easeOutElastic",e370,'1132px','840px'],["eid292",o,0,500,"easeOutElastic",e371,'0','1'],["eid524",o,500,250,"easeOutElastic",e371,'1','0'],["eid248",o,0,500,"easeOutElastic",e372,'0','1'],["eid548",o,500,250,"easeOutElastic",e372,'1','0'],["eid169",o,0,500,"easeOutElastic",e370,'0','1'],["eid540",o,500,250,"easeOutElastic",e370,'1','0'],["eid733",tp,0,500,"easeOutElastic",e373,'680px','388px'],["eid717",tp,0,500,"easeOutElastic",e374,'1353px','1061px'],["eid280",o,0,500,"easeOutElastic",e375,'0','1'],["eid516",o,500,250,"easeOutElastic",e375,'1','0'],["eid155",o,0,500,"linear",e376,'0','1'],["eid336",o,0,500,"easeOutElastic",e377,'0','1'],["eid566",o,500,250,"easeOutElastic",e377,'1','0'],["eid739",tp,0,500,"easeOutElastic",e348,'1716px','1424px'],["eid149",o,0,500,"easeOutElastic",e350,'0','1'],["eid488",o,500,250,"easeOutElastic",e350,'1','0'],["eid759",tp,0,500,"easeOutElastic",e378,'701px','409px'],["eid254",o,0,500,"easeOutElastic",e344,'0','1'],["eid534",o,500,250,"easeOutElastic",e344,'1','0'],["eid801",tp,0,500,"easeOutElastic",e319,'784px','492px'],["eid300",o,0,500,"easeOutElastic",e379,'0','1'],["eid526",o,500,250,"easeOutElastic",e379,'1','0'],["eid338",o,0,500,"easeOutElastic",e378,'0','1'],["eid565",o,500,250,"easeOutElastic",e378,'1','0'],["eid125",o,0,500,"easeOutElastic",e345,'0','1'],["eid559",o,500,250,"easeOutElastic",e345,'1','0'],["eid767",tp,0,500,"easeOutElastic",e335,'1477px','1185px'],["eid308",o,0,500,"easeOutElastic",e380,'0','1'],["eid468",o,500,250,"easeOutElastic",e380,'1','0'],["eid579",o,750,500,"easeOutElastic",e381,'0','1'],["eid582",o,1250,250,"easeOutElastic",e381,'1','0'],["eid813",tp,0,500,"easeOutElastic",e382,'784px','492px'],["eid613",tp,0,500,"easeOutElastic",e383,'1132px','840px'],["eid228",o,0,500,"easeOutElastic",e384,'0','1'],["eid515",o,500,250,"easeOutElastic",e384,'1','0'],["eid701",tp,0,500,"easeOutElastic",e385,'1838px','1546px'],["eid615",tp,0,500,"easeOutElastic",e342,'1471px','1179px'],["eid667",tp,0,500,"easeOutElastic",e386,'460px','168px'],["eid374",o,0,500,"easeOutElastic",e318,'0','1'],["eid469",o,500,250,"easeOutElastic",e318,'1','0'],["eid793",tp,0,500,"easeOutElastic",e387,'1716px','1424px'],["eid210",o,0,500,"easeOutElastic",e352,'0','1'],["eid457",o,500,250,"easeOutElastic",e352,'1','0'],["eid340",o,0,500,"easeOutElastic",e388,'0','1'],["eid487",o,500,250,"easeOutElastic",e388,'1','0'],["eid328",o,0,500,"easeOutElastic",e389,'0','1'],["eid522",o,500,250,"easeOutElastic",e389,'1','0'],["eid769",tp,0,500,"easeOutElastic",e390,'1832px','1540px'],["eid629",tp,0,500,"easeOutElastic",e361,'1471px','1179px'],["eid304",o,0,500,"easeOutElastic",e391,'0','1'],["eid492",o,500,250,"easeOutElastic",e391,'1','0'],["eid312",o,0,500,"easeOutElastic",e392,'0','1'],["eid538",o,500,250,"easeOutElastic",e392,'1','0'],["eid306",o,0,500,"easeOutElastic",e393,'0','1'],["eid536",o,500,250,"easeOutElastic",e393,'1','0'],["eid585",tp,0,500,"easeOutElastic",e377,'1716px','1424px'],["eid581",tp,750,500,"easeOutElastic",e381,'-3179px','-3360px'],["eid587",tp,0,500,"easeOutElastic",e394,'1716px','1424px'],["eid230",o,0,500,"easeOutElastic",e395,'0','1'],["eid513",o,500,250,"easeOutElastic",e395,'1','0'],["eid755",tp,0,500,"easeOutElastic",e369,'2082px','1790px'],["eid589",tp,0,500,"easeOutElastic",e360,'1369px','1077px'],["eid236",o,0,500,"easeOutElastic",e396,'0','1'],["eid531",o,500,250,"easeOutElastic",e396,'1','0'],["eid268",o,0,500,"easeOutElastic",e397,'0','1'],["eid494",o,500,250,"easeOutElastic",e397,'1','0'],["eid137",o,0,500,"easeOutElastic",e382,'0','1'],["eid567",o,500,250,"easeOutElastic",e382,'1','0'],["eid791",tp,0,500,"easeOutElastic",e398,'2082px','1790px'],["eid781",tp,0,500,"easeOutElastic",e399,'1716px','1424px'],["eid577",tp,1500,500,"easeOutElastic",e400,'462px','158px'],["eid687",tp,0,500,"easeOutElastic",e359,'1026px','734px'],["eid242",o,0,500,"easeOutElastic",e401,'0','1'],["eid484",o,500,250,"easeOutElastic",e401,'1','0'],["eid117",o,0,500,"easeOutElastic",e362,'0','1'],["eid497",o,500,250,"easeOutElastic",e362,'1','0'],["eid811",tp,0,500,"easeOutElastic",e402,'1132px','840px'],["eid212",o,0,500,"easeOutElastic",e403,'0','1'],["eid498",o,500,250,"easeOutElastic",e403,'1','0'],["eid777",tp,0,500,"easeOutElastic",e393,'490px','198px'],["eid683",tp,0,500,"easeOutElastic",e312,'1477px','1185px'],["eid246",o,0,500,"easeOutElastic",e321,'0','1'],["eid499",o,500,250,"easeOutElastic",e321,'1','0'],["eid282",o,0,500,"easeOutElastic",e374,'0','1'],["eid550",o,500,250,"easeOutElastic",e374,'1','0'],["eid641",tp,0,500,"easeOutElastic",e379,'1007px','715px'],["eid743",tp,0,500,"easeOutElastic",e371,'778px','486px'],["eid625",tp,0,500,"easeOutElastic",e396,'1700px','1408px'],["eid737",tp,0,500,"easeOutElastic",e315,'1007px','715px'],["eid252",o,0,500,"easeOutElastic",e404,'0','1'],["eid493",o,500,250,"easeOutElastic",e404,'1','0'],["eid749",tp,0,500,"easeOutElastic",e375,'778px','486px'],["eid795",tp,0,500,"easeOutElastic",e405,'1838px','1546px'],["eid294",o,0,500,"easeOutElastic",e406,'0','1'],["eid477",o,500,250,"easeOutElastic",e406,'1','0'],["eid206",o,0,500,"easeOutElastic",e407,'0','1'],["eid547",o,500,250,"easeOutElastic",e407,'1','0'],["eid699",tp,0,500,"easeOutElastic",e408,'1700px','1408px'],["eid633",tp,0,500,"easeOutElastic",e409,'1007px','715px'],["eid202",o,0,500,"easeOutElastic",e410,'0','1'],["eid508",o,500,250,"easeOutElastic",e410,'1','0'],["eid364",o,0,500,"easeOutElastic",e309,'0','1'],["eid535",o,500,250,"easeOutElastic",e309,'1','0'],["eid639",tp,0,500,"easeOutElastic",e411,'680px','388px'],["eid570",o,1500,500,"easeOutElastic",e400,'0','1'],["eid583",o,2000,250,"easeOutElastic",e400,'1','0'],["eid657",tp,0,500,"easeOutElastic",e357,'1700px','1408px'],["eid298",o,0,500,"easeOutElastic",e316,'0','1'],["eid461",o,500,250,"easeOutElastic",e316,'1','0'],["eid655",tp,0,500,"easeOutElastic",e395,'815px','523px'],["eid663",tp,0,500,"easeOutElastic",e340,'455px','163px'],["eid272",o,0,500,"easeOutElastic",e390,'0','1'],["eid539",o,500,250,"easeOutElastic",e390,'1','0'],["eid262",o,0,500,"easeOutElastic",e337,'0','1'],["eid480",o,500,250,"easeOutElastic",e337,'1','0'],["eid669",tp,0,500,"easeOutElastic",e404,'1471px','1179px'],["eid119",o,0,500,"easeOutElastic",e405,'0','1'],["eid558",o,500,250,"easeOutElastic",e405,'1','0'],["eid256",o,0,500,"easeOutElastic",e408,'0','1'],["eid496",o,500,250,"easeOutElastic",e408,'1','0'],["eid723",tp,0,500,"easeOutElastic",e308,'701px','409px'],["eid165",o,0,500,"easeOutElastic",e306,'0','1'],["eid554",o,500,250,"easeOutElastic",e306,'1','0'],["eid342",o,0,500,"easeOutElastic",e394,'0','1'],["eid481",o,500,250,"easeOutElastic",e394,'1','0'],["eid139",o,0,500,"easeOutElastic",e336,'0','1'],["eid563",o,500,250,"easeOutElastic",e336,'1','0'],["eid627",tp,0,500,"easeOutElastic",e412,'2082px','1790px'],["eid330",o,0,500,"easeOutElastic",e324,'0','1'],["eid465",o,500,250,"easeOutElastic",e324,'1','0'],["eid611",tp,0,500,"easeOutElastic",e347,'1369px','1077px'],["eid649",tp,0,500,"easeOutElastic",e406,'2061px','1769px'],["eid731",tp,0,500,"easeOutElastic",e391,'1353px','1061px'],["eid354",o,0,500,"easeOutElastic",e305,'0','1'],["eid514",o,500,250,"easeOutElastic",e305,'1','0'],["eid218",o,0,500,"easeOutElastic",e333,'0','1'],["eid475",o,500,250,"easeOutElastic",e333,'1','0'],["eid352",o,0,500,"easeOutElastic",e343,'0','1'],["eid544",o,500,250,"easeOutElastic",e343,'1','0'],["eid775",tp,0,500,"easeOutElastic",e413,'1026px','734px'],["eid665",tp,0,500,"easeOutElastic",e410,'1353px','1061px'],["eid753",tp,0,500,"easeOutElastic",e388,'1026px','734px'],["eid258",o,0,500,"easeOutElastic",e353,'0','1'],["eid503",o,500,250,"easeOutElastic",e353,'1','0'],["eid214",o,0,500,"easeOutElastic",e409,'0','1'],["eid460",o,500,250,"easeOutElastic",e409,'1','0'],["eid159",o,0,500,"easeOutElastic",e414,'0','1'],["eid454",o,500,250,"easeOutElastic",e414,'1','0'],["eid607",tp,0,500,"easeOutElastic",e384,'1124px','832px'],["eid143",o,0,500,"easeOutElastic",e386,'0','1'],["eid485",o,500,250,"easeOutElastic",e386,'1','0'],["eid133",o,0,500,"easeOutElastic",e307,'0','1'],["eid549",o,500,250,"easeOutElastic",e307,'1','0'],["eid320",o,0,500,"easeOutElastic",e311,'0','1'],["eid479",o,500,250,"easeOutElastic",e311,'1','0'],["eid314",o,0,500,"easeOutElastic",e373,'0','1'],["eid502",o,500,250,"easeOutElastic",e373,'1','0'],["eid173",o,0,500,"easeOutElastic",e415,'0','1'],["eid552",o,500,250,"easeOutElastic",e415,'1','0'],["eid685",tp,0,500,"easeOutElastic",e392,'1700px','1408px'],["eid711",tp,0,500,"easeOutElastic",e397,'1124px','832px'],["eid651",tp,0,500,"easeOutElastic",e372,'1832px','1540px'],["eid220",o,0,500,"easeOutElastic",e356,'0','1'],["eid521",o,500,250,"easeOutElastic",e356,'1','0'],["eid617",tp,0,500,"easeOutElastic",e416,'1124px','832px'],["eid635",tp,0,500,"easeOutElastic",e403,'680px','388px'],["eid785",tp,0,500,"easeOutElastic",e407,'455px','163px'],["eid163",o,0,500,"easeOutElastic",e402,'0','1'],["eid473",o,500,250,"easeOutElastic",e402,'1','0'],["eid123",o,0,500,"easeOutElastic",e417,'0','1'],["eid568",o,500,250,"easeOutElastic",e417,'1','0'],["eid135",o,0,500,"easeOutElastic",e383,'0','1'],["eid545",o,500,250,"easeOutElastic",e383,'1','0'],["eid318",o,0,500,"easeOutElastic",e398,'0','1'],["eid490",o,500,250,"easeOutElastic",e398,'1','0'],["eid751",tp,0,500,"easeOutElastic",e389,'1369px','1077px'],["eid747",tp,0,500,"easeOutElastic",e414,'822px','530px'],["eid161",o,0,500,"easeOutElastic",e385,'0','1'],["eid495",o,500,250,"easeOutElastic",e385,'1','0'],["eid274",o,0,500,"easeOutElastic",e418,'0','1'],["eid489",o,500,250,"easeOutElastic",e418,'1','0'],["eid131",o,0,500,"easeOutElastic",e330,'0','1'],["eid561",o,500,250,"easeOutElastic",e330,'1','0'],["eid745",tp,0,500,"easeOutElastic",e349,'1832px','1540px'],["eid151",o,0,500,"easeOutElastic",e419,'0','1'],["eid529",o,500,250,"easeOutElastic",e419,'1','0'],["eid575",lf,1500,500,"easeOutElastic",e400,'75px','77px'],["eid765",tp,0,500,"easeOutElastic",e365,'1832px','1540px'],["eid647",tp,0,500,"easeOutElastic",e380,'2061px','1769px'],["eid715",tp,0,500,"easeOutElastic",e313,'1124px','832px'],["eid695",tp,0,500,"easeOutElastic",e339,'701px','409px'],["eid783",tp,0,500,"easeOutElastic",e338,'1124px','832px'],["eid376",o,0,500,"easeOutElastic",e387,'0','1'],["eid464",o,500,250,"easeOutElastic",e387,'1','0'],["eid356",o,0,500,"easeOutElastic",e412,'0','1'],["eid523",o,500,250,"easeOutElastic",e412,'1','0'],["eid815",tp,0,500,"easeOutElastic",e418,'1007px','715px'],["eid807",tp,0,500,"easeOutElastic",e419,'784px','492px'],["eid238",o,0,500,"easeOutElastic",e358,'0','1'],["eid519",o,500,250,"easeOutElastic",e358,'1','0'],["eid703",tp,0,500,"easeOutElastic",e326,'1838px','1546px'],["eid324",o,0,500,"easeOutElastic",e413,'0','1'],["eid564",o,500,250,"easeOutElastic",e413,'1','0'],["eid350",o,0,500,"easeOutElastic",e399,'0','1'],["eid520",o,500,250,"easeOutElastic",e399,'1','0'],["eid817",tp,0,500,"easeOutElastic",e417,'460px','168px'],["eid721",tp,0,500,"easeOutElastic",e366,'1353px','1061px'],["eid601",tp,0,500,"easeOutElastic",e415,'460px','168px'],["eid115",o,0,500,"linear",e420,'0','1'],["eid171",o,0,500,"easeOutElastic",e325,'0','1'],["eid533",o,500,250,"easeOutElastic",e325,'1','0'],["eid157",o,0,500,"easeOutElastic",e368,'0','1'],["eid510",o,500,250,"easeOutElastic",e368,'1','0'],["eid799",tp,0,500,"easeOutElastic",e334,'1477px','1185px'],["eid725",tp,0,500,"easeOutElastic",e354,'1353px','1061px'],["eid693",tp,0,500,"easeOutElastic",e341,'1700px','1408px'],["eid599",tp,0,500,"easeOutElastic",e323,'680px','388px'],["eid623",tp,0,500,"easeOutElastic",e332,'411px','119px'],["eid707",tp,0,500,"easeOutElastic",e421,'1471px','1179px'],["eid681",tp,0,500,"easeOutElastic",e367,'2082px','1790px'],["eid278",o,0,500,"easeOutElastic",e421,'0','1'],["eid517",o,500,250,"easeOutElastic",e421,'1','0'],["eid334",o,0,500,"easeOutElastic",e346,'0','1'],["eid456",o,500,250,"easeOutElastic",e346,'1','0'],["eid260",o,0,500,"easeOutElastic",e411,'0','1'],["eid466",o,500,250,"easeOutElastic",e411,'1','0'],["eid761",tp,0,500,"easeOutElastic",e351,'784px','492px'],["eid679",tp,0,500,"easeOutElastic",e401,'1471px','1179px'],["eid145",o,0,500,"easeOutElastic",e320,'0','1'],["eid504",o,500,250,"easeOutElastic",e320,'1','0'],["eid270",o,0,500,"easeOutElastic",e416,'0','1'],["eid512",o,500,250,"easeOutElastic",e416,'1','0'],["eid675",tp,0,500,"easeOutElastic",e303,'1132px','840px']]}},"ventana_1":{v:x2,mv:x3,b:x4,stf:i,cg:i,rI:n,cn:{dom:[{tf:[[],[],[],[x17,x17]],r:[x12,x13,x14,x15,x16,x16],id:x18,o:x19,t:g,f:[x7,im+g422,x21,x21]},{r:[x423,x424,x425,x426,x16,x16],br:[x38,x38,x38,x38],o:x19,id:x124,s:[0,x39,i],t:m,f:[x46]},{r:[x103,x427,x36,x37,x16,x16],br:[x38,x38,x38,x38],o:x19,id:x122,s:[0,x39,i],t:m,f:[xc]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,text:s248,id:x247,o:x19,align:po,r:[x428,x429,x16,x16,x16,x16]},{r:[x430,x424,x425,x426,x16,x16],br:[x38,x38,x38,x38],o:x19,id:x128,s:[0,x39,i],t:m,f:[x46]},{r:[x431,x427,x36,x37,x16,x16],br:[x38,x38,x38,x38],o:x19,id:x126,s:[0,x39,i],t:m,f:[xc]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,text:s246,id:x250,o:x19,align:po,r:[x432,x429,x16,x16,x16,x16]},{r:[x433,x424,x425,x426,x16,x16],br:[x38,x38,x38,x38],o:x19,id:x130,s:[0,x39,i],t:m,f:[x46]},{r:[x434,x427,x36,x37,x16,x16],br:[x38,x38,x38,x38],o:x19,id:x129,s:[0,x39,i],t:m,f:[xc]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,text:s244,id:x253,o:x19,align:po,r:[x435,x429,x16,x16,x16,x16]},{r:[x436,x424,x425,x426,x16,x16],br:[x38,x38,x38,x38],o:x19,id:x135,s:[0,x39,i],t:m,f:[x46]},{r:[x127,x427,x36,x37,x16,x16],br:[x38,x38,x38,x38],o:x19,id:x132,s:[0,x39,i],t:m,f:[xc]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,text:s241,id:x237,o:x19,align:po,r:[x437,x429,x16,x16,x16,x16]},{r:[x438,x439,x425,x426,x16,x16],br:[x38,x38,x38,x38],o:x19,id:x139,s:[0,x39,i],t:m,f:[x46]},{r:[x440,x441,x36,x37,x16,x16],br:[x38,x38,x38,x38],o:x19,id:x137,s:[0,x39,i],t:m,f:[xc]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,text:s238,id:x234,o:x19,align:po,r:[x442,x443,x16,x16,x16,x16]},{r:[x444,x439,x425,x426,x16,x16],br:[x38,x38,x38,x38],o:x19,id:x147,s:[0,x39,i],t:m,f:[x46]},{r:[x445,x441,x36,x37,x16,x16],br:[x38,x38,x38,x38],o:x19,id:x143,s:[0,x39,i],t:m,f:[xc]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,text:s235,id:x231,o:x19,align:po,r:[x138,x443,x16,x16,x16,x16]},{r:[x446,x439,x425,x426,x16,x16],br:[x38,x38,x38,x38],o:x19,id:x148,s:[0,x39,i],t:m,f:[x46]},{r:[x447,x441,x36,x37,x16,x16],br:[x38,x38,x38,x38],o:x19,id:x150,s:[0,x39,i],t:m,f:[xc]},{r:[x448,x439,x425,x426,x16,x16],br:[x38,x38,x38,x38],o:x19,id:x154,s:[0,x39,i],t:m,f:[x46]},{r:[x449,x441,x36,x37,x16,x16],br:[x38,x38,x38,x38],o:x19,id:x153,s:[0,x39,i],t:m,f:[xc]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,text:s229,id:x222,o:x19,align:po,r:[x450,x443,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,text:s232,id:x228,o:x19,align:po,r:[x451,x443,x16,x16,x16,x16]},{tf:[[],[],[],[x17,x17]],r:[x452,x23,x24,x25,x16,x16],id:x26,o:x19,t:g,f:[x7,im+g453,x21,x21]},{t:g,id:x32,o:x19,r:[x454,x29,x30,x31,x16,x16],f:[x7,im+g455,x21,x21]},{r:[x456,x439,x425,x426,x16,x16],br:[x38,x38,x38,x38],o:x19,id:x151,s:[0,x39,i],t:m,f:[x46]},{r:[x457,x441,x36,x37,x16,x16],br:[x38,x38,x38,x38],o:x19,id:x152,s:[0,x39,i],t:m,f:[xc]},{tf:[[],[],[],[x17,x17]],t:g,r:[x205,x206,x207,x207,x16,x16],id:x208,o:x19,cu:x156,f:[x7,im+g458,x21,x21]},{n:[x212,[24,''],x213,x214,i,'',x215,x216],t:x,o:x19,id:x218,text:s459,cu:x156,r:[x219,x220,x16,x16,x16,x16]},{n:[x212,[24,p],x9,x214,x221,l,x215,x216],t:x,text:s226,id:x225,o:x19,align:po,r:[x460,x443,x16,x16,x16,x16]},{t:g,id:x461,o:x19,r:[x462,x463,x464,x465,x16,x16],f:[x7,im+g466,x21,x21]},{t:g,id:x467,o:x19,r:[x468,x463,x464,x465,x16,x16],f:[x7,im+g469,x21,x21]},{t:g,id:x470,o:x19,r:[x471,x463,x464,x465,x16,x16],f:[x7,im+g472,x21,x21]},{t:g,id:x473,o:x19,r:[x474,x463,x464,x465,x16,x16],f:[x7,im+g475,x21,x21]},{t:g,id:x476,o:x19,r:[x477,x478,x464,x465,x16,x16],f:[x7,im+g479,x21,x21]},{t:g,id:x480,o:x19,r:[x481,x478,x464,x465,x16,x16],f:[x7,im+g482,x21,x21]},{t:g,id:x483,o:x19,r:[x484,x478,x464,x465,x16,x16],f:[x7,im+g485,x21,x21]},{t:g,id:x486,o:x19,r:[x487,x478,x464,x465,x16,x16],f:[x7,im+g488,x21,x21]},{t:g,id:x489,o:x19,r:[x41,x478,x464,x465,x16,x16],f:[x7,im+g490,x21,x21]}],style:{'${symbolSelector}':{r:[_,_,x299,x300]}}},tt:{d:2250,a:n,l:{"paginas":170,"instrucciones":750,"creditos":1500},data:[["eid116",o,0,500,"easeOutCubic",e491,'0','1'],["eid128",o,500,250,"easeOutCubic",e491,'1','0'],["eid95",tp,0,500,"easeOutElastic",e409,'680px','937px'],["eid581",tp,750,500,"easeOutElastic",e381,'-3179px','-3360px'],["eid575",lf,1500,500,"easeOutElastic",e400,'87px','66px'],["eid30",o,0,500,"easeOutElastic",e308,'0','1'],["eid31",o,500,250,"easeOutElastic",e308,'1','0'],["eid83",tp,0,500,"easeOutElastic",e309,'701px','958px'],["eid45",o,0,500,"easeOutElastic",e310,'0','1'],["eid46",o,500,250,"easeOutElastic",e310,'1','0'],["eid48",o,0,500,"easeOutElastic",e378,'0','1'],["eid49",o,500,250,"easeOutElastic",e378,'1','0'],["eid44",tp,0,500,"easeOutElastic",e310,'455px','199px'],["eid124",o,0,500,"easeOutCubic",e492,'0','1'],["eid138",o,500,250,"easeOutCubic",e492,'1','0'],["eid106",o,0,500,"easeOutCubic",e493,'0','1'],["eid130",o,500,250,"easeOutCubic",e493,'1','0'],["eid86",tp,0,500,"easeOutElastic",e379,'680px','937px'],["eid89",tp,0,500,"easeOutElastic",e375,'455px','635px'],["eid38",tp,0,500,"easeOutElastic",e318,'701px','522px'],["eid36",o,0,500,"easeOutElastic",e407,'0','1'],["eid37",o,500,250,"easeOutElastic",e407,'1','0'],["eid60",o,0,500,"easeOutElastic",e323,'0','1'],["eid61",o,500,250,"easeOutElastic",e323,'1','0'],["eid84",o,0,500,"easeOutElastic",e309,'0','1'],["eid85",o,500,250,"easeOutElastic",e309,'1','0'],["eid68",tp,0,500,"easeOutElastic",e411,'680px','937px'],["eid570",o,1500,500,"easeOutElastic",e400,'0','1'],["eid583",o,2000,250,"easeOutElastic",e400,'1','0'],["eid41",tp,0,500,"easeOutElastic",e328,'680px','501px'],["eid110",o,0,500,"easeOutCubic",e494,'0','1'],["eid134",o,500,250,"easeOutCubic",e494,'1','0'],["eid326",o,0,500,"easeOutElastic",e331,'0','1'],["eid505",o,500,250,"easeOutElastic",e331,'1','0'],["eid348",o,0,500,"easeOutElastic",e332,'0','1'],["eid50",tp,0,500,"easeOutElastic",e333,'680px','501px'],["eid57",o,0,500,"easeOutElastic",e339,'0','1'],["eid58",o,500,250,"easeOutElastic",e339,'1','0'],["eid72",o,0,500,"easeOutElastic",e340,'0','1'],["eid73",o,500,250,"easeOutElastic",e340,'1','0'],["eid29",tp,0,500,"easeOutElastic",e308,'701px','522px'],["eid62",tp,0,500,"easeOutElastic",e344,'455px','199px'],["eid51",o,0,500,"easeOutElastic",e333,'0','1'],["eid52",o,500,250,"easeOutElastic",e333,'1','0'],["eid65",tp,0,500,"easeOutElastic",e346,'701px','958px'],["eid104",o,0,500,"easeOutCubic",e495,'0','1'],["eid142",o,500,250,"easeOutCubic",e495,'1','0'],["eid96",o,0,500,"easeOutElastic",e409,'0','1'],["eid97",o,500,250,"easeOutElastic",e409,'1','0'],["eid77",tp,0,500,"easeOutElastic",e352,'680px','937px'],["eid314",o,0,500,"easeOutElastic",e373,'0','1'],["eid502",o,500,250,"easeOutElastic",e373,'1','0'],["eid71",tp,0,500,"easeOutElastic",e340,'455px','635px'],["eid42",o,0,500,"easeOutElastic",e328,'0','1'],["eid43",o,500,250,"easeOutElastic",e328,'1','0'],["eid98",tp,0,500,"easeOutElastic",e314,'455px','635px'],["eid32",tp,0,500,"easeOutElastic",e403,'680px','501px'],["eid35",tp,0,500,"easeOutElastic",e407,'455px','199px'],["eid54",o,0,500,"easeOutElastic",e393,'0','1'],["eid55",o,500,250,"easeOutElastic",e393,'1','0'],["eid302",o,0,500,"easeOutElastic",e322,'0','1'],["eid543",o,500,250,"easeOutElastic",e322,'1','0'],["eid108",o,0,500,"easeOutCubic",e496,'0','1'],["eid132",o,500,250,"easeOutCubic",e496,'1','0'],["eid56",tp,0,500,"easeOutElastic",e339,'701px','522px'],["eid75",o,0,500,"easeOutElastic",e343,'0','1'],["eid76",o,500,250,"easeOutElastic",e343,'1','0'],["eid99",o,0,500,"easeOutElastic",e314,'0','1'],["eid100",o,500,250,"easeOutElastic",e314,'1','0'],["eid53",tp,0,500,"easeOutElastic",e393,'455px','199px'],["eid733",tp,0,500,"easeOutElastic",e373,'680px','501px'],["eid155",o,0,500,"linear",e376,'0','1'],["eid90",o,0,500,"easeOutElastic",e375,'0','1'],["eid91",o,500,250,"easeOutElastic",e375,'1','0'],["eid81",o,0,500,"easeOutElastic",e356,'0','1'],["eid82",o,500,250,"easeOutElastic",e356,'1','0'],["eid115",o,0,500,"linear",e420,'0','1'],["eid112",o,0,500,"easeOutCubic",e497,'0','1'],["eid136",o,500,250,"easeOutCubic",e497,'1','0'],["eid579",o,750,500,"easeOutElastic",e381,'0','1'],["eid582",o,1250,250,"easeOutElastic",e381,'1','0'],["eid47",tp,0,500,"easeOutElastic",e378,'701px','522px'],["eid63",o,0,500,"easeOutElastic",e344,'0','1'],["eid64",o,500,250,"easeOutElastic",e344,'1','0'],["eid59",tp,0,500,"easeOutElastic",e323,'680px','501px'],["eid87",o,0,500,"easeOutElastic",e379,'0','1'],["eid88",o,500,250,"easeOutElastic",e379,'1','0'],["eid39",o,0,500,"easeOutElastic",e318,'0','1'],["eid40",o,500,250,"easeOutElastic",e318,'1','0'],["eid631",tp,0,500,"easeOutElastic",e322,'455px','199px'],["eid577",tp,1500,500,"easeOutElastic",e400,'462px','158px'],["eid80",tp,0,500,"easeOutElastic",e356,'455px','635px'],["eid623",tp,0,500,"easeOutElastic",e332,'411px','119px'],["eid719",tp,0,500,"easeOutElastic",e331,'701px','522px'],["eid102",o,0,500,"easeOutCubic",e498,'0','1'],["eid126",o,500,250,"easeOutCubic",e498,'1','0'],["eid74",tp,0,500,"easeOutElastic",e343,'701px','958px'],["eid66",o,0,500,"easeOutElastic",e346,'0','1'],["eid67",o,500,250,"easeOutElastic",e346,'1','0'],["eid69",o,0,500,"easeOutElastic",e411,'0','1'],["eid70",o,500,250,"easeOutElastic",e411,'1','0'],["eid92",tp,0,500,"easeOutElastic",e305,'701px','958px'],["eid120",o,0,500,"easeOutCubic",e499,'0','1'],["eid140",o,500,250,"easeOutCubic",e499,'1','0'],["eid33",o,0,500,"easeOutElastic",e403,'0','1'],["eid34",o,500,250,"easeOutElastic",e403,'1','0'],["eid78",o,0,500,"easeOutElastic",e352,'0','1'],["eid79",o,500,250,"easeOutElastic",e352,'1','0'],["eid93",o,0,500,"easeOutElastic",e305,'0','1'],["eid94",o,500,250,"easeOutElastic",e305,'1','0']]}},"contenido":{v:x2,mv:x3,b:x4,stf:i,cg:i,rI:n,cn:{dom:[{t:m,id:x500,s:[0,x39,i],r:[x21,x21,x501,x502,x16,x16],f:[x503]}],style:{'${symbolSelector}':{r:[_,_,x501,x502]}}},tt:{d:0,a:y,data:[]}},"menuelectric":{v:x2,mv:x3,b:x4,stf:i,cg:i,rI:n,cn:{dom:[{r:[x21,x21,x504,x505,x16,x16],id:x506,t:g,f:[x7,im+g507,x21,x21]},{r:[x21,x508,x504,x509,x16,x16],id:x510,t:g,f:[x7,im+g511,x21,x21]},{r:[x21,x512,x504,x509,x16,x16],id:x513,t:g,f:[x7,im+g514,x21,x21]},{r:[x21,x515,x504,x509,x16,x16],id:x516,t:g,f:[x7,im+g517,x21,x21]},{r:[x21,x518,x504,x509,x16,x16],id:x519,t:g,f:[x7,im+g520,x21,x21]},{tf:[[],[],[],[x17,x17]],id:x521,t:g,r:[x522,x523,x524,x525,x16,x16],f:[x7,im+g526,x21,x21]},{t:m,id:x527,s:[0,x39,i],r:[x21,x528,x504,x34,x16,x16],f:[x529]},{t:m,id:x530,s:[0,x39,i],r:[x21,x531,x504,x34,x16,x16],f:[x529]},{t:m,id:x532,s:[0,x39,i],r:[x533,x534,x535,x34,x16,x16],f:[x529]},{t:m,id:x536,s:[0,x39,i],r:[x537,x534,x535,x34,x16,x16],f:[x529]},{t:m,id:x538,s:[0,x39,i],r:[x539,x534,x535,x34,x16,x16],f:[x529]},{t:m,id:x540,s:[0,x39,i],r:[x21,x541,x504,x34,x16,x16],f:[x529]}],style:{'${symbolSelector}':{r:[_,_,x504,x505]}}},tt:{d:1000,a:n,data:[["eid14",lf,0,1000,"easeOutCirc",e542,'0px','-500px'],["eid26",lf,0,1000,"easeOutCirc",e543,'0px','-500px'],["eid19",lf,0,1000,"easeOutCirc",e544,'0px','-500px'],["eid16",lf,0,1000,"easeOutCirc",e545,'0px','-500px'],["eid17",lf,0,1000,"easeOutCirc",e546,'215px','-285px'],["eid20",lf,0,1000,"easeOutCirc",e547,'-912px','-1410px'],["eid24",lf,0,1000,"easeOutCirc",e548,'305px','-195px'],["eid23",lf,0,1000,"easeOutCirc",e549,'0px','-500px'],["eid21",lf,0,1000,"easeOutCirc",e550,'112px','-388px'],["eid13",lf,0,1000,"easeOutCirc",e551,'0px','-500px'],["eid18",lf,0,1000,"easeOutCirc",e552,'0px','-500px'],["eid15",lf,0,1000,"easeOutCirc",e553,'0px','-500px']]}}};AdobeEdge.registerCompositionDefn(compId,symbols,fonts,scripts,resources,opts);})("EDGE-2246004");
-(function($,Edge,compId){var Composition=Edge.Composition,Symbol=Edge.Symbol;Edge.registerEventBinding(compId,function($){
-//Edge symbol: 'stage'
-(function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.stop();imageCountv=1;EC.loadComposition("paginas/00.html",sym.getSymbol("contenido"));});
-//Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",500,function(sym,e){sym.stop();imageCountv=2;EC.loadComposition("paginas/01.html",sym.getSymbol("contenido"));});
-//Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",1000,function(sym,e){sym.stop();imageCountv=3;EC.loadComposition("paginas/02.html",sym.getSymbol("contenido"));});
-//Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",1500,function(sym,e){sym.stop();imageCountv=4;EC.loadComposition("paginas/03.html",sym.getSymbol("contenido"));});
-//Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",2000,function(sym,e){sym.stop();imageCountv=5;EC.loadComposition("paginas/04.html",sym.getSymbol("contenido"));});
-//Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",2500,function(sym,e){sym.stop();imageCountv=6;EC.loadComposition("paginas/05.html",sym.getSymbol("contenido"));});
-//Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",3000,function(sym,e){sym.stop();imageCountv=7;EC.loadComposition("paginas/06.html",sym.getSymbol("contenido"));});
-//Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",3500,function(sym,e){sym.stop();imageCountv=8;EC.loadComposition("paginas/07.html",sym.getSymbol("contenido"));});
-//Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",4000,function(sym,e){sym.stop();imageCountv=9;EC.loadComposition("paginas/08.html",sym.getSymbol("contenido"));});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"document","compositionReady",function(sym,e){sym.$("ventana3").hide();imageCountv=1;sym.showPhoto=function(photoDirection){imageCountv=imageCountv+photoDirection;sym.play('p'+imageCountv);}});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${menuint}","click",function(sym,e){if(sym.getSymbol("menuelectric").isPlaying()){sym.getSymbol("menuelectric").stop();}else{if(sym.getSymbol("menuelectric").isPlayDirectionReverse()){sym.getSymbol("menuelectric").play();}
-else{sym.getSymbol("menuelectric").playReverse();}}});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${ladoder}","click",function(sym,e){sym.getComposition().getStage().showPhoto(1);});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${ladoizq}","click",function(sym,e){sym.getComposition().getStage().showPhoto(-1);});
-//Edge binding end
-})("stage");
-//Edge symbol end:'stage'
+    "use strict";
+    var im='images/',
+        aud='media/',
+        vid='media/',
+        js='js/',
+        fonts = {
+        },
+        opts = {
+            'gAudioPreloadPreference': 'auto',
+            'gVideoPreloadPreference': 'auto'
+        },
+        resources = [
+        ],
+        scripts = [
+            js+"jquery-2.0.3.min.js",
+            "librerias/EdgeCommons.js"
+        ],
+        symbols = {
+            "stage": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "width",
+                centerStage: "horizontal",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            id: 'contenido',
+                            symbolName: 'contenido',
+                            type: 'rect',
+                            rect: ['0', '-5', '1280', '1925', 'auto', 'auto']
+                        },
+                        {
+                            id: 'ladoizq',
+                            display: 'none',
+                            type: 'rect',
+                            rect: ['0px', '-5px', '141px', '1925px', 'auto', 'auto'],
+                            cursor: 'pointer',
+                            opacity: '0',
+                            fill: ["rgba(192,192,192,1)"],
+                            stroke: [0,"rgba(0,0,0,1)","none"]
+                        },
+                        {
+                            id: 'ladoder',
+                            display: 'block',
+                            type: 'rect',
+                            rect: ['1181px', '115px', '99px', '1805px', 'auto', 'auto'],
+                            cursor: 'pointer',
+                            opacity: '0',
+                            fill: ["rgba(192,192,192,1)"],
+                            stroke: [0,"rgba(0,0,0,1)","none"]
+                        },
+                        {
+                            id: 'ventana3',
+                            symbolName: 'ventana_1',
+                            type: 'rect',
+                            rect: ['20px', '7', '1250', '1886', 'auto', 'auto']
+                        },
+                        {
+                            id: 'menuelectric',
+                            symbolName: 'menuelectric',
+                            type: 'rect',
+                            rect: ['1280px', '0px', '500', '1920', 'auto', 'auto']
+                        },
+                        {
+                            id: 'menuint',
+                            type: 'image',
+                            rect: ['821px', '-333px', '800px', '800px', 'auto', 'auto'],
+                            cursor: 'pointer',
+                            fill: ["rgba(0,0,0,0)",im+"menuint.svg",'0px','0px'],
+                            transform: [[],[],[],['0.1','0.1']]
+                        }
+                    ],
+                    style: {
+                        '${Stage}': {
+                            isStage: true,
+                            rect: ['null', 'null', '1280px', '1920px', 'auto', 'auto'],
+                            sizeRange: ['0px','','',''],
+                            overflow: 'hidden',
+                            fill: ["rgba(255,255,255,1)"]
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 4000,
+                    autoPlay: true,
+                    labels: {
+                        "p1": 0,
+                        "p2": 500,
+                        "p3": 1000,
+                        "p4": 1500,
+                        "p5": 2000,
+                        "p6": 2500,
+                        "p7": 3000,
+                        "p8": 3500,
+                        "p9": 4000
+                    },
+                    data: [
+                        [
+                            "eid10",
+                            "display",
+                            500,
+                            0,
+                            "linear",
+                            "${ladoizq}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid11",
+                            "display",
+                            3500,
+                            0,
+                            "linear",
+                            "${ladoder}",
+                            'block',
+                            'none'
+                        ]
+                    ]
+                }
+            },
+            "ventana": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            rect: ['-5566px', '-7992px', '12370px', '17960px', 'auto', 'auto'],
+                            transform: [[], [], [], ['0.1', '0.1']],
+                            id: 'fondomenu',
+                            opacity: '0',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/fondomenu.svg', '0px', '0px']
+                        },
+                        {
+                            rect: ['-5374px', '-3179px', '11983px', '7840px', 'auto', 'auto'],
+                            transform: [[], [], [], ['0.1', '0.1']],
+                            id: 'textoinstrucciones',
+                            opacity: '0',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/textoinstrucciones.svg', '0px', '0px']
+                        },
+                        {
+                            rect: ['75px', '462px', '1100px', '304px', 'auto', 'auto'],
+                            id: 'crewditos2',
+                            opacity: '0',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/crewditos.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['80px', '1700px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy28',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['23px', '1471px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy28',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['894px', '2061px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy27',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['837px', '1832px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy27',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['690px', '2061px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy26',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['633px', '1832px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy26',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['486px', '2061px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy25',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['429px', '1832px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy25',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['279px', '2061px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy24',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['222px', '1832px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy24',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['80px', '2061px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy18',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['23px', '1832px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy18',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['279px', '1700px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy19',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['222px', '1471px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy19',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['485px', '1700px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy20',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['428px', '1471px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy20',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['689px', '1700px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy21',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['632px', '1471px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy21',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['893px', '1700px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy22',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['836px', '1471px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy22',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['1099px', '1700px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy23',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['1041px', '1471px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy23',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['285px', '1353px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy13',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['228px', '1124px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy13',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['485px', '1353px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy14',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['428px', '1124px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy14',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['690px', '1353px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy15',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['633px', '1124px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy15',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['894px', '1353px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy16',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['837px', '1124px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy16',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['1097px', '1353px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy17',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['1040px', '1124px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy17',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['80px', '1353px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy12',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['23px', '1124px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy12',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['894px', '972px', '47px', '86px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy11',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['814px', '815px', '210px', '166px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy11',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['1109px', '1007px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy10',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['1052px', '778px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy10',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['675px', '1007px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy9',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['618px', '778px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy9',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['477px', '1007px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy8',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['420px', '778px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy8',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['280px', '1007px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy7',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['223px', '778px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy7',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['80px', '1007px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy6',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['23px', '778px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy6',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['1109px', '680px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy5',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['1051px', '455px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy5',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['919px', '680px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy4',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['861px', '455px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy4',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['697px', '641px', '47px', '90px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy3',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['616px', '490px', '209px', '166px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy3',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['420px', '455px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy2',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['478px', '680px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy2',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['222px', '455px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRectCopy',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['280px', '680px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2Copy',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['80px', '680px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect2',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['23px', '455px', '163px', '238px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            id: 'RoundRect',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p26',
+                            symbolName: 'p26',
+                            cursor: 'pointer',
+                            rect: ['435px', '1838px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p25',
+                            symbolName: 'p25',
+                            cursor: 'pointer',
+                            rect: ['229px', '1838px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p24',
+                            symbolName: 'p24',
+                            cursor: 'pointer',
+                            rect: ['29px', '1838px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p23',
+                            symbolName: 'p23',
+                            cursor: 'pointer',
+                            rect: ['1047px', '1477px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p22',
+                            symbolName: 'p22',
+                            cursor: 'pointer',
+                            rect: ['843px', '1477px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p21',
+                            symbolName: 'p21',
+                            cursor: 'pointer',
+                            rect: ['639px', '1477px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p20',
+                            symbolName: 'p20',
+                            cursor: 'pointer',
+                            rect: ['435px', '1477px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p19',
+                            symbolName: 'p19',
+                            cursor: 'pointer',
+                            rect: ['229px', '1477px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p18',
+                            symbolName: 'p18',
+                            cursor: 'pointer',
+                            rect: ['29px', '1477px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p17',
+                            symbolName: 'p17',
+                            cursor: 'pointer',
+                            rect: ['1047px', '1132px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p16',
+                            symbolName: 'p16',
+                            cursor: 'pointer',
+                            rect: ['843px', '1132px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p15',
+                            symbolName: 'p15',
+                            cursor: 'pointer',
+                            rect: ['639px', '1132px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p14',
+                            symbolName: 'p14',
+                            cursor: 'pointer',
+                            rect: ['435px', '1132px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p13',
+                            symbolName: 'p13',
+                            cursor: 'pointer',
+                            rect: ['233px', '1132px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p12',
+                            symbolName: 'p12',
+                            cursor: 'pointer',
+                            rect: ['29px', '1132px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p11',
+                            symbolName: 'p11',
+                            cursor: 'pointer',
+                            rect: ['1058px', '784px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p10',
+                            symbolName: 'p10',
+                            cursor: 'pointer',
+                            rect: ['820px', '822px', '195', '150', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p9',
+                            symbolName: 'p9',
+                            cursor: 'pointer',
+                            rect: ['624px', '784px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p8',
+                            symbolName: 'p8',
+                            cursor: 'pointer',
+                            rect: ['427px', '784px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p7',
+                            symbolName: 'p7',
+                            cursor: 'pointer',
+                            rect: ['229px', '784px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p6',
+                            symbolName: 'p6',
+                            cursor: 'pointer',
+                            rect: ['29px', '784px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p5',
+                            symbolName: 'p5',
+                            cursor: 'pointer',
+                            rect: ['1058px', '460px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p4',
+                            symbolName: 'p4',
+                            cursor: 'pointer',
+                            rect: ['867px', '460px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p3',
+                            symbolName: 'p3',
+                            cursor: 'pointer',
+                            rect: ['624px', '498px', '195', '150', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p2',
+                            symbolName: 'p2',
+                            cursor: 'pointer',
+                            rect: ['427px', '460px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p1',
+                            symbolName: 'p1',
+                            cursor: 'pointer',
+                            rect: ['229px', '460px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p0',
+                            symbolName: 'p0',
+                            cursor: 'pointer',
+                            rect: ['29px', '460px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            transform: [[], [], [], ['0.1', '0.1']],
+                            type: 'image',
+                            rect: ['1048px', '-26px', '320px', '320px', 'auto', 'auto'],
+                            id: 'cerrar2',
+                            opacity: '0',
+                            cursor: 'pointer',
+                            fill: ['rgba(0,0,0,0)', 'images/cerrar2.svg', '0px', '0px']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p27',
+                            symbolName: 'p27',
+                            cursor: 'pointer',
+                            rect: ['639px', '1838px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            id: 'p28',
+                            symbolName: 'p28',
+                            cursor: 'pointer',
+                            rect: ['843px', '1838px', '150', '225', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, ''], 'rgba(255,255,255,1.00)', '700', 'none', '', 'break-word', 'nowrap'],
+                            type: 'text',
+                            text: 'cerrar',
+                            id: 'Text',
+                            opacity: '0',
+                            cursor: 'pointer',
+                            rect: ['1116px', '411px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2',
+                            opacity: '0',
+                            text: '0',
+                            rect: ['97px', '701px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy',
+                            opacity: '0',
+                            text: '1',
+                            rect: ['297px', '701px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy2',
+                            opacity: '0',
+                            text: '2',
+                            rect: ['495px', '701px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy3',
+                            opacity: '0',
+                            text: '3',
+                            rect: ['715px', '701px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy4',
+                            opacity: '0',
+                            text: '4',
+                            rect: ['935px', '701px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy5',
+                            opacity: '0',
+                            text: '5',
+                            rect: ['1126px', '701px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy11',
+                            opacity: '0',
+                            text: '6',
+                            rect: ['97px', '1026px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy10',
+                            opacity: '0',
+                            text: '7',
+                            rect: ['297px', '1026px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy9',
+                            opacity: '0',
+                            text: '8',
+                            rect: ['495px', '1026px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy8',
+                            opacity: '0',
+                            text: '9',
+                            rect: ['692px', '1026px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy7',
+                            opacity: '0',
+                            text: '10',
+                            rect: ['905px', '1026px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy6',
+                            opacity: '0',
+                            text: '11',
+                            rect: ['1120px', '1026px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy17',
+                            opacity: '0',
+                            text: '12',
+                            rect: ['91px', '1369px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy16',
+                            opacity: '0',
+                            text: '13',
+                            rect: ['295px', '1369px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy15',
+                            opacity: '0',
+                            text: '14',
+                            rect: ['497px', '1369px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy14',
+                            opacity: '0',
+                            text: '15',
+                            rect: ['701px', '1369px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy13',
+                            opacity: '0',
+                            text: '16',
+                            rect: ['905px', '1369px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy12',
+                            opacity: '0',
+                            text: '17',
+                            rect: ['1109px', '1369px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy23',
+                            opacity: '0',
+                            text: '18',
+                            rect: ['91px', '1716px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy22',
+                            opacity: '0',
+                            text: '19',
+                            rect: ['290px', '1716px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy21',
+                            opacity: '0',
+                            text: '20',
+                            rect: ['496px', '1716px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy20',
+                            opacity: '0',
+                            text: '21',
+                            rect: ['701px', '1716px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy19',
+                            opacity: '0',
+                            text: '22',
+                            rect: ['905px', '1716px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy28',
+                            opacity: '0',
+                            text: '24',
+                            rect: ['90px', '2082px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy27',
+                            opacity: '0',
+                            text: '25',
+                            rect: ['291px', '2082px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy26',
+                            opacity: '0',
+                            text: '26',
+                            rect: ['495px', '2082px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy25',
+                            opacity: '0',
+                            text: '27',
+                            rect: ['701px', '2082px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy24',
+                            opacity: '0',
+                            text: '28',
+                            rect: ['905px', '2082px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            align: 'center',
+                            id: 'Text2Copy18',
+                            opacity: '0',
+                            text: '23',
+                            rect: ['1109px', '1716px', 'auto', 'auto', 'auto', 'auto']
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            rect: [null, null, '1250px', '1886px']
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 2250,
+                    autoPlay: false,
+                    labels: {
+                        "paginas": 0,
+                        "instrucciones": 750,
+                        "creditos": 1500
+                    },
+                    data: [
+                        [
+                            "eid591",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy13}",
+                            '1369px',
+                            '1077px'
+                        ],
+                        [
+                            "eid264",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy11}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid557",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy11}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid121",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p16}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid541",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p16}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid322",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy20}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid463",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy20}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid757",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy8}",
+                            '1026px',
+                            '734px'
+                        ],
+                        [
+                            "eid789",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p3}",
+                            '498px',
+                            '206px'
+                        ],
+                        [
+                            "eid661",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p9}",
+                            '784px',
+                            '492px'
+                        ],
+                        [
+                            "eid344",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid530",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid595",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy7}",
+                            '1026px',
+                            '734px'
+                        ],
+                        [
+                            "eid310",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid476",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy2}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid709",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy25}",
+                            '2082px',
+                            '1790px'
+                        ],
+                        [
+                            "eid689",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy2}",
+                            '455px',
+                            '163px'
+                        ],
+                        [
+                            "eid153",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p20}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid486",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p20}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid204",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy17}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid518",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy17}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid216",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy8}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid562",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy8}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid234",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy10}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid472",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy10}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid677",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy18}",
+                            '1832px',
+                            '1540px'
+                        ],
+                        [
+                            "eid735",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy10}",
+                            '778px',
+                            '486px'
+                        ],
+                        [
+                            "eid673",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy2}",
+                            '701px',
+                            '409px'
+                        ],
+                        [
+                            "eid167",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p6}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid509",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p6}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid779",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p17}",
+                            '1132px',
+                            '840px'
+                        ],
+                        [
+                            "eid605",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy22}",
+                            '1471px',
+                            '1179px'
+                        ],
+                        [
+                            "eid302",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid543",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid316",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy4}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid532",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy4}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid809",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy12}",
+                            '1369px',
+                            '1077px'
+                        ],
+                        [
+                            "eid609",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p25}",
+                            '1838px',
+                            '1546px'
+                        ],
+                        [
+                            "eid129",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p28}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid500",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p28}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid244",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy17}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid467",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy17}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid619",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy2}",
+                            '680px',
+                            '388px'
+                        ],
+                        [
+                            "eid597",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p1}",
+                            '460px',
+                            '168px'
+                        ],
+                        [
+                            "eid729",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p21}",
+                            '1477px',
+                            '1185px'
+                        ],
+                        [
+                            "eid326",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid505",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid348",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid773",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy3}",
+                            '641px',
+                            '349px'
+                        ],
+                        [
+                            "eid141",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p22}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid471",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p22}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid127",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p19}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid546",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p19}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid691",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p18}",
+                            '1477px',
+                            '1185px'
+                        ],
+                        [
+                            "eid659",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy24}",
+                            '2061px',
+                            '1769px'
+                        ],
+                        [
+                            "eid266",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy12}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid560",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy12}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid621",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy20}",
+                            '1716px',
+                            '1424px'
+                        ],
+                        [
+                            "eid332",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy4}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid551",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy4}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid222",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy5}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid474",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy5}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid208",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy21}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid482",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy21}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid286",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy21}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid556",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy21}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid787",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy6}",
+                            '1026px',
+                            '734px'
+                        ],
+                        [
+                            "eid593",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy4}",
+                            '455px',
+                            '163px'
+                        ],
+                        [
+                            "eid637",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p27}",
+                            '1838px',
+                            '1546px'
+                        ],
+                        [
+                            "eid797",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy5}",
+                            '701px',
+                            '409px'
+                        ],
+                        [
+                            "eid358",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy17}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid507",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy17}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid719",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy}",
+                            '701px',
+                            '409px'
+                        ],
+                        [
+                            "eid360",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy18}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid453",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy18}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid147",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p1}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid501",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p1}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid232",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy27}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid470",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy27}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid603",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p14}",
+                            '1132px',
+                            '840px'
+                        ],
+                        [
+                            "eid113",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p11}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid459",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p11}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid645",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy6}",
+                            '1007px',
+                            '715px'
+                        ],
+                        [
+                            "eid631",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy}",
+                            '455px',
+                            '163px'
+                        ],
+                        [
+                            "eid805",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy23}",
+                            '1700px',
+                            '1408px'
+                        ],
+                        [
+                            "eid224",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy16}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid527",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy16}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid713",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy15}",
+                            '1369px',
+                            '1077px'
+                        ],
+                        [
+                            "eid643",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy6}",
+                            '778px',
+                            '486px'
+                        ],
+                        [
+                            "eid284",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid478",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy2}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid803",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy17}",
+                            '1353px',
+                            '1061px'
+                        ],
+                        [
+                            "eid697",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy8}",
+                            '778px',
+                            '486px'
+                        ],
+                        [
+                            "eid250",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy19}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid506",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy19}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid763",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy26}",
+                            '2061px',
+                            '1769px'
+                        ],
+                        [
+                            "eid368",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy15}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid537",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy15}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid346",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy13}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid525",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy13}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid372",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy11}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid491",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy11}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid362",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy16}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid458",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy16}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid226",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy28}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid483",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy28}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid771",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p2}",
+                            '460px',
+                            '168px'
+                        ],
+                        [
+                            "eid671",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy18}",
+                            '2061px',
+                            '1769px'
+                        ],
+                        [
+                            "eid296",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy16}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid511",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy16}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid240",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy26}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid542",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy26}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid290",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy10}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid528",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy10}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid705",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy11}",
+                            '972px',
+                            '680px'
+                        ],
+                        [
+                            "eid276",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy18}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid462",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy18}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid288",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy15}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid455",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy15}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid370",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy28}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid553",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy28}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid653",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p23}",
+                            '1477px',
+                            '1185px'
+                        ],
+                        [
+                            "eid727",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy16}",
+                            '1124px',
+                            '832px'
+                        ],
+                        [
+                            "eid366",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy26}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid555",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy26}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid741",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p13}",
+                            '1132px',
+                            '840px'
+                        ],
+                        [
+                            "eid292",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy9}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid524",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy9}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid248",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy25}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid548",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy25}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid169",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p13}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid540",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p13}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid733",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy}",
+                            '680px',
+                            '388px'
+                        ],
+                        [
+                            "eid717",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy14}",
+                            '1353px',
+                            '1061px'
+                        ],
+                        [
+                            "eid280",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy7}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid516",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy7}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid155",
+                            "opacity",
+                            0,
+                            500,
+                            "linear",
+                            "${cerrar2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid336",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy21}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid566",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy21}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid739",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy18}",
+                            '1716px',
+                            '1424px'
+                        ],
+                        [
+                            "eid149",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p14}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid488",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p14}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid759",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy3}",
+                            '701px',
+                            '409px'
+                        ],
+                        [
+                            "eid254",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy4}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid534",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy4}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid801",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p6}",
+                            '784px',
+                            '492px'
+                        ],
+                        [
+                            "eid300",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy7}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid526",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy7}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid338",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy3}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid565",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy3}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid125",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p27}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid559",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p27}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid767",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p19}",
+                            '1477px',
+                            '1185px'
+                        ],
+                        [
+                            "eid308",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy27}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid468",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy27}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid579",
+                            "opacity",
+                            750,
+                            500,
+                            "easeOutElastic",
+                            "${textoinstrucciones}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid582",
+                            "opacity",
+                            1250,
+                            250,
+                            "easeOutElastic",
+                            "${textoinstrucciones}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid813",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p7}",
+                            '784px',
+                            '492px'
+                        ],
+                        [
+                            "eid613",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p12}",
+                            '1132px',
+                            '840px'
+                        ],
+                        [
+                            "eid228",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy15}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid515",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy15}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid701",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p26}",
+                            '1838px',
+                            '1546px'
+                        ],
+                        [
+                            "eid615",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy21}",
+                            '1471px',
+                            '1179px'
+                        ],
+                        [
+                            "eid667",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p0}",
+                            '460px',
+                            '168px'
+                        ],
+                        [
+                            "eid374",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid469",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy2}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid793",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy19}",
+                            '1716px',
+                            '1424px'
+                        ],
+                        [
+                            "eid210",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy6}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid457",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy6}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid340",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy10}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid487",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy10}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid328",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy14}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid522",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy14}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid769",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy24}",
+                            '1832px',
+                            '1540px'
+                        ],
+                        [
+                            "eid629",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy28}",
+                            '1471px',
+                            '1179px'
+                        ],
+                        [
+                            "eid304",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy12}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid492",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy12}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid312",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy20}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid538",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy20}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid306",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy3}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid536",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy3}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid585",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy21}",
+                            '1716px',
+                            '1424px'
+                        ],
+                        [
+                            "eid581",
+                            "top",
+                            750,
+                            500,
+                            "easeOutElastic",
+                            "${textoinstrucciones}",
+                            '-3179px',
+                            '-3360px'
+                        ],
+                        [
+                            "eid587",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy22}",
+                            '1716px',
+                            '1424px'
+                        ],
+                        [
+                            "eid230",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy11}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid513",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy11}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid755",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy26}",
+                            '2082px',
+                            '1790px'
+                        ],
+                        [
+                            "eid589",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy16}",
+                            '1369px',
+                            '1077px'
+                        ],
+                        [
+                            "eid236",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy28}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid531",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy28}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid268",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy13}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid494",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy13}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid137",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p7}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid567",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p7}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid791",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy24}",
+                            '2082px',
+                            '1790px'
+                        ],
+                        [
+                            "eid781",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy23}",
+                            '1716px',
+                            '1424px'
+                        ],
+                        [
+                            "eid577",
+                            "top",
+                            1500,
+                            500,
+                            "easeOutElastic",
+                            "${crewditos2}",
+                            '462px',
+                            '158px'
+                        ],
+                        [
+                            "eid687",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy11}",
+                            '1026px',
+                            '734px'
+                        ],
+                        [
+                            "eid242",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy19}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid484",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy19}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid117",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid497",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p2}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid811",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p15}",
+                            '1132px',
+                            '840px'
+                        ],
+                        [
+                            "eid212",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid498",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid777",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy3}",
+                            '490px',
+                            '198px'
+                        ],
+                        [
+                            "eid683",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p20}",
+                            '1477px',
+                            '1185px'
+                        ],
+                        [
+                            "eid246",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy22}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid499",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy22}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid282",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy14}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid550",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy14}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid641",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy7}",
+                            '1007px',
+                            '715px'
+                        ],
+                        [
+                            "eid743",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy9}",
+                            '778px',
+                            '486px'
+                        ],
+                        [
+                            "eid625",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy28}",
+                            '1700px',
+                            '1408px'
+                        ],
+                        [
+                            "eid737",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy10}",
+                            '1007px',
+                            '715px'
+                        ],
+                        [
+                            "eid252",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy20}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid493",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy20}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid749",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy7}",
+                            '778px',
+                            '486px'
+                        ],
+                        [
+                            "eid795",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p24}",
+                            '1838px',
+                            '1546px'
+                        ],
+                        [
+                            "eid294",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy25}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid477",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy25}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid206",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid547",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid699",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy22}",
+                            '1700px',
+                            '1408px'
+                        ],
+                        [
+                            "eid633",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy8}",
+                            '1007px',
+                            '715px'
+                        ],
+                        [
+                            "eid202",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy13}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid508",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy13}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid364",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy7}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid535",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy7}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid639",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy5}",
+                            '680px',
+                            '388px'
+                        ],
+                        [
+                            "eid570",
+                            "opacity",
+                            1500,
+                            500,
+                            "easeOutElastic",
+                            "${crewditos2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid583",
+                            "opacity",
+                            2000,
+                            250,
+                            "easeOutElastic",
+                            "${crewditos2}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid657",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy19}",
+                            '1700px',
+                            '1408px'
+                        ],
+                        [
+                            "eid298",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy18}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid461",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy18}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid655",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy11}",
+                            '815px',
+                            '523px'
+                        ],
+                        [
+                            "eid663",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy5}",
+                            '455px',
+                            '163px'
+                        ],
+                        [
+                            "eid272",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy24}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid539",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy24}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid262",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy24}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid480",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy24}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid669",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy20}",
+                            '1471px',
+                            '1179px'
+                        ],
+                        [
+                            "eid119",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p24}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid558",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p24}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid256",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy22}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid496",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy22}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid723",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2}",
+                            '701px',
+                            '409px'
+                        ],
+                        [
+                            "eid165",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p3}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid554",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p3}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid342",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy22}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid481",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy22}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid139",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p18}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid563",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p18}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid627",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy27}",
+                            '2082px',
+                            '1790px'
+                        ],
+                        [
+                            "eid330",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy12}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid465",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy12}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid611",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy17}",
+                            '1369px',
+                            '1077px'
+                        ],
+                        [
+                            "eid649",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy25}",
+                            '2061px',
+                            '1769px'
+                        ],
+                        [
+                            "eid731",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy12}",
+                            '1353px',
+                            '1061px'
+                        ],
+                        [
+                            "eid354",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy8}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid514",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy8}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid218",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy3}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid475",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy3}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid352",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy6}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid544",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy6}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid775",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy9}",
+                            '1026px',
+                            '734px'
+                        ],
+                        [
+                            "eid665",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy13}",
+                            '1353px',
+                            '1061px'
+                        ],
+                        [
+                            "eid753",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy10}",
+                            '1026px',
+                            '734px'
+                        ],
+                        [
+                            "eid258",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy23}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid503",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy23}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid214",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy8}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid460",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy8}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid159",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p10}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid454",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p10}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid607",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy15}",
+                            '1124px',
+                            '832px'
+                        ],
+                        [
+                            "eid143",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p0}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid485",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p0}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid133",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p9}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid549",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p9}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid320",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy25}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid479",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy25}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid314",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid502",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid173",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p5}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid552",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p5}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid685",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy20}",
+                            '1700px',
+                            '1408px'
+                        ],
+                        [
+                            "eid711",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy13}",
+                            '1124px',
+                            '832px'
+                        ],
+                        [
+                            "eid651",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy25}",
+                            '1832px',
+                            '1540px'
+                        ],
+                        [
+                            "eid220",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy6}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid521",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy6}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid617",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy14}",
+                            '1124px',
+                            '832px'
+                        ],
+                        [
+                            "eid635",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2}",
+                            '680px',
+                            '388px'
+                        ],
+                        [
+                            "eid785",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect}",
+                            '455px',
+                            '163px'
+                        ],
+                        [
+                            "eid163",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p15}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid473",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p15}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid123",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p4}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid568",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p4}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid135",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p12}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid545",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p12}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid318",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy24}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid490",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy24}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid751",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy14}",
+                            '1369px',
+                            '1077px'
+                        ],
+                        [
+                            "eid747",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p10}",
+                            '822px',
+                            '530px'
+                        ],
+                        [
+                            "eid161",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p26}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid495",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p26}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid274",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy9}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid489",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy9}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid131",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p21}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid561",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p21}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid745",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy27}",
+                            '1832px',
+                            '1540px'
+                        ],
+                        [
+                            "eid151",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p8}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid529",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p8}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid575",
+                            "left",
+                            1500,
+                            500,
+                            "easeOutElastic",
+                            "${crewditos2}",
+                            '75px',
+                            '77px'
+                        ],
+                        [
+                            "eid765",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy26}",
+                            '1832px',
+                            '1540px'
+                        ],
+                        [
+                            "eid647",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy27}",
+                            '2061px',
+                            '1769px'
+                        ],
+                        [
+                            "eid715",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy17}",
+                            '1124px',
+                            '832px'
+                        ],
+                        [
+                            "eid695",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy4}",
+                            '701px',
+                            '409px'
+                        ],
+                        [
+                            "eid783",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy12}",
+                            '1124px',
+                            '832px'
+                        ],
+                        [
+                            "eid376",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy19}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid464",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy19}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid356",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy27}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid523",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy27}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid815",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy9}",
+                            '1007px',
+                            '715px'
+                        ],
+                        [
+                            "eid807",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p8}",
+                            '784px',
+                            '492px'
+                        ],
+                        [
+                            "eid238",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy26}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid519",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy26}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid703",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p28}",
+                            '1838px',
+                            '1546px'
+                        ],
+                        [
+                            "eid324",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy9}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid564",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy9}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid350",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy23}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid520",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy23}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid817",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p4}",
+                            '460px',
+                            '168px'
+                        ],
+                        [
+                            "eid721",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy15}",
+                            '1353px',
+                            '1061px'
+                        ],
+                        [
+                            "eid601",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p5}",
+                            '460px',
+                            '168px'
+                        ],
+                        [
+                            "eid115",
+                            "opacity",
+                            0,
+                            500,
+                            "linear",
+                            "${fondomenu}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid171",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p25}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid533",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p25}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid157",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p23}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid510",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p23}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid799",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p22}",
+                            '1477px',
+                            '1185px'
+                        ],
+                        [
+                            "eid725",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy16}",
+                            '1353px',
+                            '1061px'
+                        ],
+                        [
+                            "eid693",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy21}",
+                            '1700px',
+                            '1408px'
+                        ],
+                        [
+                            "eid599",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy4}",
+                            '680px',
+                            '388px'
+                        ],
+                        [
+                            "eid623",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text}",
+                            '411px',
+                            '119px'
+                        ],
+                        [
+                            "eid707",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy23}",
+                            '1471px',
+                            '1179px'
+                        ],
+                        [
+                            "eid681",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy28}",
+                            '2082px',
+                            '1790px'
+                        ],
+                        [
+                            "eid278",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy23}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid517",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy23}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid334",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy5}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid456",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy5}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid260",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy5}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid466",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy5}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid761",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p11}",
+                            '784px',
+                            '492px'
+                        ],
+                        [
+                            "eid679",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy19}",
+                            '1471px',
+                            '1179px'
+                        ],
+                        [
+                            "eid145",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p17}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid504",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p17}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid270",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy14}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid512",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy14}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid675",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p16}",
+                            '1132px',
+                            '840px'
+                        ]
+                    ]
+                }
+            },
+            "ventana_1": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            transform: [[], [], [], ['0.1', '0.1']],
+                            rect: ['-5566px', '-7992px', '12370px', '17960px', 'auto', 'auto'],
+                            id: 'fondomenu',
+                            opacity: '0',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/fondomenu2.svg', '0px', '0px']
+                        },
+                        {
+                            rect: ['887px', '635px', '218px', '315px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            opacity: '0',
+                            id: 'RoundRectCopy8',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['972px', '937px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            opacity: '0',
+                            id: 'RoundRect2Copy8',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            text: '9',
+                            id: 'Text2Copy8',
+                            opacity: '0',
+                            align: 'center',
+                            rect: ['989px', '958px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            rect: ['636px', '635px', '218px', '315px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            opacity: '0',
+                            id: 'RoundRectCopy7',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['721px', '937px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            opacity: '0',
+                            id: 'RoundRect2Copy7',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            text: '8',
+                            id: 'Text2Copy7',
+                            opacity: '0',
+                            align: 'center',
+                            rect: ['738px', '958px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            rect: ['390px', '635px', '218px', '315px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            opacity: '0',
+                            id: 'RoundRectCopy6',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['475px', '937px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            opacity: '0',
+                            id: 'RoundRect2Copy6',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            text: '7',
+                            id: 'Text2Copy6',
+                            opacity: '0',
+                            align: 'center',
+                            rect: ['492px', '958px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            rect: ['138px', '635px', '218px', '315px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            opacity: '0',
+                            id: 'RoundRectCopy5',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['223px', '937px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            opacity: '0',
+                            id: 'RoundRect2Copy5',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            text: '6',
+                            id: 'Text2Copy5',
+                            opacity: '0',
+                            align: 'center',
+                            rect: ['240px', '958px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            rect: ['1004px', '199px', '218px', '315px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            opacity: '0',
+                            id: 'RoundRectCopy4',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['1089px', '501px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            opacity: '0',
+                            id: 'RoundRect2Copy4',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            text: '5',
+                            id: 'Text2Copy4',
+                            opacity: '0',
+                            align: 'center',
+                            rect: ['1106px', '522px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            rect: ['759px', '199px', '218px', '315px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            opacity: '0',
+                            id: 'RoundRectCopy3',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['844px', '501px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            opacity: '0',
+                            id: 'RoundRect2Copy3',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            text: '4',
+                            id: 'Text2Copy3',
+                            opacity: '0',
+                            align: 'center',
+                            rect: ['861px', '522px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            rect: ['508px', '199px', '218px', '315px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            opacity: '0',
+                            id: 'RoundRectCopy2',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['593px', '501px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            opacity: '0',
+                            id: 'RoundRect2Copy2',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            rect: ['260px', '199px', '218px', '315px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            opacity: '0',
+                            id: 'RoundRect',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['345px', '501px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            opacity: '0',
+                            id: 'RoundRect2',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            text: '2',
+                            id: 'Text2',
+                            opacity: '0',
+                            align: 'center',
+                            rect: ['362px', '522px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            text: '3',
+                            id: 'Text2Copy2',
+                            opacity: '0',
+                            align: 'center',
+                            rect: ['610px', '522px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            transform: [[], [], [], ['0.1', '0.1']],
+                            rect: ['-5372px', '-3179px', '11983px', '7840px', 'auto', 'auto'],
+                            id: 'textoinstrucciones',
+                            opacity: '0',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/textoinstrucciones2.svg', '0px', '0px']
+                        },
+                        {
+                            type: 'image',
+                            id: 'crewditos2',
+                            opacity: '0',
+                            rect: ['66px', '462px', '1100px', '304px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/crewditos2.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['14px', '199px', '218px', '315px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            opacity: '0',
+                            id: 'RoundRectCopy',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1.00)']
+                        },
+                        {
+                            rect: ['99px', '501px', '47px', '51px', 'auto', 'auto'],
+                            borderRadius: ['10px', '10px', '10px', '10px'],
+                            opacity: '0',
+                            id: 'RoundRect2Copy',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,1)']
+                        },
+                        {
+                            transform: [[], [], [], ['0.1', '0.1']],
+                            type: 'image',
+                            rect: ['1048px', '-26px', '320px', '320px', 'auto', 'auto'],
+                            id: 'cerrar2',
+                            opacity: '0',
+                            cursor: 'pointer',
+                            fill: ['rgba(0,0,0,0)', 'images/cerrar22.svg', '0px', '0px']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, ''], 'rgba(255,255,255,1.00)', '700', 'none', '', 'break-word', 'nowrap'],
+                            type: 'text',
+                            opacity: '0',
+                            id: 'Text',
+                            text: 'close',
+                            cursor: 'pointer',
+                            rect: ['1116px', '411px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
+                            type: 'text',
+                            text: '1',
+                            id: 'Text2Copy',
+                            opacity: '0',
+                            align: 'center',
+                            rect: ['116px', '522px', 'auto', 'auto', 'auto', 'auto']
+                        },
+                        {
+                            type: 'image',
+                            id: 'ELECTRIC_BOOGALOO_No1_COMIXOLOGY9',
+                            opacity: '0',
+                            rect: ['895px', '642px', '200px', '300px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/ELECTRIC_BOOGALOO_No1_COMIXOLOGY9.jpg', '0px', '0px']
+                        },
+                        {
+                            type: 'image',
+                            id: 'ELECTRIC_BOOGALOO_No1_COMIXOLOGY8',
+                            opacity: '0',
+                            rect: ['645px', '642px', '200px', '300px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/ELECTRIC_BOOGALOO_No1_COMIXOLOGY8.jpg', '0px', '0px']
+                        },
+                        {
+                            type: 'image',
+                            id: 'ELECTRIC_BOOGALOO_No1_COMIXOLOGY7',
+                            opacity: '0',
+                            rect: ['397px', '642px', '200px', '300px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/ELECTRIC_BOOGALOO_No1_COMIXOLOGY7.jpg', '0px', '0px']
+                        },
+                        {
+                            type: 'image',
+                            id: 'ELECTRIC_BOOGALOO_No1_COMIXOLOGY6',
+                            opacity: '0',
+                            rect: ['147px', '642px', '200px', '300px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/ELECTRIC_BOOGALOO_No1_COMIXOLOGY6.jpg', '0px', '0px']
+                        },
+                        {
+                            type: 'image',
+                            id: 'ELECTRIC_BOOGALOO_No1_COMIXOLOGY5',
+                            opacity: '0',
+                            rect: ['1013px', '207px', '200px', '300px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/ELECTRIC_BOOGALOO_No1_COMIXOLOGY5.jpg', '0px', '0px']
+                        },
+                        {
+                            type: 'image',
+                            id: 'ELECTRIC_BOOGALOO_No1_COMIXOLOGY4',
+                            opacity: '0',
+                            rect: ['767px', '207px', '200px', '300px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/ELECTRIC_BOOGALOO_No1_COMIXOLOGY4.jpg', '0px', '0px']
+                        },
+                        {
+                            type: 'image',
+                            id: 'ELECTRIC_BOOGALOO_No1_COMIXOLOGY3',
+                            opacity: '0',
+                            rect: ['517px', '207px', '200px', '300px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/ELECTRIC_BOOGALOO_No1_COMIXOLOGY3.jpg', '0px', '0px']
+                        },
+                        {
+                            type: 'image',
+                            id: 'ELECTRIC_BOOGALOO_No1_COMIXOLOGY2',
+                            opacity: '0',
+                            rect: ['269px', '207px', '200px', '300px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/ELECTRIC_BOOGALOO_No1_COMIXOLOGY2.jpg', '0px', '0px']
+                        },
+                        {
+                            type: 'image',
+                            id: 'ELECTRIC_BOOGALOO_No1_COMIXOLOGY',
+                            opacity: '0',
+                            rect: ['23px', '207px', '200px', '300px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/ELECTRIC_BOOGALOO_No1_COMIXOLOGY.jpg', '0px', '0px']
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            rect: [null, null, '1250px', '1886px']
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 2250,
+                    autoPlay: false,
+                    labels: {
+                        "paginas": 170,
+                        "instrucciones": 750,
+                        "creditos": 1500
+                    },
+                    data: [
+                        [
+                            "eid116",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutCubic",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY9}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid128",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutCubic",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY9}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid95",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy8}",
+                            '680px',
+                            '937px'
+                        ],
+                        [
+                            "eid581",
+                            "top",
+                            750,
+                            500,
+                            "easeOutElastic",
+                            "${textoinstrucciones}",
+                            '-3179px',
+                            '-3360px'
+                        ],
+                        [
+                            "eid575",
+                            "left",
+                            1500,
+                            500,
+                            "easeOutElastic",
+                            "${crewditos2}",
+                            '87px',
+                            '66px'
+                        ],
+                        [
+                            "eid30",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid31",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid83",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy7}",
+                            '701px',
+                            '958px'
+                        ],
+                        [
+                            "eid45",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid46",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy2}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid48",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy3}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid49",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy3}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid44",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy2}",
+                            '455px',
+                            '199px'
+                        ],
+                        [
+                            "eid124",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutCubic",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY4}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid138",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutCubic",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY4}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid106",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutCubic",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid130",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutCubic",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY2}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid86",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy7}",
+                            '680px',
+                            '937px'
+                        ],
+                        [
+                            "eid89",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy7}",
+                            '455px',
+                            '635px'
+                        ],
+                        [
+                            "eid38",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy2}",
+                            '701px',
+                            '522px'
+                        ],
+                        [
+                            "eid36",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid37",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid60",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy4}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid61",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy4}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid84",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy7}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid85",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy7}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid68",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy5}",
+                            '680px',
+                            '937px'
+                        ],
+                        [
+                            "eid570",
+                            "opacity",
+                            1500,
+                            500,
+                            "easeOutElastic",
+                            "${crewditos2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid583",
+                            "opacity",
+                            2000,
+                            250,
+                            "easeOutElastic",
+                            "${crewditos2}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid41",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy2}",
+                            '680px',
+                            '501px'
+                        ],
+                        [
+                            "eid110",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutCubic",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY3}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid134",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutCubic",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY3}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid326",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid505",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid348",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid50",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy3}",
+                            '680px',
+                            '501px'
+                        ],
+                        [
+                            "eid57",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy4}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid58",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy4}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid72",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy5}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid73",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy5}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid29",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2}",
+                            '701px',
+                            '522px'
+                        ],
+                        [
+                            "eid62",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy4}",
+                            '455px',
+                            '199px'
+                        ],
+                        [
+                            "eid51",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy3}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid52",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy3}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid65",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy5}",
+                            '701px',
+                            '958px'
+                        ],
+                        [
+                            "eid104",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutCubic",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY6}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid142",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutCubic",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY6}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid96",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy8}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid97",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy8}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid77",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy6}",
+                            '680px',
+                            '937px'
+                        ],
+                        [
+                            "eid314",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid502",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid71",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy5}",
+                            '455px',
+                            '635px'
+                        ],
+                        [
+                            "eid42",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid43",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy2}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid98",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy8}",
+                            '455px',
+                            '635px'
+                        ],
+                        [
+                            "eid32",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2}",
+                            '680px',
+                            '501px'
+                        ],
+                        [
+                            "eid35",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect}",
+                            '455px',
+                            '199px'
+                        ],
+                        [
+                            "eid54",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy3}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid55",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy3}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid302",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid543",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid108",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutCubic",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY5}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid132",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutCubic",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY5}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid56",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy4}",
+                            '701px',
+                            '522px'
+                        ],
+                        [
+                            "eid75",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy6}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid76",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy6}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid99",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy8}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid100",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy8}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid53",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy3}",
+                            '455px',
+                            '199px'
+                        ],
+                        [
+                            "eid733",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy}",
+                            '680px',
+                            '501px'
+                        ],
+                        [
+                            "eid155",
+                            "opacity",
+                            0,
+                            500,
+                            "linear",
+                            "${cerrar2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid90",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy7}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid91",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy7}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid81",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy6}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid82",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy6}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid115",
+                            "opacity",
+                            0,
+                            500,
+                            "linear",
+                            "${fondomenu}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid112",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutCubic",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid136",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutCubic",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid579",
+                            "opacity",
+                            750,
+                            500,
+                            "easeOutElastic",
+                            "${textoinstrucciones}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid582",
+                            "opacity",
+                            1250,
+                            250,
+                            "easeOutElastic",
+                            "${textoinstrucciones}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid47",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy3}",
+                            '701px',
+                            '522px'
+                        ],
+                        [
+                            "eid63",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy4}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid64",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy4}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid59",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy4}",
+                            '680px',
+                            '501px'
+                        ],
+                        [
+                            "eid87",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy7}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid88",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy7}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid39",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid40",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy2}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid631",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy}",
+                            '455px',
+                            '199px'
+                        ],
+                        [
+                            "eid577",
+                            "top",
+                            1500,
+                            500,
+                            "easeOutElastic",
+                            "${crewditos2}",
+                            '462px',
+                            '158px'
+                        ],
+                        [
+                            "eid80",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy6}",
+                            '455px',
+                            '635px'
+                        ],
+                        [
+                            "eid623",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text}",
+                            '411px',
+                            '119px'
+                        ],
+                        [
+                            "eid719",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy}",
+                            '701px',
+                            '522px'
+                        ],
+                        [
+                            "eid102",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutCubic",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY7}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid126",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutCubic",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY7}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid74",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy6}",
+                            '701px',
+                            '958px'
+                        ],
+                        [
+                            "eid66",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy5}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid67",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy5}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid69",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy5}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid70",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy5}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid92",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy8}",
+                            '701px',
+                            '958px'
+                        ],
+                        [
+                            "eid120",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutCubic",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY8}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid140",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutCubic",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY8}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid33",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid34",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid78",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy6}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid79",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy6}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid93",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy8}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid94",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy8}",
+                            '1',
+                            '0'
+                        ]
+                    ]
+                }
+            },
+            "contenido": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            type: 'rect',
+                            id: 'content',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            rect: ['0px', '0px', '1280px', '1925px', 'auto', 'auto'],
+                            fill: ['rgba(255,255,255,0.00)']
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            rect: [null, null, '1280px', '1925px']
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 0,
+                    autoPlay: true,
+                    data: [
 
-//=========================================================
+                    ]
+                }
+            },
+            "menuelectric": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            rect: ['0px', '0px', '500px', '1920px', 'auto', 'auto'],
+                            id: 'menufondoCopy',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/menufondo.jpg', '0px', '0px']
+                        },
+                        {
+                            rect: ['0px', '254px', '500px', '174px', 'auto', 'auto'],
+                            id: 'neonmenu_02Copy',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/neonmenu_02.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['0px', '353px', '500px', '174px', 'auto', 'auto'],
+                            id: 'neonmenu_04Copy',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/neonmenu_04.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['0px', '452px', '500px', '174px', 'auto', 'auto'],
+                            id: 'neonmenu_06Copy',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/neonmenu_06.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['0px', '551px', '500px', '174px', 'auto', 'auto'],
+                            id: 'neonmenu_08Copy',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/neonmenu_08.png', '0px', '0px']
+                        },
+                        {
+                            transform: [[], [], [], ['0.1', '0.1']],
+                            id: 'socialbtnCopy',
+                            type: 'image',
+                            rect: ['-912px', '433px', '2320px', '650px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/socialbtn.svg', '0px', '0px']
+                        },
+                        {
+                            type: 'rect',
+                            id: 'RectangleCopy14',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            rect: ['0px', '396px', '500px', '80px', 'auto', 'auto'],
+                            fill: ['rgba(192,192,192,0.00)']
+                        },
+                        {
+                            type: 'rect',
+                            id: 'RectangleCopy13',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            rect: ['0px', '499px', '500px', '80px', 'auto', 'auto'],
+                            fill: ['rgba(192,192,192,0.00)']
+                        },
+                        {
+                            type: 'rect',
+                            id: 'RectangleCopy11',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            rect: ['112px', '718px', '70px', '80px', 'auto', 'auto'],
+                            fill: ['rgba(192,192,192,0.00)']
+                        },
+                        {
+                            type: 'rect',
+                            id: 'RectangleCopy10',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            rect: ['215px', '718px', '70px', '80px', 'auto', 'auto'],
+                            fill: ['rgba(192,192,192,0.00)']
+                        },
+                        {
+                            type: 'rect',
+                            id: 'RectangleCopy9',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            rect: ['305px', '718px', '70px', '80px', 'auto', 'auto'],
+                            fill: ['rgba(192,192,192,0.00)']
+                        },
+                        {
+                            type: 'rect',
+                            id: 'RectangleCopy8',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            rect: ['0px', '603px', '500px', '80px', 'auto', 'auto'],
+                            fill: ['rgba(192,192,192,0.00)']
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            rect: [null, null, '500px', '1920px']
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 1000,
+                    autoPlay: false,
+                    data: [
+                        [
+                            "eid14",
+                            "left",
+                            0,
+                            1000,
+                            "easeOutCirc",
+                            "${menufondoCopy}",
+                            '0px',
+                            '-500px'
+                        ],
+                        [
+                            "eid26",
+                            "left",
+                            0,
+                            1000,
+                            "easeOutCirc",
+                            "${RectangleCopy14}",
+                            '0px',
+                            '-500px'
+                        ],
+                        [
+                            "eid19",
+                            "left",
+                            0,
+                            1000,
+                            "easeOutCirc",
+                            "${neonmenu_08Copy}",
+                            '0px',
+                            '-500px'
+                        ],
+                        [
+                            "eid16",
+                            "left",
+                            0,
+                            1000,
+                            "easeOutCirc",
+                            "${RectangleCopy13}",
+                            '0px',
+                            '-500px'
+                        ],
+                        [
+                            "eid17",
+                            "left",
+                            0,
+                            1000,
+                            "easeOutCirc",
+                            "${RectangleCopy10}",
+                            '215px',
+                            '-285px'
+                        ],
+                        [
+                            "eid20",
+                            "left",
+                            0,
+                            1000,
+                            "easeOutCirc",
+                            "${socialbtnCopy}",
+                            '-912px',
+                            '-1410px'
+                        ],
+                        [
+                            "eid24",
+                            "left",
+                            0,
+                            1000,
+                            "easeOutCirc",
+                            "${RectangleCopy9}",
+                            '305px',
+                            '-195px'
+                        ],
+                        [
+                            "eid23",
+                            "left",
+                            0,
+                            1000,
+                            "easeOutCirc",
+                            "${neonmenu_04Copy}",
+                            '0px',
+                            '-500px'
+                        ],
+                        [
+                            "eid21",
+                            "left",
+                            0,
+                            1000,
+                            "easeOutCirc",
+                            "${RectangleCopy11}",
+                            '112px',
+                            '-388px'
+                        ],
+                        [
+                            "eid13",
+                            "left",
+                            0,
+                            1000,
+                            "easeOutCirc",
+                            "${RectangleCopy8}",
+                            '0px',
+                            '-500px'
+                        ],
+                        [
+                            "eid18",
+                            "left",
+                            0,
+                            1000,
+                            "easeOutCirc",
+                            "${neonmenu_02Copy}",
+                            '0px',
+                            '-500px'
+                        ],
+                        [
+                            "eid15",
+                            "left",
+                            0,
+                            1000,
+                            "easeOutCirc",
+                            "${neonmenu_06Copy}",
+                            '0px',
+                            '-500px'
+                        ]
+                    ]
+                }
+            }
+        };
 
-//Edge symbol: 'ventana'
-(function(symbolName){Symbol.bindElementAction(compId,symbolName,"${cerrar2}","click",function(sym,e){sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p0}","click",function(sym,e){sym.getComposition().getStage().play('p1');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p1}","click",function(sym,e){sym.getComposition().getStage().play('p2');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p2}","click",function(sym,e){sym.getComposition().getStage().play('p3');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p3}","click",function(sym,e){sym.getComposition().getStage().play('p4');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p4}","click",function(sym,e){sym.getComposition().getStage().play('p5');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p5}","click",function(sym,e){sym.getComposition().getStage().play('p6');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p6}","click",function(sym,e){sym.getComposition().getStage().play('p7');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p7}","click",function(sym,e){sym.getComposition().getStage().play('p8');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p8}","click",function(sym,e){sym.getComposition().getStage().play('p9');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p9}","click",function(sym,e){sym.getComposition().getStage().play('p10');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p10}","click",function(sym,e){sym.getComposition().getStage().play('p11');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p11}","click",function(sym,e){sym.getComposition().getStage().play('p12');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p12}","click",function(sym,e){sym.getComposition().getStage().play('p13');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p13}","click",function(sym,e){sym.getComposition().getStage().play('p14');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p14}","click",function(sym,e){sym.getComposition().getStage().play('p15');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p15}","click",function(sym,e){sym.getComposition().getStage().play('p16');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p16}","click",function(sym,e){sym.getComposition().getStage().play('p17');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p17}","click",function(sym,e){sym.getComposition().getStage().play('p18');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p18}","click",function(sym,e){sym.getComposition().getStage().play('p19');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p19}","click",function(sym,e){sym.getComposition().getStage().play('p20');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p20}","click",function(sym,e){sym.getComposition().getStage().play('p21');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p21}","click",function(sym,e){sym.getComposition().getStage().play('p22');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p22}","click",function(sym,e){sym.getComposition().getStage().play('p23');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p23}","click",function(sym,e){sym.getComposition().getStage().play('p24');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p24}","click",function(sym,e){sym.getComposition().getStage().play('p25');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p25}","click",function(sym,e){sym.getComposition().getStage().play('p26');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p26}","click",function(sym,e){sym.getComposition().getStage().play('p27');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p27}","click",function(sym,e){sym.getComposition().getStage().play('p28');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${p28}","click",function(sym,e){sym.getComposition().getStage().play('p29');sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${Text}","click",function(sym,e){sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",500,function(sym,e){sym.stop();});
-//Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",1250,function(sym,e){sym.stop();});
-//Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",2000,function(sym,e){sym.stop();});
-//Edge binding end
-})("ventana");
-//Edge symbol end:'ventana'
+    AdobeEdge.registerCompositionDefn(compId, symbols, fonts, scripts, resources, opts);
 
-//=========================================================
-
-//Edge symbol: 'ventana_1'
-(function(symbolName){Symbol.bindElementAction(compId,symbolName,"${cerrar2}","click",function(sym,e){sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${Text}","click",function(sym,e){sym.getSymbolElement().hide();});
-//Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",500,function(sym,e){sym.stop();});
-//Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",1250,function(sym,e){sym.stop();});
-//Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",2000,function(sym,e){sym.stop();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${ELECTRIC_BOOGALOO_No1_COMIXOLOGY}","touchend",function(sym,e){sym.getComposition().getStage().stop(0);sym.getComposition().getStage().$("ventana3").hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${ELECTRIC_BOOGALOO_No1_COMIXOLOGY2}","touchend",function(sym,e){sym.getComposition().getStage().stop('p2');sym.getComposition().getStage().$("ventana3").hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${ELECTRIC_BOOGALOO_No1_COMIXOLOGY3}","touchend",function(sym,e){sym.getComposition().getStage().stop('p3');sym.getComposition().getStage().$("ventana3").hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${ELECTRIC_BOOGALOO_No1_COMIXOLOGY4}","touchend",function(sym,e){sym.getComposition().getStage().stop('p4');sym.getComposition().getStage().$("ventana3").hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${ELECTRIC_BOOGALOO_No1_COMIXOLOGY5}","touchend",function(sym,e){sym.getComposition().getStage().stop('p5');sym.getComposition().getStage().$("ventana3").hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${ELECTRIC_BOOGALOO_No1_COMIXOLOGY6}","touchend",function(sym,e){sym.getComposition().getStage().stop('p6');sym.getComposition().getStage().$("ventana3").hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${ELECTRIC_BOOGALOO_No1_COMIXOLOGY7}","touchend",function(sym,e){sym.getComposition().getStage().stop('p7');sym.getComposition().getStage().$("ventana3").hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${ELECTRIC_BOOGALOO_No1_COMIXOLOGY8}","touchend",function(sym,e){sym.getComposition().getStage().stop('p8');sym.getComposition().getStage().$("ventana3").hide();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${ELECTRIC_BOOGALOO_No1_COMIXOLOGY9}","touchend",function(sym,e){sym.getComposition().getStage().stop('p9');sym.getComposition().getStage().$("ventana3").hide();});
-//Edge binding end
-})("ventana_1");
-//Edge symbol end:'ventana_1'
-
-//=========================================================
-
-//Edge symbol: 'contenido'
-(function(symbolName){})("contenido");
-//Edge symbol end:'contenido'
-
-//=========================================================
-
-//Edge symbol: 'menuelectric'
-(function(symbolName){Symbol.bindElementAction(compId,symbolName,"${RectangleCopy14}","touchend",function(sym,e){sym.getComposition().getStage().$("ventana3").show();sym.getComposition().getStage().getSymbol("ventana3").play('instrucciones');sym.playReverse();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${RectangleCopy13}","touchend",function(sym,e){sym.getComposition().getStage().$("ventana3").show();sym.getComposition().getStage().getSymbol("ventana3").play(0);sym.playReverse();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${RectangleCopy8}","touchend",function(sym,e){sym.getComposition().getStage().$("ventana3").show();sym.getComposition().getStage().getSymbol("ventana3").play('creditos');sym.playReverse();});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${RectangleCopy11}","touchend",function(sym,e){window.open("https://m.facebook.com/JenofonteSAS","_top");});
-//Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${RectangleCopy10}","touchend",function(sym,e){window.open("https://www.twitter.com/JenofonteSAS","_top");});
-//Edge binding end
-Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.stop();});
-//Edge binding end
-})("menuelectric");
-//Edge symbol end:'menuelectric'
-})})(AdobeEdge.$,AdobeEdge,"EDGE-2246004");
+    if (!window.edge_authoring_mode) AdobeEdge.getComposition(compId).load("index_edgeActions.js");
+})("EDGE-2246004");
