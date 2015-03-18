@@ -166,7 +166,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
          	sym.getSymbol("menuelectric").play();
          	}
          	else {
-         	sym.getSymbol("menuelectric").playReverse();
+         	sym.getSymbol("menuelectric").playReverse(1000);
          	}
          }
          
@@ -546,21 +546,21 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 500, function(sym, e) {
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 833, function(sym, e) {
          // introducir código aquí
          sym.stop();
 
       });
       //Edge binding end
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 1250, function(sym, e) {
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 2250, function(sym, e) {
          // introducir código aquí
          sym.stop();
 
       });
       //Edge binding end
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 2000, function(sym, e) {
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 3750, function(sym, e) {
          // introducir código aquí
          sym.stop();
 
@@ -707,6 +707,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 
       });
       //Edge binding end
+
+      
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
          // introducir código aquí
