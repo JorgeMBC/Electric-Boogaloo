@@ -12,3 +12,6 @@ $(document).on('pageinit', function(event){
 		}
 	});
 });
+$(document).bind('mobileinit', function(){ 
+       $.mobile.metaViewportContent = 'width=device-width, minimum-scale=1'; 
+});
