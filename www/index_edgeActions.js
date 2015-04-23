@@ -16,7 +16,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
          sym.stop();
          imageCountv = 1;
-         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/00.html", sym.getSymbol("contenido"));
+         sym.$("contenido").show();
+         
          
          
 
@@ -26,7 +27,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 500, function(sym, e) {
          sym.stop();
          imageCountv = 2;
-         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/01.html", sym.getSymbol("contenido"));
+         sym.$("p2").show(); 
+         sym.$("contenido").hide();
          sym.getSymbol("pulseani").play(0);
 
       });
@@ -35,7 +37,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 1000, function(sym, e) {
          sym.stop();
          imageCountv = 3;
-         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/02.html", sym.getSymbol("contenido"));
+         sym.$("p3").show(); 
+         sym.$("contenido").hide();
          sym.getSymbol("pulseani").play(0);
 
       });
@@ -44,7 +47,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 1500, function(sym, e) {
          sym.stop();
          imageCountv = 4;
-         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/03.html", sym.getSymbol("contenido"));
+         sym.$("p4").show(); 
+         sym.$("contenido").hide();
          sym.getSymbol("pulseani").play(0);
 
       });
@@ -53,7 +57,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 2000, function(sym, e) {
          sym.stop();
          imageCountv = 5;
-         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/04.html", sym.getSymbol("contenido"));
+         sym.$("p5").show(); 
+         sym.$("contenido").hide();
          sym.getSymbol("pulseani").play(0);
 
       });
@@ -62,7 +67,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 2500, function(sym, e) {
          sym.stop();
          imageCountv = 6;
-         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/05.html", sym.getSymbol("contenido"));
+         sym.$("p6").show(); 
+         sym.$("contenido").hide();
          sym.getSymbol("pulseani").play(0);
 
       });
@@ -71,7 +77,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 3000, function(sym, e) {
          sym.stop();
          imageCountv = 7;
-         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/06.html", sym.getSymbol("contenido"));
+         sym.$("p7").show(); 
+         sym.$("contenido").hide();
          sym.getSymbol("pulseani").play(0);
 
       });
@@ -80,7 +87,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 3500, function(sym, e) {
          sym.stop();
          imageCountv = 8;
-         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/07.html", sym.getSymbol("contenido"));
+         sym.$("p8").show(); 
+         sym.$("contenido").hide();
          sym.getSymbol("pulseani").play(0);
 
       });
@@ -89,7 +97,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 4000, function(sym, e) {
          sym.stop();
          imageCountv = 9;
-         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/08.html", sym.getSymbol("contenido"));
+         sym.$("p9").show(); 
+         sym.$("contenido").hide();
          sym.getSymbol("pulseani").play(0);
 
       });
@@ -138,8 +147,26 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       
 
       Symbol.bindElementAction(compId, symbolName, "document", "compositionReady", function(sym, e) {
+         //cargar paginas
+         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/00.html", sym.getSymbol("contenido"));
+         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/01.html", sym.getSymbol("p2"));
+         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/02.html", sym.getSymbol("p3"));
+         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/03.html", sym.getSymbol("p4"));
+         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/04.html", sym.getSymbol("p5"));
+         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/05.html", sym.getSymbol("p6"));
+         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/06.html", sym.getSymbol("p7"));
+         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/07.html", sym.getSymbol("p8"));
+         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/08.html", sym.getSymbol("p9"));
          //Ocultar elementos
          sym.$("ventana3").hide();
+         sym.$("p2").hide();
+         sym.$("p3").hide();
+         sym.$("p4").hide();
+         sym.$("p5").hide();
+         sym.$("p6").hide();
+         sym.$("p7").hide();
+         sym.$("p8").hide();
+         sym.$("p9").hide();
          //contador de paginas
          imageCountv = 1;
          sym.showPhoto = function (photoDirection){

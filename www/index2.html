@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=yes" />
+<meta name="viewport" content="width=device-width, initial-scale=.5, maximum-scale=12.0, minimum-scale=.25, user-scalable=yes"/>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 	<title>Virgil No 1</title>
@@ -19,7 +19,31 @@
     maxW: "undefined",
     width: "1280px",
     height: "1920px"
-}, {dom: [ ]}, {dom: [ ]});
+}, {
+    dom: [
+        {
+            id: 'preloader-ebcomic',
+            type: 'image',
+            tag: 'img',
+            rect: ['527px', '864px', '225px', '150px', 'auto', 'auto'],
+            fill: ["rgba(0,0,0,0)",'images/preloader-ebcomic.gif','0px','0px']
+        },
+        {
+            id: 'Text',
+            type: 'text',
+            rect: ['550px', '1040px', 'auto', 'auto', 'auto', 'auto'],
+            text: "cargando...",
+            align: "center",
+            font: ['Arial, Helvetica, sans-serif', [36, "px"], "rgba(255,255,255,1.00)", "normal", "none", "", "break-word", "nowrap"]
+        }
+    ],
+    style: {
+        '${symbolSelector}': {
+            isStage: true,
+            rect: [undefined, undefined, '1280px', '1920px']
+        }
+    }
+}, {dom: [ ]});
 </script>
 <!--Adobe Edge Runtime End-->
 
