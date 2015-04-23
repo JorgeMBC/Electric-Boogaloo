@@ -36,16 +36,16 @@
                             rect: ['0', '-5', '1280', '1925', 'auto', 'auto']
                         },
                         {
-                            id: 'pulseani',
-                            symbolName: 'pulseani',
-                            type: 'rect',
-                            rect: ['7', '875', '1273', '150', 'auto', 'auto']
-                        },
-                        {
                             id: 'btnswipe',
                             symbolName: 'btnswipe',
                             type: 'rect',
                             rect: ['0', '0', '1280', '1920', 'auto', 'auto']
+                        },
+                        {
+                            id: 'pulseani',
+                            symbolName: 'pulseani',
+                            type: 'rect',
+                            rect: ['7', '875', '1273', '150', 'auto', 'auto']
                         },
                         {
                             id: 'ladoizq',
@@ -114,16 +114,6 @@
                     },
                     data: [
                         [
-                            "eid10",
-                            "display",
-                            500,
-                            0,
-                            "linear",
-                            "${ladoizq}",
-                            'none',
-                            'block'
-                        ],
-                        [
                             "eid11",
                             "display",
                             4000,
@@ -132,6 +122,16 @@
                             "${ladoder}",
                             'block',
                             'none'
+                        ],
+                        [
+                            "eid10",
+                            "display",
+                            500,
+                            0,
+                            "linear",
+                            "${ladoizq}",
+                            'none',
+                            'block'
                         ]
                     ]
                 }
@@ -6477,7 +6477,7 @@
                             type: 'image',
                             overflow: 'visible',
                             id: 'neonmenu_08Copy',
-                            rect: ['35px', '551px', '428px', '149px', 'auto', 'auto'],
+                            rect: ['27px', '551px', '428px', '149px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/neonmenu_08.png', '0px', '0px']
                         },
                         {
@@ -6574,7 +6574,7 @@
                             1000,
                             "easeOutCirc",
                             "${neonmenu_08Copy}",
-                            '35px',
+                            '27px',
                             '-464px'
                         ],
                         [
@@ -6973,5 +6973,5 @@
 
     AdobeEdge.registerCompositionDefn(compId, symbols, fonts, scripts, resources, opts);
 
-    if (!window.edge_authoring_mode) AdobeEdge.getComposition(compId).load("index_edgeActions.js");
+    if (!window.edge_authoring_mode) AdobeEdge.getComposition(compId).load("index2_edgeActions.js");
 })("EDGE-2246004");
