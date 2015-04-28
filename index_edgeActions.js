@@ -13,168 +13,47 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    (function(symbolName) {
       
       
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
-         sym.stop();
-         imageCountv = 1;
-         sym.$("contenido").show();
-         sym.$("p2").hide();
-         sym.$("p3").hide();
-         sym.$("p4").hide();
-         sym.$("p5").hide();
-         sym.$("p6").hide();
-         sym.$("p7").hide();
-         sym.$("p8").hide();
-         sym.$("p9").hide();
-         
-         
-         
+      
 
-      });
-      //Edge binding end
+      
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 500, function(sym, e) {
-         sym.stop();
-         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/01.html", sym.getSymbol("p2"));
-         imageCountv = 2;
-         sym.$("p2").show(); 
-         sym.$("contenido").hide();
-         sym.getSymbol("pulseani").play(0);
-         sym.$("p3").hide();
-         sym.$("p4").hide();
-         sym.$("p5").hide();
-         sym.$("p6").hide();
-         sym.$("p7").hide();
-         sym.$("p8").hide();
-         sym.$("p9").hide();
+      
 
-      });
-      //Edge binding end
+      
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 1000, function(sym, e) {
-         sym.stop();
-         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/02.html", sym.getSymbol("p3"));
-         imageCountv = 3;
-         sym.$("p3").show(); 
-         sym.$("contenido").hide();
-         sym.getSymbol("pulseani").play(0);
-         sym.$("p2").hide();
-         sym.$("p4").hide();
-         sym.$("p5").hide();
-         sym.$("p6").hide();
-         sym.$("p7").hide();
-         sym.$("p8").hide();
-         sym.$("p9").hide();
+      
 
-      });
-      //Edge binding end
+      
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 1500, function(sym, e) {
-         sym.stop();
-         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/03.html", sym.getSymbol("p4"));
-         sym.$("p4").show(); 
-         sym.$("contenido").hide();
-         sym.getSymbol("pulseani").play(0);
-         sym.$("p2").hide();
-         sym.$("p3").hide();
-         sym.$("p5").hide();
-         sym.$("p6").hide();
-         sym.$("p7").hide();
-         sym.$("p8").hide();
-         sym.$("p9").hide();
+      
 
-      });
-      //Edge binding end
+      
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 2000, function(sym, e) {
-         sym.stop();
-         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/04.html", sym.getSymbol("p5"));
-         imageCountv = 4;
-         imageCountv = 5;
-         sym.$("p5").show(); 
-         sym.$("contenido").hide();
-         sym.getSymbol("pulseani").play(0);
-         sym.$("p2").hide();
-         sym.$("p3").hide();
-         sym.$("p4").hide();
-         sym.$("p6").hide();
-         sym.$("p7").hide();
-         sym.$("p8").hide();
-         sym.$("p9").hide();
+      
 
-      });
-      //Edge binding end
+      
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 2500, function(sym, e) {
-         sym.stop();
-         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/05.html", sym.getSymbol("p6"));
-         imageCountv = 6;
-         sym.$("p6").show(); 
-         sym.$("contenido").hide();
-         sym.getSymbol("pulseani").play(0);
-         sym.$("p2").hide();
-         sym.$("p3").hide();
-         sym.$("p4").hide();
-         sym.$("p5").hide();
-         sym.$("p7").hide();
-         sym.$("p8").hide();
-         sym.$("p9").hide();
+      
 
-      });
-      //Edge binding end
+      
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 3000, function(sym, e) {
-         sym.stop();
-         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/06.html", sym.getSymbol("p7"));
-         imageCountv = 7;
-         sym.$("p7").show(); 
-         sym.$("contenido").hide();
-         sym.getSymbol("pulseani").play(0);
-         sym.$("p2").hide();
-         sym.$("p3").hide();
-         sym.$("p4").hide();
-         sym.$("p5").hide();
-         sym.$("p6").hide();
-         sym.$("p8").hide();
-         sym.$("p9").hide();
+      
 
-      });
-      //Edge binding end
+      
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 3500, function(sym, e) {
-         sym.stop();
-         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/07.html", sym.getSymbol("p8"));
-         imageCountv = 8;
-         sym.$("p8").show(); 
-         sym.$("contenido").hide();
-         sym.getSymbol("pulseani").play(0);
-         sym.$("p2").hide();
-         sym.$("p3").hide();
-         sym.$("p4").hide();
-         sym.$("p5").hide();
-         sym.$("p6").hide();
-         sym.$("p7").hide();
-         sym.$("p9").hide();
+      
 
-      });
-      //Edge binding end
+      
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 4000, function(sym, e) {
-         sym.stop();
-         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/08.html", sym.getSymbol("p9"));
-         imageCountv = 9;
-         sym.$("p9").show(); 
-         sym.$("contenido").hide();
-         sym.getSymbol("pulseani").play(0);
-         sym.$("p2").hide();
-         sym.$("p3").hide();
-         sym.$("p4").hide();
-         sym.$("p5").hide();
-         sym.$("p6").hide();
-         sym.$("p7").hide();
-         sym.$("p8").hide();
+      
 
-      });
-      //Edge binding end
+      
+
+      
+
+      
+
+      
 
       
 
@@ -218,81 +97,24 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 
       
 
-      Symbol.bindElementAction(compId, symbolName, "document", "compositionReady", function(sym, e) {
-         //cargar paginas
-         EC.loadComposition("http://electricboogaloo.azurewebsites.net/paginas/00.html", sym.getSymbol("contenido"));
-         
-         //Ocultar elementos
-         sym.$("ventana3").hide();
-         //contador de paginas
-         imageCountv = 1;
-         sym.showPhoto = function (photoDirection){
-         	imageCountv = imageCountv + photoDirection;
-         	sym.play('p'+ imageCountv);
-         }
-
-      });
-      //Edge binding end
-
       
 
       
 
       
 
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      Symbol.bindElementAction(compId, symbolName, "${menuint}", "click", function(sym, e) {
-         if (sym.getSymbol("menuelectric").isPlaying()) {
-         	sym.getSymbol("menuelectric").stop();
-         } else {
-         	if(sym.getSymbol("menuelectric").isPlayDirectionReverse()){
-         	sym.getSymbol("menuelectric").play();
-         	}
-         	else {
-         	sym.getSymbol("menuelectric").playReverse(1000);
-         	}
-         }
-         
+      Symbol.bindElementAction(compId, symbolName, "${espanolbtn}", "click", function(sym, e) {
+         // introducir aquí código para clic de ratón
+         // Ir a una nueva dirección URL en la ventana actual
+         // (sustituya "_self" por el atributo de destino correspondiente)
+         window.open("http://electricboogaloo.azurewebsites.net/espanol/espanol.html", "_top");
          
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${ladoder}", "click", function(sym, e) {
-         sym.getComposition().getStage().showPhoto(1);
-         
-         
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${ladoizq}", "click", function(sym, e) {
-         sym.getComposition().getStage().showPhoto(-1);
-         
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${btnswipe}", "swipeleft", function(sym, e) {
-         sym.play();
-         
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${btnswipe}", "swiperight", function(sym, e) {
-         sym.playReverse();
+      Symbol.bindElementAction(compId, symbolName, "${ensglishbtn}", "click", function(sym, e) {
+         window.open("http://electricboogaloo.azurewebsites.net/english/english.html", "_top");
          
 
       });
@@ -912,5 +734,36 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 
    })("fondoventana");
    //Edge symbol end:'fondoventana'
+
+   //=========================================================
+   
+   //Edge symbol: 'espanolbtn'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 1500, function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+   })("espanolbtn");
+   //Edge symbol end:'espanolbtn'
+
+   //=========================================================
+   
+   //Edge symbol: 'espanolbtn_1'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 2000, function(sym, e) {
+         // introducir código aquí
+         // Reproducir la línea de tiempo en un momento o etiqueta específicos. Por ejemplo:
+         // sym.play(500); o sym.play("myLabel");
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+   })("ensglishbtn");
+   //Edge symbol end:'ensglishbtn'
 
 })(window.jQuery || AdobeEdge.$, AdobeEdge, "EDGE-2246004");

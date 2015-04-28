@@ -30,110 +30,37 @@
                 content: {
                     dom: [
                         {
-                            id: 'contenido',
-                            symbolName: 'contenido',
-                            type: 'rect',
-                            rect: ['0', '-5', '1280', '1925', 'auto', 'auto']
-                        },
-                        {
-                            id: 'p2',
-                            symbolName: 'contenido',
-                            type: 'rect',
-                            rect: ['0', '-5', '1280', '1925', 'auto', 'auto']
-                        },
-                        {
-                            id: 'p3',
-                            symbolName: 'contenido',
-                            type: 'rect',
-                            rect: ['0', '-5', '1280', '1925', 'auto', 'auto']
-                        },
-                        {
-                            id: 'p4',
-                            symbolName: 'contenido',
-                            type: 'rect',
-                            rect: ['0', '-5', '1280', '1925', 'auto', 'auto']
-                        },
-                        {
-                            id: 'p5',
-                            symbolName: 'contenido',
-                            type: 'rect',
-                            rect: ['0', '-5', '1280', '1925', 'auto', 'auto']
-                        },
-                        {
-                            id: 'p6',
-                            symbolName: 'contenido',
-                            type: 'rect',
-                            rect: ['0', '-5', '1280', '1925', 'auto', 'auto']
-                        },
-                        {
-                            id: 'p7',
-                            symbolName: 'contenido',
-                            type: 'rect',
-                            rect: ['0', '-5', '1280', '1925', 'auto', 'auto']
-                        },
-                        {
-                            id: 'p8',
-                            symbolName: 'contenido',
-                            type: 'rect',
-                            rect: ['0', '-5', '1280', '1925', 'auto', 'auto']
-                        },
-                        {
-                            id: 'p9',
-                            symbolName: 'contenido',
-                            type: 'rect',
-                            rect: ['0', '-5', '1280', '1925', 'auto', 'auto']
-                        },
-                        {
-                            id: 'pulseani',
-                            symbolName: 'pulseani',
-                            type: 'rect',
-                            rect: ['7', '875', '1273', '150', 'auto', 'auto']
-                        },
-                        {
-                            id: 'btnswipe',
-                            symbolName: 'btnswipe',
-                            type: 'rect',
-                            rect: ['0', '0', '1280', '1920', 'auto', 'auto']
-                        },
-                        {
-                            id: 'ladoizq',
-                            display: 'none',
-                            type: 'rect',
-                            rect: ['0px', '-5px', '250px', '1925px', 'auto', 'auto'],
-                            cursor: 'pointer',
-                            opacity: '0',
-                            fill: ["rgba(192,192,192,1)"],
-                            stroke: [0,"rgba(0,0,0,1)","none"]
-                        },
-                        {
-                            id: 'ladoder',
-                            display: 'block',
-                            type: 'rect',
-                            rect: ['1030px', '115px', '250px', '1805px', 'auto', 'auto'],
-                            cursor: 'pointer',
-                            opacity: '0',
-                            fill: ["rgba(192,192,192,1)"],
-                            stroke: [0,"rgba(0,0,0,1)","none"]
-                        },
-                        {
-                            id: 'ventana3',
-                            symbolName: 'ventana_1',
-                            type: 'rect',
-                            rect: ['20px', '7', '1250', '1886', 'auto', 'auto']
-                        },
-                        {
-                            id: 'menuelectric',
-                            symbolName: 'menuelectric',
-                            type: 'rect',
-                            rect: ['1280px', '0px', '500', '1920', 'auto', 'auto']
-                        },
-                        {
-                            id: 'menuint',
+                            id: '_00A',
                             type: 'image',
-                            rect: ['821px', '-333px', '800px', '800px', 'auto', 'auto'],
-                            cursor: 'pointer',
-                            fill: ["rgba(0,0,0,0)",im+"menuint.svg",'0px','0px'],
-                            transform: [[],[],[],['0.1','0.1']]
+                            rect: ['0', '0', '1280px', '1920px', 'auto', 'auto'],
+                            opacity: '0.000000',
+                            fill: ["rgba(0,0,0,0)",im+"00A.jpg",'0px','0px']
+                        },
+                        {
+                            id: '_00BCopy',
+                            type: 'image',
+                            rect: ['247', '245', '910px', '436px', 'auto', 'auto'],
+                            opacity: '0.000000',
+                            fill: ["rgba(0,0,0,0)",im+"00B.png",'0px','0px']
+                        },
+                        {
+                            id: '_00C',
+                            type: 'image',
+                            rect: ['0', '1', '1280px', '91px', 'auto', 'auto'],
+                            opacity: '1',
+                            fill: ["rgba(0,0,0,0)",im+"00C.jpg",'0px','0px']
+                        },
+                        {
+                            id: 'espanolbtn',
+                            symbolName: 'espanolbtn',
+                            type: 'rect',
+                            rect: ['907', '1044px', '437', '100', 'auto', 'auto']
+                        },
+                        {
+                            id: 'ensglishbtn',
+                            symbolName: 'ensglishbtn',
+                            type: 'rect',
+                            rect: ['907px', '1220px', 'undefined', 'undefined', 'auto', 'auto']
                         }
                     ],
                     style: {
@@ -147,39 +74,28 @@
                     }
                 },
                 timeline: {
-                    duration: 4000,
+                    duration: 2000,
                     autoPlay: true,
-                    labels: {
-                        "p1": 0,
-                        "p2": 500,
-                        "p3": 1000,
-                        "p4": 1500,
-                        "p5": 2000,
-                        "p6": 2500,
-                        "p7": 3000,
-                        "p8": 3500,
-                        "p9": 4000
-                    },
                     data: [
                         [
-                            "eid11",
-                            "display",
-                            4000,
+                            "eid439",
+                            "opacity",
                             0,
-                            "linear",
-                            "${ladoder}",
-                            'block',
-                            'none'
+                            1000,
+                            "easeOutQuart",
+                            "${_00A}",
+                            '0.000000',
+                            '1'
                         ],
                         [
-                            "eid10",
-                            "display",
+                            "eid441",
+                            "opacity",
+                            1000,
                             500,
-                            0,
-                            "linear",
-                            "${ladoizq}",
-                            'none',
-                            'block'
+                            "easeOutQuart",
+                            "${_00BCopy}",
+                            '0.000000',
+                            '1'
                         ]
                     ]
                 }
@@ -739,515 +655,515 @@
                             fill: ['rgba(0,0,0,1.00)']
                         },
                         {
-                            rect: ['435px', '1838px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p26',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p26',
-                            opacity: '0',
+                            symbolName: 'p26',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['435px', '1838px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['229px', '1838px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p25',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p25',
-                            opacity: '0',
+                            symbolName: 'p25',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['229px', '1838px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['29px', '1838px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p24',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p24',
-                            opacity: '0',
+                            symbolName: 'p24',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['29px', '1838px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['1047px', '1477px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p23',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p23',
-                            opacity: '0',
+                            symbolName: 'p23',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['1047px', '1477px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['843px', '1477px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p22',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p22',
-                            opacity: '0',
+                            symbolName: 'p22',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['843px', '1477px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['639px', '1477px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p21',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p21',
-                            opacity: '0',
+                            symbolName: 'p21',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['639px', '1477px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['435px', '1477px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p20',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p20',
-                            opacity: '0',
+                            symbolName: 'p20',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['435px', '1477px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['229px', '1477px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p19',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p19',
-                            opacity: '0',
+                            symbolName: 'p19',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['229px', '1477px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['29px', '1477px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p18',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p18',
-                            opacity: '0',
+                            symbolName: 'p18',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['29px', '1477px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['1047px', '1132px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p17',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p17',
-                            opacity: '0',
+                            symbolName: 'p17',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['1047px', '1132px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['843px', '1132px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p16',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p16',
-                            opacity: '0',
+                            symbolName: 'p16',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['843px', '1132px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['639px', '1132px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p15',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p15',
-                            opacity: '0',
+                            symbolName: 'p15',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['639px', '1132px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['435px', '1132px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p14',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p14',
-                            opacity: '0',
+                            symbolName: 'p14',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['435px', '1132px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['233px', '1132px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p13',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p13',
-                            opacity: '0',
+                            symbolName: 'p13',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['233px', '1132px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['29px', '1132px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p12',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p12',
-                            opacity: '0',
+                            symbolName: 'p12',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['29px', '1132px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['1058px', '784px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p11',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p11',
-                            opacity: '0',
+                            symbolName: 'p11',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['1058px', '784px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['820px', '822px', '195', '150', 'auto', 'auto'],
-                            symbolName: 'p10',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p10',
-                            opacity: '0',
+                            symbolName: 'p10',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['820px', '822px', '195', '150', 'auto', 'auto']
                         },
                         {
-                            rect: ['624px', '784px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p9',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p9',
-                            opacity: '0',
+                            symbolName: 'p9',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['624px', '784px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['427px', '784px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p8',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p8',
-                            opacity: '0',
+                            symbolName: 'p8',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['427px', '784px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['229px', '784px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p7',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p7',
-                            opacity: '0',
+                            symbolName: 'p7',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['229px', '784px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['29px', '784px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p6',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p6',
-                            opacity: '0',
+                            symbolName: 'p6',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['29px', '784px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['1058px', '460px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p5',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p5',
-                            opacity: '0',
+                            symbolName: 'p5',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['1058px', '460px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['867px', '460px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p4',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p4',
-                            opacity: '0',
+                            symbolName: 'p4',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['867px', '460px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['624px', '498px', '195', '150', 'auto', 'auto'],
-                            symbolName: 'p3',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p3',
-                            opacity: '0',
+                            symbolName: 'p3',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['624px', '498px', '195', '150', 'auto', 'auto']
                         },
                         {
-                            rect: ['427px', '460px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p2',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p2',
-                            opacity: '0',
+                            symbolName: 'p2',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['427px', '460px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['229px', '460px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p1',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p1',
-                            opacity: '0',
+                            symbolName: 'p1',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['229px', '460px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['29px', '460px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p0',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p0',
-                            opacity: '0',
+                            symbolName: 'p0',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['29px', '460px', '150', '225', 'auto', 'auto']
                         },
                         {
+                            type: 'image',
                             rect: ['1048px', '-26px', '320px', '320px', 'auto', 'auto'],
                             transform: [[], [], [], ['0.1', '0.1']],
-                            type: 'image',
                             id: 'cerrar2',
                             opacity: '0',
                             cursor: 'pointer',
                             fill: ['rgba(0,0,0,0)', 'images/cerrar2.svg', '0px', '0px']
                         },
                         {
-                            rect: ['639px', '1838px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p27',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p27',
-                            opacity: '0',
+                            symbolName: 'p27',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['639px', '1838px', '150', '225', 'auto', 'auto']
                         },
                         {
-                            rect: ['843px', '1838px', '150', '225', 'auto', 'auto'],
-                            symbolName: 'p28',
+                            type: 'rect',
+                            opacity: '0',
                             id: 'p28',
-                            opacity: '0',
+                            symbolName: 'p28',
                             cursor: 'pointer',
-                            type: 'rect'
+                            rect: ['843px', '1838px', '150', '225', 'auto', 'auto']
                         },
                         {
+                            type: 'text',
                             rect: ['1116px', '411px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, ''], 'rgba(255,255,255,1.00)', '700', 'none', '', 'break-word', 'nowrap'],
                             text: 'cerrar',
                             id: 'Text',
                             opacity: '0',
                             cursor: 'pointer',
-                            type: 'text'
+                            font: ['Arial, Helvetica, sans-serif', [24, ''], 'rgba(255,255,255,1.00)', '700', 'none', '', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['97px', '701px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2',
-                            text: '0',
                             opacity: '0',
-                            type: 'text'
+                            text: '0',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['297px', '701px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy',
-                            text: '1',
                             opacity: '0',
-                            type: 'text'
+                            text: '1',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['495px', '701px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy2',
-                            text: '2',
                             opacity: '0',
-                            type: 'text'
+                            text: '2',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['715px', '701px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy3',
-                            text: '3',
                             opacity: '0',
-                            type: 'text'
+                            text: '3',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['935px', '701px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy4',
-                            text: '4',
                             opacity: '0',
-                            type: 'text'
+                            text: '4',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['1126px', '701px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy5',
-                            text: '5',
                             opacity: '0',
-                            type: 'text'
+                            text: '5',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['97px', '1026px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy11',
-                            text: '6',
                             opacity: '0',
-                            type: 'text'
+                            text: '6',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['297px', '1026px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy10',
-                            text: '7',
                             opacity: '0',
-                            type: 'text'
+                            text: '7',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['495px', '1026px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy9',
-                            text: '8',
                             opacity: '0',
-                            type: 'text'
+                            text: '8',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['692px', '1026px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy8',
-                            text: '9',
                             opacity: '0',
-                            type: 'text'
+                            text: '9',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['905px', '1026px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy7',
-                            text: '10',
                             opacity: '0',
-                            type: 'text'
+                            text: '10',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['1120px', '1026px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy6',
-                            text: '11',
                             opacity: '0',
-                            type: 'text'
+                            text: '11',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['91px', '1369px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy17',
-                            text: '12',
                             opacity: '0',
-                            type: 'text'
+                            text: '12',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['295px', '1369px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy16',
-                            text: '13',
                             opacity: '0',
-                            type: 'text'
+                            text: '13',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['497px', '1369px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy15',
-                            text: '14',
                             opacity: '0',
-                            type: 'text'
+                            text: '14',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['701px', '1369px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy14',
-                            text: '15',
                             opacity: '0',
-                            type: 'text'
+                            text: '15',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['905px', '1369px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy13',
-                            text: '16',
                             opacity: '0',
-                            type: 'text'
+                            text: '16',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['1109px', '1369px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy12',
-                            text: '17',
                             opacity: '0',
-                            type: 'text'
+                            text: '17',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['91px', '1716px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy23',
-                            text: '18',
                             opacity: '0',
-                            type: 'text'
+                            text: '18',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['290px', '1716px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy22',
-                            text: '19',
                             opacity: '0',
-                            type: 'text'
+                            text: '19',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['496px', '1716px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy21',
-                            text: '20',
                             opacity: '0',
-                            type: 'text'
+                            text: '20',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['701px', '1716px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy20',
-                            text: '21',
                             opacity: '0',
-                            type: 'text'
+                            text: '21',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['905px', '1716px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy19',
-                            text: '22',
                             opacity: '0',
-                            type: 'text'
+                            text: '22',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['90px', '2082px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy28',
-                            text: '24',
                             opacity: '0',
-                            type: 'text'
+                            text: '24',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['291px', '2082px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy27',
-                            text: '25',
                             opacity: '0',
-                            type: 'text'
+                            text: '25',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['495px', '2082px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy26',
-                            text: '26',
                             opacity: '0',
-                            type: 'text'
+                            text: '26',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['701px', '2082px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy25',
-                            text: '27',
                             opacity: '0',
-                            type: 'text'
+                            text: '27',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['905px', '2082px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy24',
-                            text: '28',
                             opacity: '0',
-                            type: 'text'
+                            text: '28',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['1109px', '1716px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy18',
-                            text: '23',
                             opacity: '0',
-                            type: 'text'
+                            text: '23',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         }
                     ],
                     style: {
@@ -1336,14 +1252,24 @@
                             '0'
                         ],
                         [
-                            "eid715",
-                            "top",
+                            "eid374",
+                            "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRectCopy17}",
-                            '1124px',
-                            '832px'
+                            "${Text2Copy2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid469",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy2}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid789",
@@ -1356,32 +1282,32 @@
                             '206px'
                         ],
                         [
-                            "eid783",
+                            "eid767",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRectCopy12}",
-                            '1124px',
-                            '832px'
+                            "${p19}",
+                            '1477px',
+                            '1185px'
                         ],
                         [
-                            "eid356",
+                            "eid344",
                             "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${Text2Copy27}",
+                            "${Text2}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid523",
+                            "eid530",
                             "opacity",
                             500,
                             250,
                             "easeOutElastic",
-                            "${Text2Copy27}",
+                            "${Text2}",
                             '1',
                             '0'
                         ],
@@ -1436,64 +1362,44 @@
                             '163px'
                         ],
                         [
-                            "eid153",
+                            "eid739",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy18}",
+                            '1716px',
+                            '1424px'
+                        ],
+                        [
+                            "eid204",
                             "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p20}",
+                            "${RoundRectCopy17}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid486",
+                            "eid518",
                             "opacity",
                             500,
                             250,
                             "easeOutElastic",
-                            "${p20}",
+                            "${RoundRectCopy17}",
                             '1',
                             '0'
                         ],
                         [
-                            "eid324",
-                            "opacity",
+                            "eid675",
+                            "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${Text2Copy9}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid564",
-                            "opacity",
-                            500,
-                            250,
-                            "easeOutElastic",
-                            "${Text2Copy9}",
-                            '1',
-                            '0'
-                        ],
-                        [
-                            "eid226",
-                            "opacity",
-                            0,
-                            500,
-                            "easeOutElastic",
-                            "${RoundRectCopy28}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid483",
-                            "opacity",
-                            500,
-                            250,
-                            "easeOutElastic",
-                            "${RoundRectCopy28}",
-                            '1',
-                            '0'
+                            "${p16}",
+                            '1132px',
+                            '840px'
                         ],
                         [
                             "eid234",
@@ -1546,62 +1452,62 @@
                             '409px'
                         ],
                         [
-                            "eid167",
+                            "eid248",
                             "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p6}",
+                            "${RoundRectCopy25}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid509",
+                            "eid548",
                             "opacity",
                             500,
                             250,
                             "easeOutElastic",
-                            "${p6}",
+                            "${RoundRectCopy25}",
                             '1',
                             '0'
                         ],
                         [
-                            "eid675",
+                            "eid609",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p16}",
-                            '1132px',
-                            '840px'
+                            "${p25}",
+                            '1838px',
+                            '1546px'
                         ],
                         [
-                            "eid601",
+                            "eid605",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p5}",
-                            '460px',
-                            '168px'
+                            "${RoundRectCopy22}",
+                            '1471px',
+                            '1179px'
                         ],
                         [
-                            "eid302",
+                            "eid358",
                             "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRectCopy}",
+                            "${Text2Copy17}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid543",
+                            "eid507",
                             "opacity",
                             500,
                             250,
                             "easeOutElastic",
-                            "${RoundRectCopy}",
+                            "${Text2Copy17}",
                             '1',
                             '0'
                         ],
@@ -1636,14 +1542,14 @@
                             '1077px'
                         ],
                         [
-                            "eid727",
+                            "eid705",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRectCopy16}",
-                            '1124px',
-                            '832px'
+                            "${RoundRect2Copy11}",
+                            '972px',
+                            '680px'
                         ],
                         [
                             "eid129",
@@ -1856,14 +1762,24 @@
                             '0'
                         ],
                         [
-                            "eid739",
-                            "top",
+                            "eid368",
+                            "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${Text2Copy18}",
-                            '1716px',
-                            '1424px'
+                            "${Text2Copy15}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid537",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy15}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid332",
@@ -1926,14 +1842,24 @@
                             '0'
                         ],
                         [
-                            "eid799",
-                            "top",
+                            "eid286",
+                            "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p22}",
-                            '1477px',
-                            '1185px'
+                            "${RoundRectCopy21}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid556",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy21}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid787",
@@ -1976,24 +1902,14 @@
                             '409px'
                         ],
                         [
-                            "eid368",
-                            "opacity",
+                            "eid621",
+                            "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${Text2Copy15}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid537",
-                            "opacity",
-                            500,
-                            250,
-                            "easeOutElastic",
-                            "${Text2Copy15}",
-                            '1',
-                            '0'
+                            "${Text2Copy20}",
+                            '1716px',
+                            '1424px'
                         ],
                         [
                             "eid719",
@@ -2226,16 +2142,6 @@
                             '0'
                         ],
                         [
-                            "eid779",
-                            "top",
-                            0,
-                            500,
-                            "easeOutElastic",
-                            "${p17}",
-                            '1132px',
-                            '840px'
-                        ],
-                        [
                             "eid579",
                             "opacity",
                             750,
@@ -2256,34 +2162,34 @@
                             '0'
                         ],
                         [
-                            "eid308",
-                            "opacity",
-                            0,
-                            500,
-                            "easeOutElastic",
-                            "${RoundRect2Copy27}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid468",
-                            "opacity",
-                            500,
-                            250,
-                            "easeOutElastic",
-                            "${RoundRect2Copy27}",
-                            '1',
-                            '0'
-                        ],
-                        [
-                            "eid763",
+                            "eid613",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRect2Copy26}",
-                            '2061px',
-                            '1769px'
+                            "${p12}",
+                            '1132px',
+                            '840px'
+                        ],
+                        [
+                            "eid799",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p22}",
+                            '1477px',
+                            '1185px'
+                        ],
+                        [
+                            "eid348",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text}",
+                            '0',
+                            '1'
                         ],
                         [
                             "eid362",
@@ -2316,14 +2222,24 @@
                             '1185px'
                         ],
                         [
-                            "eid348",
+                            "eid226",
                             "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${Text}",
+                            "${RoundRectCopy28}",
                             '0',
                             '1'
+                        ],
+                        [
+                            "eid483",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy28}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid671",
@@ -2356,14 +2272,24 @@
                             '0'
                         ],
                         [
-                            "eid597",
-                            "top",
+                            "eid153",
+                            "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p1}",
-                            '460px',
-                            '168px'
+                            "${p20}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid486",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p20}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid290",
@@ -2386,14 +2312,24 @@
                             '0'
                         ],
                         [
-                            "eid705",
-                            "top",
+                            "eid302",
+                            "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRect2Copy11}",
-                            '972px',
-                            '680px'
+                            "${RoundRectCopy}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid543",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid276",
@@ -2466,14 +2402,14 @@
                             '1185px'
                         ],
                         [
-                            "eid609",
+                            "eid727",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p25}",
-                            '1838px',
-                            '1546px'
+                            "${RoundRectCopy16}",
+                            '1124px',
+                            '832px'
                         ],
                         [
                             "eid366",
@@ -2496,12 +2432,12 @@
                             '0'
                         ],
                         [
-                            "eid741",
+                            "eid779",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p13}",
+                            "${p17}",
                             '1132px',
                             '840px'
                         ],
@@ -2526,22 +2462,22 @@
                             '0'
                         ],
                         [
-                            "eid248",
+                            "eid296",
                             "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRectCopy25}",
+                            "${RoundRectCopy16}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid548",
+                            "eid511",
                             "opacity",
                             500,
                             250,
                             "easeOutElastic",
-                            "${RoundRectCopy25}",
+                            "${RoundRectCopy16}",
                             '1',
                             '0'
                         ],
@@ -2576,14 +2512,24 @@
                             '388px'
                         ],
                         [
-                            "eid637",
-                            "top",
+                            "eid216",
+                            "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p27}",
-                            '1838px',
-                            '1546px'
+                            "${RoundRectCopy8}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid562",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy8}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid280",
@@ -2606,24 +2552,14 @@
                             '0'
                         ],
                         [
-                            "eid149",
+                            "eid155",
                             "opacity",
                             0,
                             500,
-                            "easeOutElastic",
-                            "${p14}",
+                            "linear",
+                            "${cerrar2}",
                             '0',
                             '1'
-                        ],
-                        [
-                            "eid488",
-                            "opacity",
-                            500,
-                            250,
-                            "easeOutElastic",
-                            "${p14}",
-                            '1',
-                            '0'
                         ],
                         [
                             "eid807",
@@ -2646,14 +2582,24 @@
                             '1061px'
                         ],
                         [
-                            "eid155",
+                            "eid149",
                             "opacity",
                             0,
                             500,
-                            "linear",
-                            "${cerrar2}",
+                            "easeOutElastic",
+                            "${p14}",
                             '0',
                             '1'
+                        ],
+                        [
+                            "eid488",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p14}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid759",
@@ -2666,44 +2612,34 @@
                             '409px'
                         ],
                         [
-                            "eid358",
+                            "eid254",
                             "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${Text2Copy17}",
+                            "${RoundRectCopy4}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid507",
+                            "eid534",
                             "opacity",
                             500,
                             250,
                             "easeOutElastic",
-                            "${Text2Copy17}",
+                            "${RoundRectCopy4}",
                             '1',
                             '0'
                         ],
                         [
-                            "eid312",
-                            "opacity",
+                            "eid801",
+                            "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRect2Copy20}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid538",
-                            "opacity",
-                            500,
-                            250,
-                            "easeOutElastic",
-                            "${RoundRect2Copy20}",
-                            '1',
-                            '0'
+                            "${p6}",
+                            '784px',
+                            '492px'
                         ],
                         [
                             "eid300",
@@ -2746,44 +2682,44 @@
                             '0'
                         ],
                         [
-                            "eid125",
-                            "opacity",
-                            0,
-                            500,
-                            "easeOutElastic",
-                            "${p27}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid559",
-                            "opacity",
-                            500,
-                            250,
-                            "easeOutElastic",
-                            "${p27}",
-                            '1',
-                            '0'
-                        ],
-                        [
-                            "eid661",
+                            "eid761",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p9}",
+                            "${p11}",
                             '784px',
                             '492px'
                         ],
                         [
-                            "eid621",
+                            "eid783",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${Text2Copy20}",
-                            '1716px',
-                            '1424px'
+                            "${RoundRectCopy12}",
+                            '1124px',
+                            '832px'
+                        ],
+                        [
+                            "eid308",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy27}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid468",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy27}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid681",
@@ -2806,14 +2742,14 @@
                             '492px'
                         ],
                         [
-                            "eid613",
+                            "eid763",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p12}",
-                            '1132px',
-                            '840px'
+                            "${RoundRect2Copy26}",
+                            '2061px',
+                            '1769px'
                         ],
                         [
                             "eid228",
@@ -2856,24 +2792,24 @@
                             '1179px'
                         ],
                         [
-                            "eid577",
-                            "top",
-                            1500,
-                            500,
-                            "easeOutElastic",
-                            "${crewditos2}",
-                            '462px',
-                            '158px'
-                        ],
-                        [
-                            "eid757",
+                            "eid667",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${Text2Copy8}",
-                            '1026px',
-                            '734px'
+                            "${p0}",
+                            '460px',
+                            '168px'
+                        ],
+                        [
+                            "eid715",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy17}",
+                            '1124px',
+                            '832px'
                         ],
                         [
                             "eid793",
@@ -2926,22 +2862,22 @@
                             '0'
                         ],
                         [
-                            "eid274",
+                            "eid268",
                             "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRect2Copy9}",
+                            "${RoundRectCopy13}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid489",
+                            "eid494",
                             "opacity",
                             500,
                             250,
                             "easeOutElastic",
-                            "${RoundRect2Copy9}",
+                            "${RoundRectCopy13}",
                             '1',
                             '0'
                         ],
@@ -2986,24 +2922,44 @@
                             '0'
                         ],
                         [
-                            "eid801",
-                            "top",
+                            "eid312",
+                            "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p6}",
-                            '784px',
-                            '492px'
+                            "${RoundRect2Copy20}",
+                            '0',
+                            '1'
                         ],
                         [
-                            "eid747",
-                            "top",
+                            "eid538",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRect2Copy20}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid306",
+                            "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p10}",
-                            '822px',
-                            '530px'
+                            "${RoundRectCopy3}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid536",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy3}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid585",
@@ -3036,22 +2992,22 @@
                             '1424px'
                         ],
                         [
-                            "eid117",
+                            "eid230",
                             "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p2}",
+                            "${RoundRectCopy11}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid497",
+                            "eid513",
                             "opacity",
                             500,
                             250,
                             "easeOutElastic",
-                            "${p2}",
+                            "${RoundRectCopy11}",
                             '1',
                             '0'
                         ],
@@ -3096,54 +3052,54 @@
                             '0'
                         ],
                         [
-                            "eid328",
+                            "eid274",
                             "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${Text2Copy14}",
+                            "${RoundRect2Copy9}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid522",
+                            "eid489",
                             "opacity",
                             500,
                             250,
                             "easeOutElastic",
-                            "${Text2Copy14}",
+                            "${RoundRect2Copy9}",
                             '1',
                             '0'
                         ],
                         [
-                            "eid246",
+                            "eid137",
                             "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRectCopy22}",
+                            "${p7}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid499",
+                            "eid567",
                             "opacity",
                             500,
                             250,
                             "easeOutElastic",
-                            "${RoundRectCopy22}",
+                            "${p7}",
                             '1',
                             '0'
                         ],
                         [
-                            "eid575",
-                            "left",
-                            1500,
+                            "eid791",
+                            "top",
+                            0,
                             500,
                             "easeOutElastic",
-                            "${crewditos2}",
-                            '75px',
-                            '77px'
+                            "${Text2Copy24}",
+                            '2082px',
+                            '1790px'
                         ],
                         [
                             "eid781",
@@ -3156,34 +3112,24 @@
                             '1424px'
                         ],
                         [
-                            "eid667",
+                            "eid577",
+                            "top",
+                            1500,
+                            500,
+                            "easeOutElastic",
+                            "${crewditos2}",
+                            '462px',
+                            '158px'
+                        ],
+                        [
+                            "eid751",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p0}",
-                            '460px',
-                            '168px'
-                        ],
-                        [
-                            "eid282",
-                            "opacity",
-                            0,
-                            500,
-                            "easeOutElastic",
-                            "${RoundRect2Copy14}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid550",
-                            "opacity",
-                            500,
-                            250,
-                            "easeOutElastic",
-                            "${RoundRect2Copy14}",
-                            '1',
-                            '0'
+                            "${Text2Copy14}",
+                            '1369px',
+                            '1077px'
                         ],
                         [
                             "eid242",
@@ -3206,34 +3152,34 @@
                             '0'
                         ],
                         [
-                            "eid230",
+                            "eid117",
                             "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRectCopy11}",
+                            "${p2}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid513",
+                            "eid497",
                             "opacity",
                             500,
                             250,
                             "easeOutElastic",
-                            "${RoundRectCopy11}",
+                            "${p2}",
                             '1',
                             '0'
                         ],
                         [
-                            "eid745",
+                            "eid811",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRectCopy27}",
-                            '1832px',
-                            '1540px'
+                            "${p15}",
+                            '1132px',
+                            '840px'
                         ],
                         [
                             "eid212",
@@ -3266,54 +3212,44 @@
                             '198px'
                         ],
                         [
-                            "eid161",
-                            "opacity",
-                            0,
-                            500,
-                            "easeOutElastic",
-                            "${p26}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid495",
-                            "opacity",
-                            500,
-                            250,
-                            "easeOutElastic",
-                            "${p26}",
-                            '1',
-                            '0'
-                        ],
-                        [
-                            "eid137",
-                            "opacity",
-                            0,
-                            500,
-                            "easeOutElastic",
-                            "${p7}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid567",
-                            "opacity",
-                            500,
-                            250,
-                            "easeOutElastic",
-                            "${p7}",
-                            '1',
-                            '0'
-                        ],
-                        [
-                            "eid751",
+                            "eid683",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${Text2Copy14}",
-                            '1369px',
-                            '1077px'
+                            "${p20}",
+                            '1477px',
+                            '1185px'
+                        ],
+                        [
+                            "eid246",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy22}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid499",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${RoundRectCopy22}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid687",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy11}",
+                            '1026px',
+                            '734px'
                         ],
                         [
                             "eid641",
@@ -3326,14 +3262,24 @@
                             '715px'
                         ],
                         [
-                            "eid795",
-                            "top",
+                            "eid123",
+                            "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p24}",
-                            '1838px',
-                            '1546px'
+                            "${p4}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid568",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p4}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid625",
@@ -3386,24 +3332,14 @@
                             '486px'
                         ],
                         [
-                            "eid123",
-                            "opacity",
+                            "eid743",
+                            "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p4}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid568",
-                            "opacity",
-                            500,
-                            250,
-                            "easeOutElastic",
-                            "${p4}",
-                            '1',
-                            '0'
+                            "${RoundRectCopy9}",
+                            '778px',
+                            '486px'
                         ],
                         [
                             "eid294",
@@ -3576,22 +3512,22 @@
                             '523px'
                         ],
                         [
-                            "eid173",
+                            "eid119",
                             "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p5}",
+                            "${p24}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid552",
+                            "eid558",
                             "opacity",
                             500,
                             250,
                             "easeOutElastic",
-                            "${p5}",
+                            "${p24}",
                             '1',
                             '0'
                         ],
@@ -3636,24 +3572,34 @@
                             '0'
                         ],
                         [
-                            "eid723",
+                            "eid611",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${Text2}",
-                            '701px',
-                            '409px'
+                            "${Text2Copy17}",
+                            '1369px',
+                            '1077px'
                         ],
                         [
-                            "eid663",
-                            "top",
+                            "eid173",
+                            "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRectCopy5}",
-                            '455px',
-                            '163px'
+                            "${p5}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid552",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p5}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid256",
@@ -3676,24 +3622,34 @@
                             '0'
                         ],
                         [
-                            "eid611",
+                            "eid669",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${Text2Copy17}",
-                            '1369px',
-                            '1077px'
+                            "${RoundRectCopy20}",
+                            '1471px',
+                            '1179px'
                         ],
                         [
-                            "eid685",
-                            "top",
+                            "eid165",
+                            "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRect2Copy20}",
-                            '1700px',
-                            '1408px'
+                            "${p3}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid554",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${p3}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid342",
@@ -3766,14 +3722,14 @@
                             '0'
                         ],
                         [
-                            "eid669",
+                            "eid723",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRectCopy20}",
-                            '1471px',
-                            '1179px'
+                            "${Text2}",
+                            '701px',
+                            '409px'
                         ],
                         [
                             "eid649",
@@ -3784,6 +3740,36 @@
                             "${RoundRect2Copy25}",
                             '2061px',
                             '1769px'
+                        ],
+                        [
+                            "eid731",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRect2Copy12}",
+                            '1353px',
+                            '1061px'
+                        ],
+                        [
+                            "eid354",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy8}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid514",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy8}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid218",
@@ -3804,36 +3790,6 @@
                             "${RoundRect2Copy3}",
                             '1',
                             '0'
-                        ],
-                        [
-                            "eid320",
-                            "opacity",
-                            0,
-                            500,
-                            "easeOutElastic",
-                            "${Text2Copy25}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid479",
-                            "opacity",
-                            500,
-                            250,
-                            "easeOutElastic",
-                            "${Text2Copy25}",
-                            '1',
-                            '0'
-                        ],
-                        [
-                            "eid731",
-                            "top",
-                            0,
-                            500,
-                            "easeOutElastic",
-                            "${RoundRect2Copy12}",
-                            '1353px',
-                            '1061px'
                         ],
                         [
                             "eid352",
@@ -3946,6 +3902,16 @@
                             '0'
                         ],
                         [
+                            "eid607",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${RoundRectCopy15}",
+                            '1124px',
+                            '832px'
+                        ],
+                        [
                             "eid143",
                             "opacity",
                             0,
@@ -3964,16 +3930,6 @@
                             "${p0}",
                             '1',
                             '0'
-                        ],
-                        [
-                            "eid607",
-                            "top",
-                            0,
-                            500,
-                            "easeOutElastic",
-                            "${RoundRectCopy15}",
-                            '1124px',
-                            '832px'
                         ],
                         [
                             "eid133",
@@ -3996,22 +3952,22 @@
                             '0'
                         ],
                         [
-                            "eid354",
+                            "eid320",
                             "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${Text2Copy8}",
+                            "${Text2Copy25}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid514",
+                            "eid479",
                             "opacity",
                             500,
                             250,
                             "easeOutElastic",
-                            "${Text2Copy8}",
+                            "${Text2Copy25}",
                             '1',
                             '0'
                         ],
@@ -4036,44 +3992,24 @@
                             '0'
                         ],
                         [
-                            "eid119",
-                            "opacity",
+                            "eid663",
+                            "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p24}",
-                            '0',
-                            '1'
+                            "${RoundRectCopy5}",
+                            '455px',
+                            '163px'
                         ],
                         [
-                            "eid558",
-                            "opacity",
-                            500,
-                            250,
-                            "easeOutElastic",
-                            "${p24}",
-                            '1',
-                            '0'
-                        ],
-                        [
-                            "eid165",
-                            "opacity",
+                            "eid685",
+                            "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p3}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid554",
-                            "opacity",
-                            500,
-                            250,
-                            "easeOutElastic",
-                            "${p3}",
-                            '1',
-                            '0'
+                            "${RoundRect2Copy20}",
+                            '1700px',
+                            '1408px'
                         ],
                         [
                             "eid711",
@@ -4166,14 +4102,14 @@
                             '0'
                         ],
                         [
-                            "eid743",
+                            "eid795",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRectCopy9}",
-                            '778px',
-                            '486px'
+                            "${p24}",
+                            '1838px',
+                            '1546px'
                         ],
                         [
                             "eid135",
@@ -4216,62 +4152,72 @@
                             '0'
                         ],
                         [
-                            "eid687",
-                            "top",
-                            0,
-                            500,
-                            "easeOutElastic",
-                            "${Text2Copy11}",
-                            '1026px',
-                            '734px'
-                        ],
-                        [
-                            "eid306",
+                            "eid282",
                             "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRectCopy3}",
+                            "${RoundRect2Copy14}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid536",
+                            "eid550",
                             "opacity",
                             500,
                             250,
                             "easeOutElastic",
-                            "${RoundRectCopy3}",
+                            "${RoundRect2Copy14}",
                             '1',
                             '0'
                         ],
                         [
-                            "eid683",
+                            "eid747",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p20}",
-                            '1477px',
-                            '1185px'
+                            "${p10}",
+                            '822px',
+                            '530px'
                         ],
                         [
-                            "eid268",
+                            "eid161",
                             "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRectCopy13}",
+                            "${p26}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid494",
+                            "eid495",
                             "opacity",
                             500,
                             250,
                             "easeOutElastic",
-                            "${RoundRectCopy13}",
+                            "${p26}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid328",
+                            "opacity",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${Text2Copy14}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid522",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutElastic",
+                            "${Text2Copy14}",
                             '1',
                             '0'
                         ],
@@ -4296,14 +4242,14 @@
                             '0'
                         ],
                         [
-                            "eid811",
+                            "eid745",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p15}",
-                            '1132px',
-                            '840px'
+                            "${RoundRectCopy27}",
+                            '1832px',
+                            '1540px'
                         ],
                         [
                             "eid151",
@@ -4326,14 +4272,14 @@
                             '0'
                         ],
                         [
-                            "eid791",
-                            "top",
-                            0,
+                            "eid575",
+                            "left",
+                            1500,
                             500,
                             "easeOutElastic",
-                            "${Text2Copy24}",
-                            '2082px',
-                            '1790px'
+                            "${crewditos2}",
+                            '75px',
+                            '77px'
                         ],
                         [
                             "eid765",
@@ -4356,24 +4302,14 @@
                             '1769px'
                         ],
                         [
-                            "eid374",
-                            "opacity",
+                            "eid757",
+                            "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${Text2Copy2}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid469",
-                            "opacity",
-                            500,
-                            250,
-                            "easeOutElastic",
-                            "${Text2Copy2}",
-                            '1',
-                            '0'
+                            "${Text2Copy8}",
+                            '1026px',
+                            '734px'
                         ],
                         [
                             "eid695",
@@ -4386,14 +4322,14 @@
                             '409px'
                         ],
                         [
-                            "eid767",
+                            "eid661",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p19}",
-                            '1477px',
-                            '1185px'
+                            "${p9}",
+                            '784px',
+                            '492px'
                         ],
                         [
                             "eid376",
@@ -4416,22 +4352,22 @@
                             '0'
                         ],
                         [
-                            "eid344",
+                            "eid356",
                             "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${Text2}",
+                            "${Text2Copy27}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid530",
+                            "eid523",
                             "opacity",
                             500,
                             250,
                             "easeOutElastic",
-                            "${Text2}",
+                            "${Text2Copy27}",
                             '1',
                             '0'
                         ],
@@ -4446,22 +4382,22 @@
                             '715px'
                         ],
                         [
-                            "eid336",
+                            "eid167",
                             "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${Text2Copy21}",
+                            "${p6}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid566",
+                            "eid509",
                             "opacity",
                             500,
                             250,
                             "easeOutElastic",
-                            "${Text2Copy21}",
+                            "${p6}",
                             '1',
                             '0'
                         ],
@@ -4496,22 +4432,22 @@
                             '1546px'
                         ],
                         [
-                            "eid204",
+                            "eid324",
                             "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRectCopy17}",
+                            "${Text2Copy9}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid518",
+                            "eid564",
                             "opacity",
                             500,
                             250,
                             "easeOutElastic",
-                            "${RoundRectCopy17}",
+                            "${Text2Copy9}",
                             '1',
                             '0'
                         ],
@@ -4546,34 +4482,24 @@
                             '168px'
                         ],
                         [
-                            "eid286",
-                            "opacity",
-                            0,
-                            500,
-                            "easeOutElastic",
-                            "${RoundRectCopy21}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid556",
-                            "opacity",
-                            500,
-                            250,
-                            "easeOutElastic",
-                            "${RoundRectCopy21}",
-                            '1',
-                            '0'
-                        ],
-                        [
-                            "eid605",
+                            "eid601",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRectCopy22}",
-                            '1471px',
-                            '1179px'
+                            "${p5}",
+                            '460px',
+                            '168px'
+                        ],
+                        [
+                            "eid597",
+                            "top",
+                            0,
+                            500,
+                            "easeOutElastic",
+                            "${p1}",
+                            '460px',
+                            '168px'
                         ],
                         [
                             "eid115",
@@ -4626,14 +4552,14 @@
                             '0'
                         ],
                         [
-                            "eid761",
+                            "eid637",
                             "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${p11}",
-                            '784px',
-                            '492px'
+                            "${p27}",
+                            '1838px',
+                            '1546px'
                         ],
                         [
                             "eid725",
@@ -4686,22 +4612,22 @@
                             '1179px'
                         ],
                         [
-                            "eid254",
+                            "eid125",
                             "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRectCopy4}",
+                            "${p27}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid534",
+                            "eid559",
                             "opacity",
                             500,
                             250,
                             "easeOutElastic",
-                            "${RoundRectCopy4}",
+                            "${p27}",
                             '1',
                             '0'
                         ],
@@ -4766,22 +4692,22 @@
                             '0'
                         ],
                         [
-                            "eid296",
+                            "eid336",
                             "opacity",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRectCopy16}",
+                            "${Text2Copy21}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid511",
+                            "eid566",
                             "opacity",
                             500,
                             250,
                             "easeOutElastic",
-                            "${RoundRectCopy16}",
+                            "${Text2Copy21}",
                             '1',
                             '0'
                         ],
@@ -4836,24 +4762,14 @@
                             '0'
                         ],
                         [
-                            "eid216",
-                            "opacity",
+                            "eid741",
+                            "top",
                             0,
                             500,
                             "easeOutElastic",
-                            "${RoundRectCopy8}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid562",
-                            "opacity",
-                            500,
-                            250,
-                            "easeOutElastic",
-                            "${RoundRectCopy8}",
-                            '1',
-                            '0'
+                            "${p13}",
+                            '1132px',
+                            '840px'
                         ]
                     ]
                 }
@@ -4868,10 +4784,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'rect',
                             id: 'fondoventana',
-                            symbolName: 'fondoventana',
-                            rect: ['-20', '101', '1280', '1812', 'auto', 'auto']
+                            rect: ['-20', '101', '1280', '1812', 'auto', 'auto'],
+                            type: 'rect',
+                            symbolName: 'fondoventana'
                         },
                         {
                             rect: ['887px', '665px', '218px', '315px', 'auto', 'auto'],
@@ -4892,13 +4808,13 @@
                             fill: ['rgba(0,0,0,1)']
                         },
                         {
+                            type: 'text',
                             rect: ['989px', '988px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy8',
-                            text: '9',
                             opacity: '0',
-                            type: 'text'
+                            text: '9',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
                             rect: ['636px', '665px', '218px', '315px', 'auto', 'auto'],
@@ -4919,13 +4835,13 @@
                             fill: ['rgba(0,0,0,1)']
                         },
                         {
+                            type: 'text',
                             rect: ['738px', '988px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy7',
-                            text: '8',
                             opacity: '0',
-                            type: 'text'
+                            text: '8',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
                             rect: ['390px', '665px', '218px', '315px', 'auto', 'auto'],
@@ -4946,13 +4862,13 @@
                             fill: ['rgba(0,0,0,1)']
                         },
                         {
+                            type: 'text',
                             rect: ['492px', '988px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy6',
-                            text: '7',
                             opacity: '0',
-                            type: 'text'
+                            text: '7',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
                             rect: ['138px', '665px', '218px', '315px', 'auto', 'auto'],
@@ -4973,13 +4889,13 @@
                             fill: ['rgba(0,0,0,1)']
                         },
                         {
+                            type: 'text',
                             rect: ['240px', '988px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy5',
-                            text: '6',
                             opacity: '0',
-                            type: 'text'
+                            text: '6',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
                             rect: ['1004px', '229px', '218px', '315px', 'auto', 'auto'],
@@ -5000,13 +4916,13 @@
                             fill: ['rgba(0,0,0,1)']
                         },
                         {
+                            type: 'text',
                             rect: ['1106px', '552px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy4',
-                            text: '5',
                             opacity: '0',
-                            type: 'text'
+                            text: '5',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
                             rect: ['759px', '229px', '218px', '315px', 'auto', 'auto'],
@@ -5027,13 +4943,13 @@
                             fill: ['rgba(0,0,0,1)']
                         },
                         {
+                            type: 'text',
                             rect: ['861px', '552px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy3',
-                            text: '4',
                             opacity: '0',
-                            type: 'text'
+                            text: '4',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
                             rect: ['508px', '229px', '218px', '315px', 'auto', 'auto'],
@@ -5072,22 +4988,22 @@
                             fill: ['rgba(0,0,0,1)']
                         },
                         {
+                            type: 'text',
                             rect: ['362px', '552px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2',
-                            text: '2',
                             opacity: '0',
-                            type: 'text'
+                            text: '2',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['610px', '552px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy2',
-                            text: '3',
                             opacity: '0',
-                            type: 'text'
+                            text: '3',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
                             rect: ['14px', '229px', '218px', '315px', 'auto', 'auto'],
@@ -5108,31 +5024,31 @@
                             fill: ['rgba(0,0,0,1)']
                         },
                         {
+                            type: 'image',
                             rect: ['25px', '586px', '1200px', '1200px', 'auto', 'auto'],
                             transform: [[], [], [], ['0.1', '0.1']],
-                            type: 'image',
                             id: 'cerrar2',
                             opacity: '0',
                             cursor: 'pointer',
                             fill: ['rgba(0,0,0,0)', 'images/cerrar22.svg', '0px', '0px']
                         },
                         {
+                            type: 'text',
                             rect: ['575px', '1059px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [36, 'px'], 'rgba(255,255,255,1.00)', '700', 'none', '', 'break-word', 'nowrap'],
                             text: 'close',
                             id: 'Text',
                             opacity: '0',
                             cursor: 'pointer',
-                            type: 'text'
+                            font: ['Arial, Helvetica, sans-serif', [36, 'px'], 'rgba(255,255,255,1.00)', '700', 'none', '', 'break-word', 'nowrap']
                         },
                         {
+                            type: 'text',
                             rect: ['116px', '552px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'center',
                             id: 'Text2Copy',
-                            text: '1',
                             opacity: '0',
-                            type: 'text'
+                            text: '1',
+                            font: ['Arial, Helvetica, sans-serif', [24, 'px'], 'rgba(255,255,255,1)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
                             rect: ['895px', '672px', '200px', '300px', 'auto', 'auto'],
@@ -5198,18 +5114,18 @@
                             fill: ['rgba(0,0,0,0)', 'images/ELECTRIC_BOOGALOO_No1_COMIXOLOGY.jpg', '0px', '0px']
                         },
                         {
+                            type: 'text',
                             rect: ['546px', '133px', 'auto', 'auto', 'auto', 'auto'],
-                            font: ['Arial, Helvetica, sans-serif', [50, 'px'], 'rgba(251,255,145,1.00)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap'],
                             align: 'left',
                             id: 'Text3',
-                            text: 'Pages',
                             opacity: '0',
-                            type: 'text'
+                            text: 'Pages',
+                            font: ['Arial, Helvetica, sans-serif', [50, 'px'], 'rgba(251,255,145,1.00)', '700', 'none solid rgb(255, 255, 255)', 'normal', 'break-word', 'nowrap']
                         },
                         {
-                            type: 'image',
-                            transform: [[], [], [], ['0.1', '0.1']],
                             rect: ['-5372px', '-3179px', '11983px', '7840px', 'auto', 'auto'],
+                            transform: [[], [], [], ['0.1', '0.1']],
+                            type: 'image',
                             id: 'textoinstrucciones',
                             opacity: '0',
                             display: 'none',
@@ -5224,24 +5140,24 @@
                             fill: ['rgba(0,0,0,0)', 'images/crewditos2.png', '0px', '0px']
                         },
                         {
-                            transform: [[], [], [], ['0.26153', '-0.26154']],
                             align: 'center',
-                            opacity: '0',
-                            rect: ['487px', '502px', 'auto', 'auto', 'auto', 'auto'],
-                            id: 'Text4',
                             font: ['Arial, Helvetica, sans-serif', [72, 'px'], 'rgba(255,255,255,1.00)', 'normal', 'none', '', 'break-word', 'nowrap'],
                             text: 'Español',
-                            type: 'text'
+                            rect: ['487px', '502px', 'auto', 'auto', 'auto', 'auto'],
+                            id: 'Text4',
+                            opacity: '0',
+                            type: 'text',
+                            transform: [[], [], [], ['0.26153', '-0.26154']]
                         },
                         {
-                            transform: [[], [], [], ['0.26153', '-0.26154']],
                             align: 'center',
-                            opacity: '0',
-                            rect: ['507px', '694px', 'auto', 'auto', 'auto', 'auto'],
-                            id: 'Text4Copy',
                             font: ['Arial, Helvetica, sans-serif', [72, 'px'], 'rgba(255,255,255,1.00)', 'normal', 'none', '', 'break-word', 'nowrap'],
                             text: 'English',
-                            type: 'text'
+                            rect: ['507px', '694px', 'auto', 'auto', 'auto', 'auto'],
+                            id: 'Text4Copy',
+                            opacity: '0',
+                            type: 'text',
+                            transform: [[], [], [], ['0.26153', '-0.26154']]
                         }
                     ],
                     style: {
@@ -5291,14 +5207,24 @@
                             '967px'
                         ],
                         [
-                            "eid581",
-                            "top",
-                            1250,
-                            1000,
+                            "eid39",
+                            "opacity",
+                            0,
+                            833,
                             "easeOutElastic",
-                            "${textoinstrucciones}",
-                            '-3179px',
-                            '-3360px'
+                            "${Text2Copy2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid40",
+                            "opacity",
+                            833,
+                            417,
+                            "easeOutElastic",
+                            "${Text2Copy2}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid575",
@@ -5391,22 +5317,22 @@
                             '229px'
                         ],
                         [
-                            "eid120",
+                            "eid124",
                             "opacity",
                             0,
                             833,
                             "easeOutCubic",
-                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY8}",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY4}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid140",
+                            "eid138",
                             "opacity",
                             833,
                             417,
                             "easeOutCubic",
-                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY8}",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY4}",
                             '1',
                             '0'
                         ],
@@ -5451,14 +5377,24 @@
                             '1'
                         ],
                         [
-                            "eid89",
-                            "top",
+                            "eid33",
+                            "opacity",
                             0,
                             833,
                             "easeOutElastic",
-                            "${RoundRectCopy7}",
-                            '455px',
-                            '665px'
+                            "${RoundRect2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid34",
+                            "opacity",
+                            833,
+                            417,
+                            "easeOutElastic",
+                            "${RoundRect2}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid38",
@@ -6011,34 +5947,34 @@
                             '552px'
                         ],
                         [
-                            "eid33",
-                            "opacity",
-                            0,
-                            833,
-                            "easeOutElastic",
-                            "${RoundRect2}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid34",
-                            "opacity",
-                            833,
-                            417,
-                            "easeOutElastic",
-                            "${RoundRect2}",
-                            '1',
-                            '0'
-                        ],
-                        [
-                            "eid53",
+                            "eid89",
                             "top",
                             0,
                             833,
                             "easeOutElastic",
-                            "${RoundRectCopy3}",
+                            "${RoundRectCopy7}",
                             '455px',
-                            '229px'
+                            '665px'
+                        ],
+                        [
+                            "eid120",
+                            "opacity",
+                            0,
+                            833,
+                            "easeOutCubic",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY8}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid140",
+                            "opacity",
+                            833,
+                            417,
+                            "easeOutCubic",
+                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY8}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid69",
@@ -6121,14 +6057,14 @@
                             '665px'
                         ],
                         [
-                            "eid92",
+                            "eid581",
                             "top",
-                            0,
-                            833,
+                            1250,
+                            1000,
                             "easeOutElastic",
-                            "${Text2Copy8}",
-                            '701px',
-                            '988px'
+                            "${textoinstrucciones}",
+                            '-3179px',
+                            '-3360px'
                         ],
                         [
                             "eid112",
@@ -6151,24 +6087,14 @@
                             '0'
                         ],
                         [
-                            "eid39",
-                            "opacity",
+                            "eid92",
+                            "top",
                             0,
                             833,
                             "easeOutElastic",
-                            "${Text2Copy2}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid40",
-                            "opacity",
-                            833,
-                            417,
-                            "easeOutElastic",
-                            "${Text2Copy2}",
-                            '1',
-                            '0'
+                            "${Text2Copy8}",
+                            '701px',
+                            '988px'
                         ],
                         [
                             "eid47",
@@ -6361,24 +6287,14 @@
                             '1'
                         ],
                         [
-                            "eid124",
-                            "opacity",
+                            "eid53",
+                            "top",
                             0,
                             833,
-                            "easeOutCubic",
-                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY4}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid138",
-                            "opacity",
-                            833,
-                            417,
-                            "easeOutCubic",
-                            "${ELECTRIC_BOOGALOO_No1_COMIXOLOGY4}",
-                            '1',
-                            '0'
+                            "easeOutElastic",
+                            "${RoundRectCopy3}",
+                            '455px',
+                            '229px'
                         ],
                         [
                             "eid75",
@@ -6494,45 +6410,45 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '500px', '1920px', 'auto', 'auto'],
+                            type: 'image',
                             overflow: 'visible',
                             id: 'menufondoCopy',
-                            type: 'image',
+                            rect: ['0px', '0px', '500px', '1920px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/menufondo.jpg', '0px', '0px']
                         },
                         {
-                            rect: ['35px', '254px', '428px', '149px', 'auto', 'auto'],
+                            type: 'image',
                             overflow: 'visible',
                             id: 'neonmenu_02Copy',
-                            type: 'image',
+                            rect: ['35px', '254px', '428px', '149px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/neonmenu_02.png', '0px', '0px']
                         },
                         {
-                            rect: ['35px', '353px', '428px', '149px', 'auto', 'auto'],
+                            type: 'image',
                             overflow: 'visible',
                             id: 'neonmenu_04Copy',
-                            type: 'image',
+                            rect: ['35px', '353px', '428px', '149px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/neonmenu_04.png', '0px', '0px']
                         },
                         {
-                            rect: ['35px', '452px', '428px', '149px', 'auto', 'auto'],
+                            type: 'image',
                             overflow: 'visible',
                             id: 'neonmenu_06Copy',
-                            type: 'image',
+                            rect: ['35px', '452px', '428px', '149px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/neonmenu_06.png', '0px', '0px']
                         },
                         {
-                            rect: ['35px', '551px', '428px', '149px', 'auto', 'auto'],
+                            type: 'image',
                             overflow: 'visible',
                             id: 'neonmenu_08Copy',
-                            type: 'image',
+                            rect: ['35px', '551px', '428px', '149px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/neonmenu_08.png', '0px', '0px']
                         },
                         {
-                            rect: ['-909px', '433px', '2320px', '650px', 'auto', 'auto'],
+                            transform: [[], [], [], ['0.1', '0.1']],
                             overflow: 'visible',
                             id: 'socialbtnCopy',
-                            transform: [[], [], [], ['0.1', '0.1']],
+                            rect: ['-909px', '433px', '2320px', '650px', 'auto', 'auto'],
                             type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/socialbtn.svg', '0px', '0px']
                         },
@@ -6799,38 +6715,38 @@
                 content: {
                     dom: [
                         {
+                            transform: [[], [], [], ['-0.16926', '0.16925']],
                             rect: ['-21px', '-21px', '193', '193', 'auto', 'auto'],
-                            type: 'rect',
                             id: 'pulse',
                             symbolName: 'pulse',
                             opacity: '0',
-                            transform: [[], [], [], ['-0.16926', '0.16925']]
+                            type: 'rect'
                         },
                         {
+                            font: ['Arial, Helvetica, sans-serif', [24, ''], 'rgba(0,0,0,1)', 'normal', 'none', '', 'break-word', 'nowrap'],
                             type: 'text',
-                            rect: ['43px', '61px', 'auto', 'auto', 'auto', 'auto'],
                             align: 'center',
                             id: 'Text',
-                            opacity: '0',
                             text: 'BACK',
-                            font: ['Arial, Helvetica, sans-serif', [24, ''], 'rgba(0,0,0,1)', 'normal', 'none', '', 'break-word', 'nowrap']
+                            opacity: '0',
+                            rect: ['43px', '61px', 'auto', 'auto', 'auto', 'auto']
                         },
                         {
+                            transform: [[], [], [], ['0.75', '0.16925']],
                             rect: ['1102px', '-21px', '193', '193', 'auto', 'auto'],
-                            type: 'rect',
                             id: 'pulseCopy',
                             symbolName: 'pulse',
                             opacity: '0',
-                            transform: [[], [], [], ['0.75', '0.16925']]
+                            type: 'rect'
                         },
                         {
+                            font: ['Arial, Helvetica, sans-serif', [24, ''], 'rgba(0,0,0,1)', 'normal', 'none', '', 'break-word', 'nowrap'],
                             type: 'text',
-                            rect: ['1167px', '61px', 'auto', 'auto', 'auto', 'auto'],
                             align: 'center',
                             id: 'TextCopy',
-                            opacity: '0',
                             text: 'NEXT',
-                            font: ['Arial, Helvetica, sans-serif', [24, ''], 'rgba(0,0,0,1)', 'normal', 'none', '', 'break-word', 'nowrap']
+                            opacity: '0',
+                            rect: ['1167px', '61px', 'auto', 'auto', 'auto', 'auto']
                         }
                     ],
                     style: {
@@ -7013,6 +6929,124 @@
                             "${Rectangle}",
                             '0',
                             '1'
+                        ]
+                    ]
+                }
+            },
+            "espanolbtn": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            rect: ['0px', '0px', '437px', '100px', 'auto', 'auto'],
+                            borderRadius: ['20px', '20px', '20px', '20px 20px'],
+                            id: 'RoundRect',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,0.71)']
+                        },
+                        {
+                            transform: [[], [], [], ['0.1', '0.1']],
+                            rect: ['-1964px', '-450px', '4365px', '1000px', 'auto', 'auto'],
+                            id: 'espanol2',
+                            opacity: '0',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/espanol.svg', '0px', '0px']
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            rect: [null, null, '437px', '100px']
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 1500,
+                    autoPlay: true,
+                    data: [
+                        [
+                            "eid448",
+                            "opacity",
+                            0,
+                            250,
+                            "easeOutQuart",
+                            "${espanol2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid449",
+                            "opacity",
+                            1250,
+                            250,
+                            "easeOutQuart",
+                            "${espanol2}",
+                            '1',
+                            '0'
+                        ]
+                    ]
+                }
+            },
+            "ensglishbtn": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            rect: ['0px', '0px', '437px', '100px', 'auto', 'auto'],
+                            borderRadius: ['20px', '20px', '20px', '20px 20px'],
+                            id: 'RoundRect',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            type: 'rect',
+                            fill: ['rgba(0,0,0,0.71)']
+                        },
+                        {
+                            transform: [[], [], [], ['0.1', '0.1']],
+                            rect: ['-1964px', '-450px', '4365px', '1000px', 'auto', 'auto'],
+                            id: 'english2',
+                            opacity: '0',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/english.svg', '0px', '0px']
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            rect: [null, null, '437px', '100px']
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 2000,
+                    autoPlay: true,
+                    data: [
+                        [
+                            "eid445",
+                            "opacity",
+                            500,
+                            250,
+                            "easeOutQuart",
+                            "${english2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid446",
+                            "opacity",
+                            1750,
+                            250,
+                            "easeOutQuart",
+                            "${english2}",
+                            '1',
+                            '0'
                         ]
                     ]
                 }
