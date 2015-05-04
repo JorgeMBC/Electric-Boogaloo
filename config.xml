@@ -3,7 +3,6 @@
   <description>Roberto should infiltrate to the Electric Boogaloo, a bar managed by the local mafia Villa Viciosa in order to solve the murder of his wife. To achieve his mission, shall be prepared in dark arts of "Palo mango", dancing tasty and reach to the end of salsa contest in the bar that names this comic.Roberto López will have to infiltrate in Electric Boogaloo, a bar managed by the mob from ‘Villa Viciosa’, so he can solve the murder of his ex-wife. To achieve his mission, he will prepare in the dark art of ‘Palo de Mango’, becoming the best salsa dancer in town.</description>
   <author href="http://www.jenofonte.co/" email=" eliza@jenofonte.co">Jenofonte S.A.S Team</author>
   <content src="index.html"/>
-  <preference name="phonegap-version" value="3.5.0" />
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
   <preference name="target-device" value="universal"/>
